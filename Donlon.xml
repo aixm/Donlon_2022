@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This file includes contributions from Solitec Software Solutions, Luciad, EUROCONTROL, Comsoft -->
-<!-- Copyright (c) 2018, EUROCONTROL & FAA
+<!-- Copyright (c) 2022, EUROCONTROL & FAA
 
 All rights reserved.
 
@@ -69,20 +69,19 @@ Editorial note: this license is an instance of the BSD license template as provi
 				</gmd:CI_ResponsibleParty>
 			</gmd:contact>
 			<gmd:dateStamp>
-				<gco:DateTime>2017-07-01T12:00:00Z</gco:DateTime>
+				<gco:DateTime>2022-07-01T12:00:00Z</gco:DateTime>
 			</gmd:dateStamp>
 			<gmd:identificationInfo>
 				<gmd:MD_DataIdentification>
 					<gmd:citation>
 						<gmd:CI_Citation>
 							<gmd:title>
-								<gco:CharacterString>DONLON AIP data set
-									sample</gco:CharacterString>
+								<gco:CharacterString>DONLON - complete sample</gco:CharacterString>
 							</gmd:title>
 							<gmd:date>
 								<gmd:CI_Date>
 									<gmd:date>
-										<gco:DateTime>2017-07-01T00:00:00Z</gco:DateTime>
+										<gco:DateTime>2022-07-01T00:00:00Z</gco:DateTime>
 									</gmd:date>
 									<gmd:dateType>
 										<gmd:CI_DateTypeCode
@@ -95,14 +94,14 @@ Editorial note: this license is an instance of the BSD license template as provi
 						</gmd:CI_Citation>
 					</gmd:citation>
 					<gmd:abstract>
-						<gco:CharacterString>Donlon AIP data set sample data initially created by
+						<gco:CharacterString>Donlon complete data set sample data initially created by
 							Solitec Software Solutions(solitec.com); currently maintained by
 							Eurocontrol.</gco:CharacterString>
 					</gmd:abstract>
 					<gmd:pointOfContact>
 						<gmd:CI_ResponsibleParty>
 							<gmd:individualName>
-								<gco:CharacterString>Eduard Porosnicu</gco:CharacterString>
+								<gco:CharacterString>No name</gco:CharacterString>
 							</gmd:individualName>
 							<gmd:organisationName>
 								<gco:CharacterString>Eurocontrol</gco:CharacterString>
@@ -115,8 +114,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 												<gmd:URL>www.aixm.aero</gmd:URL>
 											</gmd:linkage>
 											<gmd:name>
-												<gco:CharacterString>AIXM 5.1
-												website</gco:CharacterString>
+												<gco:CharacterString>AIXM 5.1 website</gco:CharacterString>
 											</gmd:name>
 										</gmd:CI_OnlineResource>
 									</gmd:onlineResource>
@@ -132,8 +130,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 					<gmd:resourceConstraints>
 						<gmd:MD_Constraints>
 							<gmd:useLimitation>
-								<gco:CharacterString>To be used for demonstration purposes only! Any
-									operational usage is prohibited!</gco:CharacterString>
+								<gco:CharacterString>To be used for demonstration purposes only! Any operational usage is prohibited!</gco:CharacterString>
 							</gmd:useLimitation>
 						</gmd:MD_Constraints>
 					</gmd:resourceConstraints>
@@ -169,8 +166,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</aixm:messageMetadata>
 	<message:hasMember>
 		<aixm:OrganisationAuthority gml:id="uuid.6384a4e0-8497-4f83-8eaa-d73ef549d90e">
-			<gml:identifier codeSpace="urn:uuid:"
-				>6384a4e0-8497-4f83-8eaa-d73ef549d90e</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">6384a4e0-8497-4f83-8eaa-d73ef549d90e</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:OrganisationAuthorityTimeSlice gml:id="DONLONSTATE">
 					<gml:validTime>
@@ -195,8 +191,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:OrganisationAuthority gml:id="uuid.c225ae5c-540f-4a48-8867-809b393b2407">
-			<gml:identifier codeSpace="urn:uuid:"
-				>c225ae5c-540f-4a48-8867-809b393b2407</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">c225ae5c-540f-4a48-8867-809b393b2407</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:OrganisationAuthorityTimeSlice gml:id="ORG_CAA">
 					<gml:validTime>
@@ -229,8 +224,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:OrganisationAuthority gml:id="uuid.1e1bdf59-3dd6-4f96-9166-e6095e7231fc">
-			<gml:identifier codeSpace="urn:uuid:"
-				>1e1bdf59-3dd6-4f96-9166-e6095e7231fc</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">1e1bdf59-3dd6-4f96-9166-e6095e7231fc</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:OrganisationAuthorityTimeSlice gml:id="ORGTSDONLON1">
 					<gml:validTime>
@@ -255,8 +249,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:OrganisationAuthority gml:id="uuid.74efb6ba-a52a-46c0-a16b-03860d356882">
-			<gml:identifier codeSpace="urn:uuid:"
-				>74efb6ba-a52a-46c0-a16b-03860d356882</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">74efb6ba-a52a-46c0-a16b-03860d356882</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:OrganisationAuthorityTimeSlice gml:id="ORGTSDONLON_HELIPORT_AUTHORITY1">
 					<gml:validTime>
@@ -281,8 +274,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:SpecialDate gml:id="uuid.b6df119e-cc7c-48cc-9575-c4160c64d733">
-			<gml:identifier codeSpace="urn:uuid:"
-				>b6df119e-cc7c-48cc-9575-c4160c64d733</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">b6df119e-cc7c-48cc-9575-c4160c64d733</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:SpecialDateTimeSlice gml:id="HOLIDAYSFORDONLON1JAN">
 					<gml:validTime>
@@ -309,8 +301,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:SpecialDate gml:id="uuid.4d0ecbdb-4cba-4047-8351-29283adf67c7">
-			<gml:identifier codeSpace="urn:uuid:"
-				>4d0ecbdb-4cba-4047-8351-29283adf67c7</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">4d0ecbdb-4cba-4047-8351-29283adf67c7</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:SpecialDateTimeSlice gml:id="HOLIDAYSFORDONLONMAUNDYTHURSDAY2014">
 					<gml:validTime>
@@ -361,8 +352,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:SpecialDate gml:id="uuid.20f19a35-401b-45a6-a54e-084122a4cf80">
-			<gml:identifier codeSpace="urn:uuid:"
-				>20f19a35-401b-45a6-a54e-084122a4cf80</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">20f19a35-401b-45a6-a54e-084122a4cf80</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:SpecialDateTimeSlice gml:id="HOLIDAYSFORDONLONGOODFRIDAY2014">
 					<gml:validTime>
@@ -413,8 +403,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:SpecialDate gml:id="uuid.39755baa-4c27-4c9f-b08c-df05cff2fb09">
-			<gml:identifier codeSpace="urn:uuid:"
-				>39755baa-4c27-4c9f-b08c-df05cff2fb09</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">39755baa-4c27-4c9f-b08c-df05cff2fb09</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:SpecialDateTimeSlice gml:id="HOLIDAYSFORDONLONEASTERMONDAY2014">
 					<gml:validTime>
@@ -465,8 +454,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Route gml:id="uuid.a14a8751-5428-46bc-a2d1-32ef84d37b5c">
-			<gml:identifier codeSpace="urn:uuid:"
-				>a14a8751-5428-46bc-a2d1-32ef84d37b5c</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">a14a8751-5428-46bc-a2d1-32ef84d37b5c</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RouteTimeSlice gml:id="RTE_UA4">
 					<gml:validTime>
@@ -494,8 +482,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Runway gml:id="uuid.9e51668f-bf8a-4f5b-ba6e-27087972b9b8">
-			<gml:identifier codeSpace="urn:uuid:"
-				>9e51668f-bf8a-4f5b-ba6e-27087972b9b8</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">9e51668f-bf8a-4f5b-ba6e-27087972b9b8</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RunwayTimeSlice gml:id="RWY_EADD_09L_27R">
 					<gml:validTime>
@@ -542,8 +529,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RunwayDirection gml:id="uuid.c8455a6b-9319-4bb7-b797-08e644342d64">
-			<gml:identifier codeSpace="urn:uuid:"
-				>c8455a6b-9319-4bb7-b797-08e644342d64</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">c8455a6b-9319-4bb7-b797-08e644342d64</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RunwayDirectionTimeSlice gml:id="RDN_EADD_09L">
 					<gml:validTime>
@@ -571,8 +557,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RunwayDirection gml:id="uuid.b802d439-e9f3-49f9-96e1-0153b837e113">
-			<gml:identifier codeSpace="urn:uuid:"
-				>b802d439-e9f3-49f9-96e1-0153b837e113</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">b802d439-e9f3-49f9-96e1-0153b837e113</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RunwayDirectionTimeSlice gml:id="RDN_EADD_27R">
 					<gml:validTime>
@@ -602,8 +587,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:AuthorityForAirspace gml:id="uuid.92cacc21-86bb-4050-aae9-a54e1fccbff1">
-			<gml:identifier codeSpace="urn:uuid:"
-				>92cacc21-86bb-4050-aae9-a54e1fccbff1</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">92cacc21-86bb-4050-aae9-a54e1fccbff1</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AuthorityForAirspaceTimeSlice gml:id="AFATS1128">
 					<gml:validTime>
@@ -629,8 +613,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Runway gml:id="uuid.1e22a662-0601-43cc-a7ef-8402885a4f2f">
-			<gml:identifier codeSpace="urn:uuid:"
-				>1e22a662-0601-43cc-a7ef-8402885a4f2f</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">1e22a662-0601-43cc-a7ef-8402885a4f2f</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RunwayTimeSlice gml:id="RWY_EADH_FATO_03_21">
 					<gml:validTime>
@@ -672,8 +655,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RunwayDirection gml:id="uuid.921966d2-bae8-4b4b-bc8a-8012faf991be">
-			<gml:identifier codeSpace="urn:uuid:"
-				>921966d2-bae8-4b4b-bc8a-8012faf991be</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">921966d2-bae8-4b4b-bc8a-8012faf991be</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RunwayDirectionTimeSlice gml:id="RDN_EADH_FATO_03">
 					<gml:validTime>
@@ -701,8 +683,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RunwayDirection gml:id="uuid.b9fad726-bed6-4b3b-a92f-64706eaa9ed5">
-			<gml:identifier codeSpace="urn:uuid:"
-				>b9fad726-bed6-4b3b-a92f-64706eaa9ed5</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">b9fad726-bed6-4b3b-a92f-64706eaa9ed5</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RunwayDirectionTimeSlice gml:id="RDN_EADH_FATO_21">
 					<gml:validTime>
@@ -730,8 +711,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Unit gml:id="uuid.c1bbe653-e5b1-4bfe-b510-3ada3272305a">
-			<gml:identifier codeSpace="urn:uuid:"
-				>c1bbe653-e5b1-4bfe-b510-3ada3272305a</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">c1bbe653-e5b1-4bfe-b510-3ada3272305a</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:UnitTimeSlice gml:id="uTDonlonRescueCoordinationCentreUnit">
 					<gml:validTime>
@@ -784,8 +764,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Unit gml:id="uuid.8323cd6d-f788-4b78-8f93-2a09a70965fb">
-			<gml:identifier codeSpace="urn:uuid:"
-				>8323cd6d-f788-4b78-8f93-2a09a70965fb</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">8323cd6d-f788-4b78-8f93-2a09a70965fb</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:UnitTimeSlice gml:id="uTDonlonAkvinSARUnit">
 					<gml:validTime>
@@ -827,8 +806,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:SearchRescueService gml:id="uuid.9d169b60-b5fa-4bf4-abf3-14fd9e67a2b7">
-			<gml:identifier codeSpace="urn:uuid:"
-				>9d169b60-b5fa-4bf4-abf3-14fd9e67a2b7</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">9d169b60-b5fa-4bf4-abf3-14fd9e67a2b7</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:SearchRescueServiceTimeSlice gml:id="srstDonlonAkvinSARService">
 					<gml:validTime>
@@ -856,8 +834,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:SearchRescueService gml:id="uuid.d54e1d65-fefe-4776-891c-2b0e9d74c020">
-			<gml:identifier codeSpace="urn:uuid:"
-				>d54e1d65-fefe-4776-891c-2b0e9d74c020</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">d54e1d65-fefe-4776-891c-2b0e9d74c020</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:SearchRescueServiceTimeSlice gml:id="srstDonlonRCCService">
 					<gml:validTime>
@@ -885,8 +862,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:AngleIndication gml:id="uuid.fea12fb3-9f19-45f2-ac0c-90b83b850e37">
-			<gml:identifier codeSpace="urn:uuid:"
-				>fea12fb3-9f19-45f2-ac0c-90b83b850e37</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">fea12fb3-9f19-45f2-ac0c-90b83b850e37</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AngleIndicationTimeSlice gml:id="AIN_BOR029">
 					<gml:validTime>
@@ -928,8 +904,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:AirportHeliport gml:id="uuid.dd062d88-3e64-4a5d-bebd-89476db9ebea">
-			<gml:identifier codeSpace="urn:uuid:"
-				>dd062d88-3e64-4a5d-bebd-89476db9ebea</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">dd062d88-3e64-4a5d-bebd-89476db9ebea</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirportHeliportTimeSlice gml:id="AHP_EADH">
 					<gml:validTime>
@@ -1239,8 +1214,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Navaid gml:id="uuid.08a1bbd5-ea70-4fe3-836a-ea9686349495">
-			<gml:identifier codeSpace="urn:uuid:"
-				>08a1bbd5-ea70-4fe3-836a-ea9686349495</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">08a1bbd5-ea70-4fe3-836a-ea9686349495</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NavaidTimeSlice gml:id="NAV_BOR">
 					<gml:validTime>
@@ -1294,8 +1268,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DME gml:id="uuid.7692166e-60e6-467d-b5f0-c728aeae85d6">
-			<gml:identifier codeSpace="urn:uuid:"
-				>7692166e-60e6-467d-b5f0-c728aeae85d6</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">7692166e-60e6-467d-b5f0-c728aeae85d6</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DMETimeSlice gml:id="DME_BOR">
 					<gml:validTime>
@@ -1348,8 +1321,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:VOR gml:id="uuid.0a45a38f-0f96-4ace-b09e-310ac0415693">
-			<gml:identifier codeSpace="urn:uuid:"
-				>0a45a38f-0f96-4ace-b09e-310ac0415693</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">0a45a38f-0f96-4ace-b09e-310ac0415693</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:VORTimeSlice gml:id="VOR_BOR">
 					<gml:validTime>
@@ -1402,8 +1374,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Navaid gml:id="uuid.51829538-2d2a-4d01-a4bf-87c045d247a8">
-			<gml:identifier codeSpace="urn:uuid:"
-				>51829538-2d2a-4d01-a4bf-87c045d247a8</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">51829538-2d2a-4d01-a4bf-87c045d247a8</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NavaidTimeSlice gml:id="NAV_VOR_DME_DON">
 					<gml:validTime>
@@ -1455,8 +1426,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DME gml:id="uuid.8979e959-492b-4b30-83d2-060f362cf5c4">
-			<gml:identifier codeSpace="urn:uuid:"
-				>8979e959-492b-4b30-83d2-060f362cf5c4</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">8979e959-492b-4b30-83d2-060f362cf5c4</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DMETimeSlice gml:id="DME_DON">
 					<gml:validTime>
@@ -1497,8 +1467,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:VOR gml:id="uuid.ea10d605-5497-42ee-9d85-a0e5f80f9b26">
-			<gml:identifier codeSpace="urn:uuid:"
-				>ea10d605-5497-42ee-9d85-a0e5f80f9b26</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">ea10d605-5497-42ee-9d85-a0e5f80f9b26</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:VORTimeSlice gml:id="VOR_DON">
 					<gml:validTime>
@@ -1540,8 +1509,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Navaid gml:id="uuid.92d527c0-ae96-4695-8d0a-9b43edbc4fe6">
-			<gml:identifier codeSpace="urn:uuid:"
-				>92d527c0-ae96-4695-8d0a-9b43edbc4fe6</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">92d527c0-ae96-4695-8d0a-9b43edbc4fe6</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NavaidTimeSlice gml:id="NAVTSNONAME12">
 					<gml:validTime>
@@ -1581,8 +1549,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:VOR gml:id="uuid.b5d16d67-8e4f-4ec8-9572-003e3e58424a">
-			<gml:identifier codeSpace="urn:uuid:"
-				>b5d16d67-8e4f-4ec8-9572-003e3e58424a</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">b5d16d67-8e4f-4ec8-9572-003e3e58424a</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:VORTimeSlice gml:id="VORNONAME12">
 					<gml:validTime>
@@ -1623,8 +1590,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Navaid gml:id="uuid.cc271a99-e28c-49e6-86ac-53078e6e59e3">
-			<gml:identifier codeSpace="urn:uuid:"
-				>cc271a99-e28c-49e6-86ac-53078e6e59e3</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">cc271a99-e28c-49e6-86ac-53078e6e59e3</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NavaidTimeSlice gml:id="NAV_EKO">
 					<gml:validTime>
@@ -1663,8 +1629,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:VOR gml:id="uuid.8506a23a-4a97-42fe-bddd-d23b00c2f61c">
-			<gml:identifier codeSpace="urn:uuid:"
-				>8506a23a-4a97-42fe-bddd-d23b00c2f61c</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">8506a23a-4a97-42fe-bddd-d23b00c2f61c</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:VORTimeSlice gml:id="VOR_EKO">
 					<gml:validTime>
@@ -1704,8 +1669,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Navaid gml:id="uuid.3afcdd1d-1ca4-4667-95af-1725ca17a70f">
-			<gml:identifier codeSpace="urn:uuid:"
-				>3afcdd1d-1ca4-4667-95af-1725ca17a70f</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">3afcdd1d-1ca4-4667-95af-1725ca17a70f</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NavaidTimeSlice gml:id="NAV_LMD">
 					<gml:validTime>
@@ -1744,8 +1708,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:VOR gml:id="uuid.9cd3112a-2aaf-48c3-a01a-59699b4af6e2">
-			<gml:identifier codeSpace="urn:uuid:"
-				>9cd3112a-2aaf-48c3-a01a-59699b4af6e2</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">9cd3112a-2aaf-48c3-a01a-59699b4af6e2</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:VORTimeSlice gml:id="VOR_LMD">
 					<gml:validTime>
@@ -1784,8 +1747,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Navaid gml:id="uuid.882e849c-682d-4e95-ac19-a7808d55cdbb">
-			<gml:identifier codeSpace="urn:uuid:"
-				>882e849c-682d-4e95-ac19-a7808d55cdbb</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">882e849c-682d-4e95-ac19-a7808d55cdbb</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NavaidTimeSlice gml:id="NAV_WOB">
 					<gml:validTime>
@@ -1823,8 +1785,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:VOR gml:id="uuid.fbe82608-bece-4db7-a13b-961963e1b167">
-			<gml:identifier codeSpace="urn:uuid:"
-				>fbe82608-bece-4db7-a13b-961963e1b167</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">fbe82608-bece-4db7-a13b-961963e1b167</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:VORTimeSlice gml:id="VORWOBAN_VOR">
 					<gml:validTime>
@@ -1863,8 +1824,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Navaid gml:id="uuid.6237f900-1320-4f01-95ec-8378ebc26e9f">
-			<gml:identifier codeSpace="urn:uuid:"
-				>6237f900-1320-4f01-95ec-8378ebc26e9f</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">6237f900-1320-4f01-95ec-8378ebc26e9f</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NavaidTimeSlice gml:id="NAVTSKAVRAN">
 					<gml:validTime>
@@ -1904,8 +1864,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:VOR gml:id="uuid.13fe226f-271c-4d36-9f42-190563a963de">
-			<gml:identifier codeSpace="urn:uuid:"
-				>13fe226f-271c-4d36-9f42-190563a963de</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">13fe226f-271c-4d36-9f42-190563a963de</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:VORTimeSlice gml:id="VORKAVRAN">
 					<gml:validTime>
@@ -1946,8 +1905,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Navaid gml:id="uuid.4316fc95-f2f7-4789-a249-3afc0b5cc27a">
-			<gml:identifier codeSpace="urn:uuid:"
-				>4316fc95-f2f7-4789-a249-3afc0b5cc27a</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">4316fc95-f2f7-4789-a249-3afc0b5cc27a</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NavaidTimeSlice gml:id="NAVTSOSTO">
 					<gml:validTime>
@@ -1987,8 +1945,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:TACAN gml:id="uuid.3e33bd78-0b9c-4d27-9060-901fcb02fa47">
-			<gml:identifier codeSpace="urn:uuid:"
-				>3e33bd78-0b9c-4d27-9060-901fcb02fa47</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">3e33bd78-0b9c-4d27-9060-901fcb02fa47</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:TACANTimeSlice gml:id="TACANOSTO">
 					<gml:validTime>
@@ -2029,8 +1986,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.4fd9f4be-8c65-43f6-b083-3ced9a4b2a7f">
-			<gml:identifier codeSpace="urn:uuid:"
-				>4fd9f4be-8c65-43f6-b083-3ced9a4b2a7f</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">4fd9f4be-8c65-43f6-b083-3ced9a4b2a7f</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_ACR001_A">
 					<gml:validTime>
@@ -2251,8 +2207,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.f4d5e4d4-d84a-481f-b9e3-b359e42c0dff">
-			<gml:identifier codeSpace="urn:uuid:"
-				>f4d5e4d4-d84a-481f-b9e3-b359e42c0dff</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">f4d5e4d4-d84a-481f-b9e3-b359e42c0dff</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_AMSWELL_FIR">
 					<gml:validTime>
@@ -2382,8 +2337,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RouteSegment gml:id="uuid.cc9c7cc4-e000-4741-854d-b7d93973e099">
-			<gml:identifier codeSpace="urn:uuid:"
-				>cc9c7cc4-e000-4741-854d-b7d93973e099</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">cc9c7cc4-e000-4741-854d-b7d93973e099</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RouteSegmentTimeSlice gml:id="RSG_UA4_BARIM_WOB">
 					<gml:validTime>
@@ -2459,8 +2413,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RouteSegment gml:id="uuid.bc430a08-bb5d-48dd-8ef0-85ff50dcfb9d">
-			<gml:identifier codeSpace="urn:uuid:"
-				>bc430a08-bb5d-48dd-8ef0-85ff50dcfb9d</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">bc430a08-bb5d-48dd-8ef0-85ff50dcfb9d</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RouteSegmentTimeSlice gml:id="RSG_UA4_WOB_EKO">
 					<gml:validTime>
@@ -2518,8 +2471,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RouteSegment gml:id="uuid.bfca2bc3-5562-4ec4-b199-f0377c93c04e">
-			<gml:identifier codeSpace="urn:uuid:"
-				>bfca2bc3-5562-4ec4-b199-f0377c93c04e</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">bfca2bc3-5562-4ec4-b199-f0377c93c04e</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RouteSegmentTimeSlice gml:id="RSG_UA4_EKO_LMD">
 					<gml:validTime>
@@ -2577,8 +2529,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RouteSegment gml:id="uuid.122f61c4-2704-494f-8ad7-45e2f8adc603">
-			<gml:identifier codeSpace="urn:uuid:"
-				>122f61c4-2704-494f-8ad7-45e2f8adc603</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">122f61c4-2704-494f-8ad7-45e2f8adc603</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RouteSegmentTimeSlice gml:id="RSG_UA4_LMD_VEGAT">
 					<gml:validTime>
@@ -2636,8 +2587,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DesignatedPoint gml:id="uuid.81e47548-9f00-4970-b641-8ff8f99098a5">
-			<gml:identifier codeSpace="urn:uuid:"
-				>81e47548-9f00-4970-b641-8ff8f99098a5</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">81e47548-9f00-4970-b641-8ff8f99098a5</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DesignatedPointTimeSlice gml:id="DPN_TEMPO">
 					<gml:validTime>
@@ -2670,8 +2620,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DesignatedPoint gml:id="uuid.9fcb360c-6933-46d6-9c85-a337202efe70">
-			<gml:identifier codeSpace="urn:uuid:"
-				>9fcb360c-6933-46d6-9c85-a337202efe70</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">9fcb360c-6933-46d6-9c85-a337202efe70</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DesignatedPointTimeSlice gml:id="DPN_ABOLA">
 					<gml:validTime>
@@ -2704,8 +2653,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DesignatedPoint gml:id="uuid.363838d8-edcc-4085-a608-96b45ceef14e">
-			<gml:identifier codeSpace="urn:uuid:"
-				>363838d8-edcc-4085-a608-96b45ceef14e</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">363838d8-edcc-4085-a608-96b45ceef14e</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DesignatedPointTimeSlice gml:id="DPN_ATLIM">
 					<gml:validTime>
@@ -2738,8 +2686,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DesignatedPoint gml:id="uuid.c3bf8394-4d5f-4b42-ba87-67563df97555">
-			<gml:identifier codeSpace="urn:uuid:"
-				>c3bf8394-4d5f-4b42-ba87-67563df97555</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">c3bf8394-4d5f-4b42-ba87-67563df97555</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DesignatedPointTimeSlice gml:id="DPN_UKORO">
 					<gml:validTime>
@@ -2772,8 +2719,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DesignatedPoint gml:id="uuid.26009f76-2e05-418d-a631-bec02f84ac5b">
-			<gml:identifier codeSpace="urn:uuid:"
-				>26009f76-2e05-418d-a631-bec02f84ac5b</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">26009f76-2e05-418d-a631-bec02f84ac5b</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DesignatedPointTimeSlice gml:id="DPN_VEGAT">
 					<gml:validTime>
@@ -2806,8 +2752,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DesignatedPoint gml:id="uuid.7f443c8b-d407-4c41-aa9f-1d56a688a432">
-			<gml:identifier codeSpace="urn:uuid:"
-				>7f443c8b-d407-4c41-aa9f-1d56a688a432</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">7f443c8b-d407-4c41-aa9f-1d56a688a432</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DesignatedPointTimeSlice gml:id="DPN_EBOTO">
 					<gml:validTime>
@@ -2840,8 +2785,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DesignatedPoint gml:id="uuid.bb9dcfb3-f45a-40f3-8852-fca1349801fc">
-			<gml:identifier codeSpace="urn:uuid:"
-				>bb9dcfb3-f45a-40f3-8852-fca1349801fc</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">bb9dcfb3-f45a-40f3-8852-fca1349801fc</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DesignatedPointTimeSlice gml:id="DPN_BARIM">
 					<gml:validTime>
@@ -2874,8 +2818,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DesignatedPoint gml:id="uuid.fe3bbf89-9a15-49e4-b987-f7225b7484bb">
-			<gml:identifier codeSpace="urn:uuid:"
-				>fe3bbf89-9a15-49e4-b987-f7225b7484bb</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">fe3bbf89-9a15-49e4-b987-f7225b7484bb</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DesignatedPointTimeSlice gml:id="timesliceidSANOK">
 					<gml:validTime>
@@ -2908,8 +2851,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DesignatedPoint gml:id="uuid.95638d5c-367f-4a6d-829c-f1e58245961f">
-			<gml:identifier codeSpace="urn:uuid:"
-				>95638d5c-367f-4a6d-829c-f1e58245961f</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">95638d5c-367f-4a6d-829c-f1e58245961f</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DesignatedPointTimeSlice gml:id="DPN_ODMUS">
 					<gml:validTime>
@@ -2942,8 +2884,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DesignatedPoint gml:id="uuid.b35409d8-f236-4303-a12d-795e9e9c8759">
-			<gml:identifier codeSpace="urn:uuid:"
-				>b35409d8-f236-4303-a12d-795e9e9c8759</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">b35409d8-f236-4303-a12d-795e9e9c8759</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DesignatedPointTimeSlice gml:id="DPN_ILURU">
 					<gml:validTime>
@@ -2976,8 +2917,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:GeoBorder gml:id="uuid.6118ba76-0d46-4ba7-af63-17f29755e890">
-			<gml:identifier codeSpace="urn:uuid:"
-				>6118ba76-0d46-4ba7-af63-17f29755e890</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">6118ba76-0d46-4ba7-af63-17f29755e890</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:GeoBorderTimeSlice gml:id="geobtsREPUBLICOFDONLON">
 					<gml:validTime>
@@ -3602,8 +3542,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RunwayCentrelinePoint gml:id="uuid.ebccbb64-c1b3-4b27-8e5a-a32d2763208a">
-			<gml:identifier codeSpace="urn:uuid:"
-				>ebccbb64-c1b3-4b27-8e5a-a32d2763208a</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">ebccbb64-c1b3-4b27-8e5a-a32d2763208a</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_09L">
 					<gml:validTime>
@@ -3682,8 +3621,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RunwayCentrelinePoint gml:id="uuid.e9240179-b707-4133-b49f-39725663e736">
-			<gml:identifier codeSpace="urn:uuid:"
-				>e9240179-b707-4133-b49f-39725663e736</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">e9240179-b707-4133-b49f-39725663e736</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R">
 					<gml:validTime>
@@ -3759,8 +3697,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RunwayCentrelinePoint gml:id="uuid.6928ccc0-f2d0-4a2c-a72e-aefeb0ed6d8f">
-			<gml:identifier codeSpace="urn:uuid:"
-				>6928ccc0-f2d0-4a2c-a72e-aefeb0ed6d8f</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">6928ccc0-f2d0-4a2c-a72e-aefeb0ed6d8f</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_START_RUN">
 					<gml:validTime>
@@ -3829,8 +3766,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:HoldingPattern gml:id="uuid.f37a6ecd-4765-48ed-88f1-6a42643fc13a">
-			<gml:identifier codeSpace="urn:uuid:"
-				>f37a6ecd-4765-48ed-88f1-6a42643fc13a</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">f37a6ecd-4765-48ed-88f1-6a42643fc13a</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:HoldingPatternTimeSlice gml:id="HPT_BOR_090_1MIN">
 					<gml:validTime>
@@ -3888,8 +3824,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:HoldingPattern gml:id="uuid.8da6a639-e2b3-4486-ab4c-9347fdaff073">
-			<gml:identifier codeSpace="urn:uuid:"
-				>8da6a639-e2b3-4486-ab4c-9347fdaff073</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">8da6a639-e2b3-4486-ab4c-9347fdaff073</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:HoldingPatternTimeSlice gml:id="HPT_TEMPO_264_5NM">
 					<gml:validTime>
@@ -3932,8 +3867,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:HoldingPattern gml:id="uuid.393cf299-b8fd-467d-ad57-7a5345bdd58e">
-			<gml:identifier codeSpace="urn:uuid:"
-				>393cf299-b8fd-467d-ad57-7a5345bdd58e</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">393cf299-b8fd-467d-ad57-7a5345bdd58e</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:HoldingPatternTimeSlice gml:id="HPT_TEMPO_278_1.5MIN">
 					<gml:validTime>
@@ -3976,8 +3910,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:HoldingPattern gml:id="uuid.5ec34a95-b680-4f4b-a2d7-99f2f14b4560">
-			<gml:identifier codeSpace="urn:uuid:"
-				>5ec34a95-b680-4f4b-a2d7-99f2f14b4560</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">5ec34a95-b680-4f4b-a2d7-99f2f14b4560</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:HoldingPatternTimeSlice gml:id="HPT_Point_137_1.5MIN">
 					<gml:validTime>
@@ -4020,8 +3953,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:HoldingPattern gml:id="uuid.d43d5fc5-6ca6-459e-9499-38c406a1c2ab">
-			<gml:identifier codeSpace="urn:uuid:"
-				>d43d5fc5-6ca6-459e-9499-38c406a1c2ab</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">d43d5fc5-6ca6-459e-9499-38c406a1c2ab</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:HoldingPatternTimeSlice gml:id="HPT_BOR_029_10_208_15DME">
 					<gml:validTime>
@@ -4087,8 +4019,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:HoldingPattern gml:id="uuid.39f50cab-cf8a-43c7-b6c4-1705c3886ae7">
-			<gml:identifier codeSpace="urn:uuid:"
-				>39f50cab-cf8a-43c7-b6c4-1705c3886ae7</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">39f50cab-cf8a-43c7-b6c4-1705c3886ae7</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:HoldingPatternTimeSlice gml:id="HOLDINGTS1032">
 					<gml:validTime>
@@ -4133,8 +4064,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:HoldingPattern gml:id="uuid.39845412-b7b9-4932-93e0-807c92b7cbb5">
-			<gml:identifier codeSpace="urn:uuid:"
-				>39845412-b7b9-4932-93e0-807c92b7cbb5</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">39845412-b7b9-4932-93e0-807c92b7cbb5</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:HoldingPatternTimeSlice gml:id="HOLDINGTS1033">
 					<gml:validTime>
@@ -4179,8 +4109,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:TouchDownLiftOff gml:id="uuid.3d9a60b5-6d7f-471d-9744-b767df4a8575">
-			<gml:identifier codeSpace="urn:uuid:"
-				>3d9a60b5-6d7f-471d-9744-b767df4a8575</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">3d9a60b5-6d7f-471d-9744-b767df4a8575</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:TouchDownLiftOffTimeSlice gml:id="TLA_EADH_TLOF">
 					<gml:validTime>
@@ -4278,8 +4207,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RunwayCentrelinePoint gml:id="uuid.d4713d5d-860a-46cd-880b-30f13e291c5b">
-			<gml:identifier codeSpace="urn:uuid:"
-				>d4713d5d-860a-46cd-880b-30f13e291c5b</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">d4713d5d-860a-46cd-880b-30f13e291c5b</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADH_FATO_21">
 					<gml:validTime>
@@ -4347,8 +4275,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Runway gml:id="uuid.4428d037-1cdf-433a-9bfa-d0857aaf448a">
-			<gml:identifier codeSpace="urn:uuid:"
-				>4428d037-1cdf-433a-9bfa-d0857aaf448a</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">4428d037-1cdf-433a-9bfa-d0857aaf448a</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RunwayTimeSlice gml:id="RWY_EADD_09R_27L">
 					<gml:validTime>
@@ -4391,8 +4318,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RunwayDirection gml:id="uuid.5d6513d4-a62a-49e1-9e26-0b8cbf320daf">
-			<gml:identifier codeSpace="urn:uuid:"
-				>5d6513d4-a62a-49e1-9e26-0b8cbf320daf</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">5d6513d4-a62a-49e1-9e26-0b8cbf320daf</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RunwayDirectionTimeSlice gml:id="RDN_EADD_09R">
 					<gml:validTime>
@@ -4420,8 +4346,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RunwayCentrelinePoint gml:id="uuid.2ad2bc03-323b-41d3-992e-3c9d4e83dd02">
-			<gml:identifier codeSpace="urn:uuid:"
-				>2ad2bc03-323b-41d3-992e-3c9d4e83dd02</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">2ad2bc03-323b-41d3-992e-3c9d4e83dd02</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_07R">
 					<gml:validTime>
@@ -4500,8 +4425,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RunwayDirection gml:id="uuid.ee6019d6-29f7-404d-8cee-b6819f325aed">
-			<gml:identifier codeSpace="urn:uuid:"
-				>ee6019d6-29f7-404d-8cee-b6819f325aed</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">ee6019d6-29f7-404d-8cee-b6819f325aed</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RunwayDirectionTimeSlice gml:id="RDN_EADD_27L">
 					<gml:validTime>
@@ -4529,8 +4453,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RunwayCentrelinePoint gml:id="uuid.6e7b7beb-4bd2-447c-bd1d-52202ddd37d4">
-			<gml:identifier codeSpace="urn:uuid:"
-				>6e7b7beb-4bd2-447c-bd1d-52202ddd37d4</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">6e7b7beb-4bd2-447c-bd1d-52202ddd37d4</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27L">
 					<gml:validTime>
@@ -4609,8 +4532,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.21a13c9f-a8ff-4fdd-9aaa-5dbfd91514b8">
-			<gml:identifier codeSpace="urn:uuid:"
-				>21a13c9f-a8ff-4fdd-9aaa-5dbfd91514b8</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">21a13c9f-a8ff-4fdd-9aaa-5dbfd91514b8</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_VAARDNOR_P">
 					<gml:validTime>
@@ -4684,8 +4606,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.6a23b1fb-5eba-468e-974a-d37cdecf089f">
-			<gml:identifier codeSpace="urn:uuid:"
-				>6a23b1fb-5eba-468e-974a-d37cdecf089f</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">6a23b1fb-5eba-468e-974a-d37cdecf089f</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_BRAVO_R">
 					<gml:validTime>
@@ -4773,8 +4694,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.1e2c1cc2-49a5-4fc2-bce7-7ffc60eb7666">
-			<gml:identifier codeSpace="urn:uuid:"
-				>1e2c1cc2-49a5-4fc2-bce7-7ffc60eb7666</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">1e2c1cc2-49a5-4fc2-bce7-7ffc60eb7666</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_BURGENVALK_R">
 					<gml:validTime>
@@ -4861,8 +4781,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.cae20e0e-7b7e-4bab-8f22-5b11f0a0a0d6">
-			<gml:identifier codeSpace="urn:uuid:"
-				>cae20e0e-7b7e-4bab-8f22-5b11f0a0a0d6</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">cae20e0e-7b7e-4bab-8f22-5b11f0a0a0d6</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ID_262">
 					<gml:validTime>
@@ -4982,8 +4901,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.8c6e9bea-f725-47bc-9106-ba00c27baba9">
-			<gml:identifier codeSpace="urn:uuid:"
-				>8c6e9bea-f725-47bc-9106-ba00c27baba9</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">8c6e9bea-f725-47bc-9106-ba00c27baba9</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_HORSHAM_D">
 					<gml:validTime>
@@ -5103,8 +5021,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.4f745d73-4ecd-486b-8023-54a5e5a94513">
-			<gml:identifier codeSpace="urn:uuid:"
-				>4f745d73-4ecd-486b-8023-54a5e5a94513</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">4f745d73-4ecd-486b-8023-54a5e5a94513</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_DONLON_D">
 					<gml:validTime>
@@ -5290,8 +5207,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.f0331134-d00a-4f9b-ac4f-34718d462729">
-			<gml:identifier codeSpace="urn:uuid:"
-				>f0331134-d00a-4f9b-ac4f-34718d462729</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">f0331134-d00a-4f9b-ac4f-34718d462729</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_NIBORD_TMA">
 					<gml:validTime>
@@ -5371,8 +5287,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:AeronauticalGroundLight gml:id="uuid.9481f274-f05b-4c00-9017-eae75d33c45b">
-			<gml:identifier codeSpace="urn:uuid:"
-				>9481f274-f05b-4c00-9017-eae75d33c45b</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">9481f274-f05b-4c00-9017-eae75d33c45b</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AeronauticalGroundLightTimeSlice gml:id="AGL_ATURA">
 					<gml:validTime>
@@ -5501,8 +5416,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.028e6905-f99a-4ca7-a736-2c0787cdcf58">
 			<!-- This Airspace includes a reference to a geo-border; Some viewers do not support this. If this is the case for you, just comment out this hasMember element -->
-			<gml:identifier codeSpace="urn:uuid:"
-				>028e6905-f99a-4ca7-a736-2c0787cdcf58</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">028e6905-f99a-4ca7-a736-2c0787cdcf58</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_EAMOA01_MOA">
 					<gml:validTime>
@@ -5613,8 +5527,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.fdaeffb4-6897-41fb-a33d-8861c2e91e69">
 			<!-- Airspace aggregation by referencing-->
-			<gml:identifier codeSpace="urn:uuid:"
-				>fdaeffb4-6897-41fb-a33d-8861c2e91e69</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">fdaeffb4-6897-41fb-a33d-8861c2e91e69</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_MAGNETTO_TMA">
 					<gml:validTime>
@@ -5683,8 +5596,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.0df377fe-dd53-4d60-b6c4-6546ef31d26b">
-			<gml:identifier codeSpace="urn:uuid:"
-				>0df377fe-dd53-4d60-b6c4-6546ef31d26b</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">0df377fe-dd53-4d60-b6c4-6546ef31d26b</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_MAGNETTO1_TMA_P">
 					<gml:validTime>
@@ -5769,8 +5681,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.010d8451-d751-4abb-9c71-f48ad024045b">
-			<gml:identifier codeSpace="urn:uuid:"
-				>010d8451-d751-4abb-9c71-f48ad024045b</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">010d8451-d751-4abb-9c71-f48ad024045b</gml:identifier>
 			<gml:boundedBy xsi:nil="true"/>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_MAGNETTO2_TMA_P">
@@ -5932,8 +5843,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Unit gml:id="uuid.1c1dd242-1a59-4fba-ac39-63de791c0afd">
-			<gml:identifier codeSpace="urn:uuid:"
-				>1c1dd242-1a59-4fba-ac39-63de791c0afd</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">1c1dd242-1a59-4fba-ac39-63de791c0afd</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:UnitTimeSlice gml:id="UNI_AMSWELL_ACC">
 					<gml:validTime>
@@ -5958,8 +5868,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RadioCommunicationChannel gml:id="uuid.99c2b65e-a7ac-434d-aae0-0c3a2c62fe61">
-			<gml:identifier codeSpace="urn:uuid:"
-				>99c2b65e-a7ac-434d-aae0-0c3a2c62fe61</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">99c2b65e-a7ac-434d-aae0-0c3a2c62fe61</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RadioCommunicationChannelTimeSlice gml:id="RCC_AMSWELL_ACC_120.300MHZ">
 					<gml:validTime>
@@ -5985,8 +5894,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RadioCommunicationChannel gml:id="uuid.d02978c7-abb5-44ab-93a9-4337b634529b">
-			<gml:identifier codeSpace="urn:uuid:"
-				>d02978c7-abb5-44ab-93a9-4337b634529b</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">d02978c7-abb5-44ab-93a9-4337b634529b</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RadioCommunicationChannelTimeSlice gml:id="RCC_AMSWELL_ACC_117.900MHZ">
 					<gml:validTime>
@@ -6013,8 +5921,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RadioCommunicationChannel gml:id="uuid.2598f170-958a-4226-bfe9-3464468b0174">
-			<gml:identifier codeSpace="urn:uuid:"
-				>2598f170-958a-4226-bfe9-3464468b0174</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">2598f170-958a-4226-bfe9-3464468b0174</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RadioCommunicationChannelTimeSlice gml:id="RCC_AMSWELL_ACC_121.500MHZ">
 					<gml:validTime>
@@ -6041,8 +5948,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RadioCommunicationChannel gml:id="uuid.80b0ad9d-1c1a-4f51-be25-7a6a74d17856">
-			<gml:identifier codeSpace="urn:uuid:"
-				>80b0ad9d-1c1a-4f51-be25-7a6a74d17856</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">80b0ad9d-1c1a-4f51-be25-7a6a74d17856</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RadioCommunicationChannelTimeSlice gml:id="RCC_AMSWELL_ACC_4689.5KHZ">
 					<gml:validTime>
@@ -6070,8 +5976,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DistanceIndication gml:id="uuid.e51fd575-86ea-45f9-991d-e23be7684465">
-			<gml:identifier codeSpace="urn:uuid:"
-				>e51fd575-86ea-45f9-991d-e23be7684465</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">e51fd575-86ea-45f9-991d-e23be7684465</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DistanceIndicationTimeSlice gml:id="DIN_BOR_15DME">
 					<gml:validTime>
@@ -6109,8 +6014,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DistanceIndication gml:id="uuid.711d3f53-1da1-46b9-b499-373110f018af">
-			<gml:identifier codeSpace="urn:uuid:"
-				>711d3f53-1da1-46b9-b499-373110f018af</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">711d3f53-1da1-46b9-b499-373110f018af</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DistanceIndicationTimeSlice gml:id="DIN_BOR_10DME">
 					<gml:validTime>
@@ -6150,8 +6054,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DesignatedPoint gml:id="uuid.2fea81e6-023b-4069-b8cd-2ab96da27862">
-			<gml:identifier codeSpace="urn:uuid:"
-				>2fea81e6-023b-4069-b8cd-2ab96da27862</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">2fea81e6-023b-4069-b8cd-2ab96da27862</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DesignatedPointTimeSlice gml:id="DPN_BOR10">
 					<gml:validTime>
@@ -6184,8 +6087,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DesignatedPoint gml:id="uuid.2f31d9ce-b2ba-4a83-99da-fa6a535d6192">
-			<gml:identifier codeSpace="urn:uuid:"
-				>2f31d9ce-b2ba-4a83-99da-fa6a535d6192</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">2f31d9ce-b2ba-4a83-99da-fa6a535d6192</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DesignatedPointTimeSlice gml:id="DPN_5275N">
 					<gml:validTime>
@@ -6218,8 +6120,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DesignatedPoint gml:id="uuid.cd0bd2da-3a82-4fab-9bc1-248b09a8c06d">
-			<gml:identifier codeSpace="urn:uuid:"
-				>cd0bd2da-3a82-4fab-9bc1-248b09a8c06d</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">cd0bd2da-3a82-4fab-9bc1-248b09a8c06d</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DesignatedPointTimeSlice gml:id="DPN_TORSA">
 					<gml:validTime>
@@ -6252,8 +6153,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Route gml:id="uuid.40cc05ef-3ca8-47f8-ab1f-65d05ee3d836">
-			<gml:identifier codeSpace="urn:uuid:"
-				>40cc05ef-3ca8-47f8-ab1f-65d05ee3d836</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">40cc05ef-3ca8-47f8-ab1f-65d05ee3d836</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RouteTimeSlice gml:id="RTE_UL123">
 					<gml:validTime>
@@ -6282,8 +6182,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RouteSegment gml:id="uuid.77e616c8-bf63-4dd0-b8c2-d4e60b565bd1">
-			<gml:identifier codeSpace="urn:uuid:"
-				>77e616c8-bf63-4dd0-b8c2-d4e60b565bd1</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">77e616c8-bf63-4dd0-b8c2-d4e60b565bd1</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RouteSegmentTimeSlice gml:id="RSG_UL123_ABOLA_ILURU">
 					<gml:validTime>
@@ -6395,8 +6294,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:AngleIndication gml:id="uuid.feea9acc-b18f-45e0-bf88-c0f001ea4847">
-			<gml:identifier codeSpace="urn:uuid:"
-				>feea9acc-b18f-45e0-bf88-c0f001ea4847</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">feea9acc-b18f-45e0-bf88-c0f001ea4847</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AngleIndicationTimeSlice gml:id="AIN_WOB_015">
 					<gml:validTime>
@@ -6437,8 +6335,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DistanceIndication gml:id="uuid.c2864b35-bdef-4fa8-bd8d-3a21e5dee2de">
-			<gml:identifier codeSpace="urn:uuid:"
-				>c2864b35-bdef-4fa8-bd8d-3a21e5dee2de</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">c2864b35-bdef-4fa8-bd8d-3a21e5dee2de</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DistanceIndicationTimeSlice gml:id="DIN_WOB_337">
 					<gml:validTime>
@@ -6478,8 +6375,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:ChangeOverPoint gml:id="uuid.747966ad-ab1a-416c-b34f-22ff35638b00">
-			<gml:identifier codeSpace="urn:uuid:"
-				>uuid.747966ad-ab1a-416c-b34f-22ff35638b00</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">uuid.747966ad-ab1a-416c-b34f-22ff35638b00</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:ChangeOverPointTimeSlice gml:id="COP_WOB_EKO">
 					<gml:validTime>
@@ -6517,8 +6413,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Route gml:id="uuid.3b31528e-4c89-436f-85a5-dce41f298f20">
-			<gml:identifier codeSpace="urn:uuid:"
-				>3b31528e-4c89-436f-85a5-dce41f298f20</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">3b31528e-4c89-436f-85a5-dce41f298f20</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RouteTimeSlice gml:id="RTE_A6">
 					<gml:validTime>
@@ -6546,8 +6441,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RouteSegment gml:id="uuid.cc9c7cc4-e000-4741-854d-b7d93973e089">
-			<gml:identifier codeSpace="urn:uuid:"
-				>cc9c7cc4-e000-4741-854d-b7d93973e089</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">cc9c7cc4-e000-4741-854d-b7d93973e089</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RouteSegmentTimeSlice gml:id="RSG_A6_BOR_ROB">
 					<gml:validTime>
@@ -6657,8 +6551,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RouteSegment gml:id="uuid.cc9c7cc4-e000-4741-854d-b7d93973e08f">
-			<gml:identifier codeSpace="urn:uuid:"
-				>cc9c7cc4-e000-4741-854d-b7d93973e08f</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">cc9c7cc4-e000-4741-854d-b7d93973e08f</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RouteSegmentTimeSlice gml:id="RSG_A6_ROB_ROK">
 					<gml:validTime>
@@ -6768,8 +6661,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Route gml:id="uuid.df8d330c-c5b0-4d5b-a390-b1a2a30c31c0">
-			<gml:identifier codeSpace="urn:uuid:"
-				>df8d330c-c5b0-4d5b-a390-b1a2a30c31c0</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">df8d330c-c5b0-4d5b-a390-b1a2a30c31c0</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RouteTimeSlice gml:id="RTE_KH123">
 					<gml:validTime>
@@ -6798,8 +6690,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Navaid gml:id="uuid.9f727d64-61a2-4dd2-87ef-afa3a52c66d3">
-			<gml:identifier codeSpace="urn:uuid:"
-				>9f727d64-61a2-4dd2-87ef-afa3a52c66d3</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">9f727d64-61a2-4dd2-87ef-afa3a52c66d3</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NavaidTimeSlice gml:id="NAV_NDB_DON">
 					<gml:validTime>
@@ -6838,8 +6729,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:NDB gml:id="uuid.3618ff4a-13c0-451b-b510-27ea9e716c0f">
-			<gml:identifier codeSpace="urn:uuid:"
-				>3618ff4a-13c0-451b-b510-27ea9e716c0f</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">3618ff4a-13c0-451b-b510-27ea9e716c0f</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NDBTimeSlice gml:id="NDB_DON">
 					<gml:validTime>
@@ -6910,8 +6800,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RadioFrequencyArea gml:id="uuid.eb7c1f1a-161f-4d05-8c77-f3e03ddb26ce">
-			<gml:identifier codeSpace="urn:uuid:"
-				>eb7c1f1a-161f-4d05-8c77-f3e03ddb26ce</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">eb7c1f1a-161f-4d05-8c77-f3e03ddb26ce</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RadioFrequencyAreaTimeSlice gml:id="RFA_VOR_BOR">
 					<gml:validTime>
@@ -6947,8 +6836,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RadioFrequencyArea gml:id="uuid.8bab9243-0c31-4ab3-bb6b-2c21d8d637ea">
-			<gml:identifier codeSpace="urn:uuid:"
-				>8bab9243-0c31-4ab3-bb6b-2c21d8d637ea</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">8bab9243-0c31-4ab3-bb6b-2c21d8d637ea</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RadioFrequencyAreaTimeSlice gml:id="RFA_DME_BOR">
 					<gml:validTime>
@@ -6984,8 +6872,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Navaid gml:id="uuid.2d2c95dc-cfec-4eae-96ca-dc95fff03754">
-			<gml:identifier codeSpace="urn:uuid:"
-				>2d2c95dc-cfec-4eae-96ca-dc95fff03754</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">2d2c95dc-cfec-4eae-96ca-dc95fff03754</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NavaidTimeSlice gml:id="NAV_KL">
 					<gml:validTime>
@@ -7026,8 +6913,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:NDB gml:id="uuid.04e56175-c5f3-492d-a453-f4cfdad94e6e">
-			<gml:identifier codeSpace="urn:uuid:"
-				>04e56175-c5f3-492d-a453-f4cfdad94e6e</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">04e56175-c5f3-492d-a453-f4cfdad94e6e</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NDBTimeSlice gml:id="NDB_KL">
 					<gml:validTime>
@@ -7091,8 +6977,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RadioFrequencyArea gml:id="uuid.f8778a50-ecb0-4c53-9be4-86301089ce94">
-			<gml:identifier codeSpace="urn:uuid:"
-				>f8778a50-ecb0-4c53-9be4-86301089ce94</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">f8778a50-ecb0-4c53-9be4-86301089ce94</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RadioFrequencyAreaTimeSlice gml:id="RFA_NDB_KL">
 					<gml:validTime>
@@ -7128,8 +7013,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Navaid gml:id="uuid.424299c5-51cc-4ddd-9458-36515e412710">
-			<gml:identifier codeSpace="urn:uuid:"
-				>424299c5-51cc-4ddd-9458-36515e412710</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">424299c5-51cc-4ddd-9458-36515e412710</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NavaidTimeSlice gml:id="NAV_SCN">
 					<gml:validTime>
@@ -7179,8 +7063,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:NDB gml:id="uuid.2e921fdb-2853-4fbe-a721-909e93fbe477">
-			<gml:identifier codeSpace="urn:uuid:"
-				>2e921fdb-2853-4fbe-a721-909e93fbe477</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">2e921fdb-2853-4fbe-a721-909e93fbe477</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NDBTimeSlice gml:id="NDB_SCN">
 					<gml:validTime>
@@ -7245,8 +7128,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:MarkerBeacon gml:id="uuid.bf334bb1-0ab1-4c17-9ef5-1a386f4da50d">
-			<gml:identifier codeSpace="urn:uuid:"
-				>bf334bb1-0ab1-4c17-9ef5-1a386f4da50d</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">bf334bb1-0ab1-4c17-9ef5-1a386f4da50d</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:MarkerBeaconTimeSlice gml:id="MKR_SCN">
 					<gml:validTime>
@@ -7310,8 +7192,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Navaid gml:id="uuid.8fe878fe-0035-4b17-a307-81f904dd4403">
-			<gml:identifier codeSpace="urn:uuid:"
-				>8fe878fe-0035-4b17-a307-81f904dd4403</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">8fe878fe-0035-4b17-a307-81f904dd4403</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NavaidTimeSlice gml:id="NAV_OXS">
 					<gml:validTime>
@@ -7386,8 +7267,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Localizer gml:id="uuid.2c68a682-1b29-4442-8d18-0488487185f3">
-			<gml:identifier codeSpace="urn:uuid:"
-				>2c68a682-1b29-4442-8d18-0488487185f3</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">2c68a682-1b29-4442-8d18-0488487185f3</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:LocalizerTimeSlice gml:id="LLZ_OXS">
 					<gml:validTime>
@@ -7455,8 +7335,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Glidepath gml:id="uuid.4c46c5be-b033-4673-ac70-48a5d72793d2">
-			<gml:identifier codeSpace="urn:uuid:"
-				>4c46c5be-b033-4673-ac70-48a5d72793d2</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">4c46c5be-b033-4673-ac70-48a5d72793d2</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:GlidepathTimeSlice gml:id="GPT_OXS">
 					<gml:validTime>
@@ -7523,8 +7402,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:MarkerBeacon gml:id="uuid.8e3a801a-0637-42c7-a8b4-d85eda57c6cd">
-			<gml:identifier codeSpace="urn:uuid:"
-				>8e3a801a-0637-42c7-a8b4-d85eda57c6cd</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">8e3a801a-0637-42c7-a8b4-d85eda57c6cd</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:MarkerBeaconTimeSlice gml:id="MKR_EADD_OM27R">
 					<gml:validTime>
@@ -7598,8 +7476,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:MarkerBeacon gml:id="uuid.2dfdd04a-7e1e-4754-adc5-9ff46591779c">
-			<gml:identifier codeSpace="urn:uuid:"
-				>2dfdd04a-7e1e-4754-adc5-9ff46591779c</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">2dfdd04a-7e1e-4754-adc5-9ff46591779c</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:MarkerBeaconTimeSlice gml:id="MKR_EADD_MM27R">
 					<gml:validTime>
@@ -7674,8 +7551,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.21a13c9f-a8ff-4fdd-9aaa-5dbfd91514b9">
-			<gml:identifier codeSpace="urn:uuid:"
-				>21a13c9f-a8ff-4fdd-9aaa-5dbfd91514b9</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">21a13c9f-a8ff-4fdd-9aaa-5dbfd91514b9</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_DONLON_CTR">
 					<gml:validTime>
@@ -7780,8 +7656,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Unit gml:id="uuid.1c1dd242-1a59-4fba-ac39-63de791c0afe">
-			<gml:identifier codeSpace="urn:uuid:"
-				>1c1dd242-1a59-4fba-ac39-63de791c0afe</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">1c1dd242-1a59-4fba-ac39-63de791c0afe</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:UnitTimeSlice gml:id="UNI_DONLON_TWR">
 					<gml:validTime>
@@ -7850,8 +7725,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RadioCommunicationChannel gml:id="uuid.a8bda865-1402-4ad7-ab49-6006c2187026">
-			<gml:identifier codeSpace="urn:uuid:"
-				>a8bda865-1402-4ad7-ab49-6006c2187026</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">a8bda865-1402-4ad7-ab49-6006c2187026</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RadioCommunicationChannelTimeSlice gml:id="RCC_DONLON_TWR_118.100MHZ">
 					<gml:validTime>
@@ -7927,8 +7801,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RadioCommunicationChannel gml:id="uuid.e1bd8af7-62ed-4b6f-b25d-f4335cf40ddf">
-			<gml:identifier codeSpace="urn:uuid:"
-				>e1bd8af7-62ed-4b6f-b25d-f4335cf40ddf</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">e1bd8af7-62ed-4b6f-b25d-f4335cf40ddf</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RadioCommunicationChannelTimeSlice gml:id="RCC_DONLON_TWR_117.900MHZ">
 					<gml:validTime>
@@ -7967,8 +7840,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.21a13c9f-a8ff-4fdd-9aaa-5dbfd91514a8">
-			<gml:identifier codeSpace="urn:uuid:"
-				>21a13c9f-a8ff-4fdd-9aaa-5dbfd91514a8</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">21a13c9f-a8ff-4fdd-9aaa-5dbfd91514a8</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_DONBURG_PARACHUTE_JUMPING_AERA">
 					<gml:validTime>
@@ -8059,8 +7931,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:OrganisationAuthority gml:id="uuid.6384a4e0-8497-4f83-8eaa-d73ef549d90f">
-			<gml:identifier codeSpace="urn:uuid:"
-				>6384a4e0-8497-4f83-8eaa-d73ef549d90f</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">6384a4e0-8497-4f83-8eaa-d73ef549d90f</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:OrganisationAuthorityTimeSlice gml:id="ORG_DONBURG_AEROCLUB">
 					<gml:validTime>
@@ -8095,8 +7966,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.f4d5e4d4-d84a-481f-b9e3-b359e42c0dfg">
 			<!-- Airspace aggregation by copying the geometry-->
-			<gml:identifier codeSpace="urn:uuid:"
-				>f4d5e4d4-d84a-481f-b9e3-b359e42c0dfg</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">f4d5e4d4-d84a-481f-b9e3-b359e42c0dfg</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_DONLON_CTA">
 					<gml:validTime>
@@ -8217,8 +8087,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.204451c5-be5e-4eaf-8859-0a62b24a389d">
-			<gml:identifier codeSpace="urn:uuid:"
-				>204451c5-be5e-4eaf-8859-0a62b24a389d</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">204451c5-be5e-4eaf-8859-0a62b24a389d</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_DONLON1_CTA_P">
 					<gml:validTime>
@@ -8300,8 +8169,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.b936e0e4-2b58-404f-9d95-d95c421c50d2">
-			<gml:identifier codeSpace="urn:uuid:"
-				>b936e0e4-2b58-404f-9d95-d95c421c50d2</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">b936e0e4-2b58-404f-9d95-d95c421c50d2</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_DONLON2_CTA_P">
 					<gml:validTime>
@@ -8382,8 +8250,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:DesignatedPoint gml:id="uuid.b35409d8-f236-4303-a12d-795e9e9c8751">
-			<gml:identifier codeSpace="urn:uuid:"
-				>b35409d8-f236-4303-a12d-795e9e9c8751</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">b35409d8-f236-4303-a12d-795e9e9c8751</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:DesignatedPointTimeSlice gml:id="DPN_EADH">
 					<gml:validTime>
@@ -8416,8 +8283,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.21a13c9f-a8ff-4fdd-9aaa-5dbfd91514b2">
-			<gml:identifier codeSpace="urn:uuid:"
-				>21a13c9f-a8ff-4fdd-9aaa-5dbfd91514b2</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">21a13c9f-a8ff-4fdd-9aaa-5dbfd91514b2</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:AirspaceTimeSlice gml:id="ASE_DONLON_ATZ">
 					<gml:validTime>
@@ -8461,9 +8327,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 												<gml:Curve gml:id="ID_24189">
 												<gml:segments>
 												<gml:CircleByCenterPoint numArc="1">
-												<gml:pointProperty
-													xlink:href="#p9898"
-												xlink:title="DPN_EADH"/>
+												<gml:pointProperty xlink:href="#p9898" xlink:title="DPN_EADH"/>
 												<gml:radius uom="KM">10.0</gml:radius>
 												</gml:CircleByCenterPoint>
 												</gml:segments>
@@ -8498,8 +8362,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Unit gml:id="uuid.1c1dd242-1a59-4fba-ac39-63de791c0afa">
-			<gml:identifier codeSpace="urn:uuid:"
-				>1c1dd242-1a59-4fba-ac39-63de791c0afa</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">1c1dd242-1a59-4fba-ac39-63de791c0afa</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:UnitTimeSlice gml:id="UNI_DONLON_FIS">
 					<gml:validTime>
@@ -8526,8 +8389,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:InformationService gml:id="uuid.902369de-20fd-493e-8b73-01e240efc178">
-			<gml:identifier codeSpace="urn:uuid:"
-				>902369de-20fd-493e-8b73-01e240efc178</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">902369de-20fd-493e-8b73-01e240efc178</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:InformationServiceTimeSlice gml:id="ISV_DONLON_FIS">
 					<gml:validTime>
@@ -8565,8 +8427,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RadioCommunicationChannel gml:id="uuid.99c2b65e-a7ac-534d-aae0-0c3a2c62fe61">
-			<gml:identifier codeSpace="urn:uuid:"
-				>99c2b65e-a7ac-534d-aae0-0c3a2c62fe61</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">99c2b65e-a7ac-534d-aae0-0c3a2c62fe61</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RadioCommunicationChannelTimeSlice gml:id="RCC_DONLON_FIS_118.300MHZ">
 					<gml:validTime>
@@ -8642,8 +8503,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Navaid gml:id="uuid.2d2c95dc-cfec-4eae-96ca-dc95fff03756">
-			<gml:identifier codeSpace="urn:uuid:"
-				>2d2c95dc-cfec-4eae-96ca-dc95fff03756</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">2d2c95dc-cfec-4eae-96ca-dc95fff03756</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NavaidTimeSlice gml:id="NAV_ROB">
 					<gml:validTime>
@@ -8682,8 +8542,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:NDB gml:id="uuid.04e56175-c5f3-492d-a453-f4cfdad94e6f">
-			<gml:identifier codeSpace="urn:uuid:"
-				>04e56175-c5f3-492d-a453-f4cfdad94e6f</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">04e56175-c5f3-492d-a453-f4cfdad94e6f</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NDBTimeSlice gml:id="NDB_ROB">
 					<gml:validTime>
@@ -8727,8 +8586,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Navaid gml:id="uuid.2d2c95dc-cfec-4eae-96ca-dc95fff03757">
-			<gml:identifier codeSpace="urn:uuid:"
-				>2d2c95dc-cfec-4eae-96ca-dc95fff03757</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">2d2c95dc-cfec-4eae-96ca-dc95fff03757</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NavaidTimeSlice gml:id="NAV_ROK">
 					<gml:validTime>
@@ -8767,8 +8625,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:NDB gml:id="uuid.04e56175-c5f3-492d-a453-f4cfdad94e6a">
-			<gml:identifier codeSpace="urn:uuid:"
-				>04e56175-c5f3-492d-a453-f4cfdad94e6a</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">04e56175-c5f3-492d-a453-f4cfdad94e6a</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:NDBTimeSlice gml:id="NDB_ROK">
 					<gml:validTime>
@@ -8812,8 +8669,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:GuidanceLine gml:id="uuid.66ec0e97-5d40-4ca8-bf42-35f8e93723bb">
-			<gml:identifier codeSpace="urn:uuid:"
-				>66ec0e97-5d40-4ca8-bf42-35f8e93723bb</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">66ec0e97-5d40-4ca8-bf42-35f8e93723bb</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:GuidanceLineTimeSlice gml:id="GLN_EADD_TWY_B">
 					<gml:validTime>
@@ -8844,8 +8700,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:Taxiway gml:id="uuid.78396f68-9c03-438a-a6b4-331157b1a79c">
-			<gml:identifier codeSpace="urn:uuid:"
-				>78396f68-9c03-438a-a6b4-331157b1a79c</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">78396f68-9c03-438a-a6b4-331157b1a79c</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:TaxiwayTimeSlice gml:id="TWY_EADD_B">
 					<gml:validTime>
@@ -8883,8 +8738,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 	</message:hasMember>
 	<message:hasMember>
 		<aixm:RunwayCentrelinePoint gml:id="uuid.e9240179-b707-4133-b49f-39725663e738">
-			<gml:identifier codeSpace="urn:uuid:"
-				>e9240179-b707-4133-b49f-39725663e738</gml:identifier>
+			<gml:identifier codeSpace="urn:uuid:">e9240179-b707-4133-b49f-39725663e738</gml:identifier>
 			<aixm:timeSlice>
 				<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_TWY_B">
 					<!-- RCP for Declared Distances from TWY B RWY 27R -->
