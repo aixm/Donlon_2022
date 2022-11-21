@@ -9956,6 +9956,1127 @@ Editorial note: this license is an instance of the BSD license template as provi
 			</aixm:timeSlice>
 		</aixm:VerticalStructure>
 	</message:hasMember>
+		<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.66e649c8-aaba-4fac-9432-7ee33f90e2d5">
+			<gml:identifier codeSpace="urn:uuid:">66e649c8-aaba-4fac-9432-7ee33f90e2d5</gml:identifier>
+			<!-- validTime and featureLifetime is used to code PANS-AIM Table A-6.2 "Effectivity".  
+			NOTE: In case of temporary obstacles, also VerticalStructurePart.timeInterval.Timesheet may be needed to fulfill this requirement. -->
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-EADD-1001">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="lt120130">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt1201311">
+							<gml:beginPosition>2009-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<!-- VerticalStructure.name is used to code PANS-AIM Table A-6.2 "Obstacle Identifier"; ENR 5.4/AD 2.10 "obstacle identification or designation".-->
+					<aixm:name>OBS-EADD-1001</aixm:name>
+					<!-- type required by PANS-AIM Table A6-2 and ENR 5.4,AD 2/3.10 -->
+					<aixm:type>OTHER:WINDSOCK</aixm:type>
+					<!-- lighted required by PANS-AIM Table A6-2 -->
+					<aixm:lighted>YES</aixm:lighted>
+					<!-- marking required by PANS-AIM Table A6-2 and ENR 5.4, AD 2/3.10.
+						NOTE: AIXM 5.1(.1) provides only the property MarkingICAOStandard but no 'general' marking property . 
+						In case the obstacle is marked but not acc. to ICAO standard, code "an annotation:
+						propertyName=markingICAOStandard,
+						purpose=“REMARK”,
+						translatedNote.LinguisticNote.note=”marked=YES”.
+						the other marking attributes such as markingFirstColour if applicable (as defined in CP AIXM-233). -->
+					<!-- markingICAOStandard is not expclicitly required by PANS-AIM -->
+					<aixm:markingICAOStandard>YES</aixm:markingICAOStandard>
+					<!-- group not required by PANS-AIM -->
+					<aixm:group>NO</aixm:group>
+					<!-- horizontalExtent required by PANS-AIM Table A6-2 
+						NOTE: Only applicable for point and line obstacles (e.g. the extend of the guy wires of the mast)
+						NOTE: It may also be used for an obstacle with polygon shape but georgaphical defined by its centre point, (e.g. a building) to provide a simplified polygon extend.
+						NOTE: Either radius or lenght and width shall be used to describe the horizontal extend. -->
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius uom="M">9.3</aixm:radius>
+					<!-- lightingICAOStandard and synchronisedLighting is not expclicitly required by PANS-AIM -->
+					<aixm:lightingICAOStandard xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:synchronisedLighting xsi:nil="true" nilReason="inapplicable"/>
+					<!-- marker not required by PANS-AIM -->
+					<aixm:marker xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="V-af4ee6d61">
+							<!-- Height is an optional attribute in PANS-AIM Table A-6-2.
+							Height is listed in ENR 5.4 and AD2/3.10. 
+							Note: Height is mandatory in RTCA/EUROCAE ED-98C/DO-276C -->
+							<!-- NOTE: In case of a single part obstacle the verticalExtent is the height (above ground) of the obstacle. 
+							In case of a multi part obstacle it may not be the height above ground, as per definition verticalExtent is the height of the obstacle part from its bottom. -->
+							<aixm:verticalExtent uom="M">6.5</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">0.5</aixm:verticalExtentAccuracy>
+							<!-- In case of single part obstacle type of verticalStrcuture shall be the same as for the part.
+								 In case of multi part obstacles types may have different values. -->
+							<aixm:type>OTHER:WINDSOCK</aixm:type>
+							<!-- constructionStatus not requried by PANS-AIM but contained in ED-98. -->
+							<aixm:constructionStatus>COMPLETED</aixm:constructionStatus>
+							<!-- PANS-AIM table A6-2 only requires information if an obstcle is marked.
+								Marking pattern and colour is not explicitly required by PANS-AIM. -->
+							<aixm:markingPattern>HBANDS</aixm:markingPattern>
+							<aixm:markingFirstColour>RED</aixm:markingFirstColour>
+							<aixm:markingSecondColour>WHITE</aixm:markingSecondColour>
+							<!-- mobile optional in PANS-AIM Table A6-2("operations") -->
+							<aixm:mobile>NO</aixm:mobile>
+							<!-- frangible not required by PANS-AIM -->
+							<aixm:frangible>NO</aixm:frangible>
+							<!-- visibleMaterial not required by PANS-AIM but contained in Appendix 1 "Aeronautical Data Catalogue" ("Material")-->
+							<aixm:visibleMaterial xsi:nil="true" nilReason="inapplicable"/>
+							<!-- part designator is not required by PANS-AIM (see VerticalStructure.name) but may be used for multiple part obstacles. -->
+							<aixm:designator xsi:nil="true" nilReason="inapplicable"/>
+							<!-- horizontalProjection required by PANS-AIM Table A6-2 "horizontal position" and ENR 5.4,AD 2/3.10 "obstacle position" -->
+							<aixm:horizontalProjection_location>
+								<!-- Geometry type required by PANS-AIM Table A6-2 results from the horizontalProjection choice.-->
+								<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="p11211">
+									<gml:pos>52.37444444 -31.94361111</gml:pos>
+									<!-- horizontalAccuracy required by PANS-AIM Table A6-2 -->
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">31.5</aixm:elevation>
+									<!-- geoidUndulation not required by PANS-AIM -->
+									<aixm:geoidUndulation xsi:nil="true" nilReason="inapplicable"/>
+									<!-- verticalDatum required by PANS-AIM Table A6-2 "Vertical reference system" -->
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<!-- verticalAccuracy required by PANS-AIM Table A6-2 -->
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedPoint>
+							</aixm:horizontalProjection_location>
+							<aixm:lighting>
+								<aixm:LightElement gml:id="le00011">
+									<!-- PANS-AIM table A-6-2 only requires information if an obstcale is lighted. 
+										However, colour and type are properties listed in the PANS-AIM Appendix 1 "Aeronautical Data Catalogue" and ENR 5.4, AD2/3.10. 
+										intensityLevel, intensity and availability is not explicitly required by PANS-AIM. 
+										(Note that there is also a lightingAvailability element for the VerticalStructure.)  -->
+									<aixm:colour>RED</aixm:colour>
+									<aixm:intensityLevel xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:intensity xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:type xsi:nil="true" nilReason="inapplicable"/>
+									<!-- regarding availability, see also lightingAvailability, below.  -->
+									<aixm:availability xsi:nil="true" nilReason="inapplicable"/>
+								</aixm:LightElement>
+							</aixm:lighting>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<!-- Operator/Owner not required by PANS-AIM but contained in Appendix 1 "Aeronautical Data Catalogue".
+					In AIXM 5.1(1) it may only be coded as Note for an Obstacle data set.
+					Note: For data provided by the data orginator this information will be rather coded as metadata.-->
+					<aixm:annotation>
+						<aixm:Note gml:id="n00011">
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln00081">
+									<aixm:note>Obstacle Owner: AIRPORT DONLON, Donlon Street 100, 2020 DOLNLON, Phone: +00123456789, email: info@donlontele.com</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<!-- "Horizontal Resolution" required by PANS-AIM. -->
+					<aixm:annotation>
+						<aixm:Note gml:id="n00041">
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln00042">
+									<aixm:note>Horizontal resolution is 1/10 sec.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<!--  "Vertical Resolution" required by PANS-AIM. -->
+					<aixm:annotation>
+						<aixm:Note gml:id="n00052">
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln00052">
+									<aixm:note>Vertical resolution is 0.1 m.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<!-- lightingAvailability not explicitly required by PANS-AIM. 
+					NOTE: There is also the availability property for the LightElement of the VerticalStructurePart. -->
+					<aixm:lightingAvailability xsi:nil="true" nilReason="inapplicable"/>
+					</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<!-- SINGLE PART OBSTACLE (Crane) Area 2c  (Both Runways!)-->
+	<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.df421db4-3698-4003-9d71-93ca57e70ffc">
+			<gml:identifier codeSpace="urn:uuid:">df421db4-3698-4003-9d71-93ca57e70ffc</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-EADD-1002">
+					<!-- OPEN QUESTION: Is it realistic that in a DS there are 
+						a) Obstacle with different effective dates?
+						b. Obstacles with kown end date (not only validTime but also featureLifetime? -->
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_374">
+							<gml:beginPosition>2019-12-11T05:30:00Z</gml:beginPosition>
+							<gml:endPosition>2019-12-30T18:30:00Z</gml:endPosition>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_374">
+							<gml:beginPosition>2019-12-11T05:30:00Z</gml:beginPosition>
+							<gml:endPosition>2019-12-30T18:30:00Z</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-EADD-1002</aixm:name>
+					<aixm:type>CRANE</aixm:type>
+					<aixm:lighted>YES</aixm:lighted>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius uom="M">29.0</aixm:radius>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_375">
+							<aixm:annotation>
+								<aixm:Note gml:id="ID_379">
+									<aixm:purpose>REMARK</aixm:purpose>
+									<aixm:translatedNote>
+										<aixm:LinguisticNote gml:id="ID_380">
+											<aixm:note>150 M EAST OF CONTROL TOWER</aixm:note>
+										</aixm:LinguisticNote>
+									</aixm:translatedNote>
+								</aixm:Note>
+							</aixm:annotation>
+							<aixm:verticalExtent uom="M">26.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">3</aixm:verticalExtentAccuracy>
+							<aixm:type>CRANE</aixm:type>
+							<aixm:horizontalProjection_location>
+								<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_376">
+									<gml:pos>52.3727777777778 -31.9422222222222</gml:pos>
+									<aixm:horizontalAccuracy uom="M">5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">56.0</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">3</aixm:verticalAccuracy>
+								</aixm:ElevatedPoint>
+							</aixm:horizontalProjection_location>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:annotation>
+						<aixm:Note gml:id="n00003">
+							<aixm:propertyName>markingICAOStandard</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln00003">
+									<aixm:note>marked=UNKNOWN</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<!-- TEMPORARY OBSTCALE (Crane) Area 2b for 27R & Area 2c for RWY 09R/27L! -->
+	<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.aa0c0b1e-3e9c-4564-b858-ace28b473c0a">
+			<gml:identifier codeSpace="urn:uuid:">aa0c0b1e-3e9c-4564-b858-ace28b473c0a</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-EADD-1003">
+					<!-- OPEN QUESTION: Will be New Obstacles issued via NOTAM (digital) be added to the Digital data set, if yes how (BASELINE will become new sequence number)? Any rules? Align with Digital NOTAM Examples? -->
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_394">
+							<gml:beginPosition>2019-12-11T04:30:00Z</gml:beginPosition>
+							<gml:endPosition>2019-12-19T14:30:00Z</gml:endPosition>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_394">
+							<gml:beginPosition>2019-12-11T04:30:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-EAD-1003</aixm:name>
+					<aixm:type>CRANE</aixm:type>
+					<aixm:lighted>NO</aixm:lighted>
+					<aixm:markingICAOStandard>YES</aixm:markingICAOStandard>
+					<aixm:radius xsi:nil="true" nilReason="unknown"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_395">
+							<aixm:timeInterval>
+								<aixm:Timesheet gml:id="ID_396">
+									<aixm:timeReference>UTC</aixm:timeReference>
+									<aixm:day>ANY</aixm:day>
+									<aixm:startTime>04:30</aixm:startTime>
+									<aixm:endTime>14:30</aixm:endTime>
+									<aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+								</aixm:Timesheet>
+							</aixm:timeInterval>
+							<aixm:verticalExtent uom="FT">148.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">3</aixm:verticalExtentAccuracy>
+							<aixm:type>CRANE</aixm:type>
+							<aixm:horizontalProjection_location>
+								<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_397">
+									<gml:pos>52.37944444 -31.90361111</gml:pos>
+									<aixm:horizontalAccuracy uom="M">5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">178.0</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">3</aixm:verticalAccuracy>
+								</aixm:ElevatedPoint>
+							</aixm:horizontalProjection_location>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<!-- NAVAID OBSTACLE. Area 2b 09L (NDB SCN) -->
+	<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.83985f79-91f0-4f79-b9ba-87251e67ae9d">
+			<gml:identifier codeSpace="urn:uuid:">83985f79-91f0-4f79-b9ba-87251e67ae9d</gml:identifier>
+				<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-EADD-1004">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp0003-12">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp0003-222">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-EADD-1004 (NDB SCONE)</aixm:name>
+					<aixm:type>NAVAID</aixm:type>
+					<aixm:lighted>YES</aixm:lighted>
+					<aixm:markingICAOStandard>YES</aixm:markingICAOStandard>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="unknown"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="vsp0003-12">
+							<aixm:verticalExtent uom="M">25.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">3</aixm:verticalExtentAccuracy>
+							<aixm:type>NAVAID</aixm:type>
+							<aixm:horizontalProjection_location>
+								<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ep0003-12">
+									<gml:pos>52.371667 -32.028333</gml:pos>
+									<aixm:horizontalAccuracy uom="M">5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">70.0</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">3</aixm:verticalAccuracy>
+								</aixm:ElevatedPoint>
+							</aixm:horizontalProjection_location>
+							<aixm:lighting>
+								<aixm:LightElement gml:id="le0003-1">
+									<aixm:colour>RED</aixm:colour>
+									<aixm:type>OTHER:FLASHING</aixm:type>
+								</aixm:LightElement>
+							</aixm:lighting>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:hostedNavaidEquipment xlink:href="urn:uuid:2e921fdb-2853-4fbe-a721-909e93fbe477" xlink:title="NDB SCONE (SCN)"/>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<!-- NAVAID OBSTACLE. Area 2a RWY 09L/27R and Area 3 (Glidepath) -->
+	<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.c9bc6ea4-2b5e-4a71-af8a-eec2e4ff3dc3">
+			<gml:identifier codeSpace="urn:uuid:">c9bc6ea4-2b5e-4a71-af8a-eec2e4ff3dc3</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-EADD-1005">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp00013-1">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp00013-2">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-EADD-1005 (GP 27R)</aixm:name>
+					<aixm:type>NAVAID</aixm:type>
+					<aixm:lighted>YES</aixm:lighted>
+					<aixm:markingICAOStandard>YES</aixm:markingICAOStandard>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="unknown"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="vsp00013-1">
+							<aixm:verticalExtent uom="M">5.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">0.5</aixm:verticalExtentAccuracy>
+							<aixm:type>NAVAID</aixm:type>
+							<aixm:frangible>YES</aixm:frangible>
+							<aixm:horizontalProjection_location>
+								<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ep00013-1">
+									<gml:pos>52.378444 -31.926778</gml:pos>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">35.0</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedPoint>
+							</aixm:horizontalProjection_location>
+							<aixm:lighting>
+								<aixm:LightElement gml:id="le00013-1">
+									<aixm:colour>RED</aixm:colour>
+								</aixm:LightElement>
+							</aixm:lighting>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:hostedNavaidEquipment xlink:href="urn:uuid:4c46c5be-b033-4673-ac70-48a5d72793d2" xlink:title="Glidepath 27R"/>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<!-- MOBILE OBSTACLE (Railroad) Area 2b and Area 4 27R -->
+	<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.8a6626f9-0739-4ec2-ae56-4a8af45ec9fe">
+			<gml:identifier codeSpace="urn:uuid:">8a6626f9-0739-4ec2-ae56-4a8af45ec9fe</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-EADD-1006">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp0002-142">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp0002-25">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-EADD-1006 (DONLON LIGHT RAIL)</aixm:name>
+					<aixm:type>OTHER:RAILROAD</aixm:type>
+					<aixm:lighted>NO</aixm:lighted>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="vsp0002-14">
+							<aixm:verticalExtent uom="M">12.5</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">1</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:RAILROAD</aixm:type>
+							<aixm:mobile>YES</aixm:mobile>
+							<aixm:horizontalProjection_linearExtent>
+								<aixm:ElevatedCurve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="crv124567">
+									<gml:segments>
+										<gml:GeodesicString>
+											<gml:posList>52.37805556 -31.91388889 52.37944444 -31.91388889</gml:posList>
+										</gml:GeodesicString>
+									</gml:segments>
+									<aixm:horizontalAccuracy uom="M">2.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">28.5</aixm:elevation>
+									<aixm:geoidUndulation xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">1</aixm:verticalAccuracy>
+								</aixm:ElevatedCurve>
+							</aixm:horizontalProjection_linearExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:annotation>
+						<aixm:Note gml:id="n000sd">
+							<aixm:propertyName>markingICAOStandard</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln000s">
+									<aixm:note>marked=NO</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<!-- POLYGON STRUCTURE PROVIDED AS POINT OBSTACLE WITH HORIZ. EXTENT (Building) in Area 2b and Area 4 27R.-->
+	<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.1371b29a-2ba6-44c8-8da3-711e5488fdb7">
+			<gml:identifier codeSpace="urn:uuid:">uuid.1371b29a-2ba6-44c8-8da3-711e5488fdb7</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-EADD-1007">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp0004-16">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp0004-278">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-EADD-1007</aixm:name>
+					<aixm:type>BUILDING</aixm:type>
+					<aixm:lighted>NO</aixm:lighted>
+					<aixm:length uom="M">23.0</aixm:length>
+					<aixm:width uom="M">12.0</aixm:width>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="vsp0004-19">
+							<aixm:verticalExtent>36.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">1</aixm:verticalExtentAccuracy>
+							<aixm:type>BUILDING</aixm:type>
+							<aixm:horizontalProjection_location>
+								<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ep0004-81">
+									<gml:pos>52.37861111 -31.91166667</gml:pos>
+									<aixm:horizontalAccuracy uom="M">2.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">45</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">1</aixm:verticalAccuracy>
+								</aixm:ElevatedPoint>
+							</aixm:horizontalProjection_location>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:annotation>
+						<aixm:Note gml:id="n00200">
+							<aixm:propertyName>markingICAOStandard</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln02000">
+									<aixm:note>marked=YES</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<!-- WINDPARK LOCATED IN AREA 1 AND AREA 2d (POLYGON). Contained in 2 Data Sets. -->
+	<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.499c5bb4-de1e-49fc-8db1-11ffa84406d6-1">
+			<gml:identifier codeSpace="urn:uuid:">499c5bb4-de1e-49fc-8db1-11ffa84406d6</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-EADD-0012-1-2">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp00022-51">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp00022-2-3">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>DONLON NORTHEAST I</aixm:name>
+					<aixm:type>WINDMILL_FARMS</aixm:type>
+					<aixm:lighted>YES</aixm:lighted>
+					<aixm:markingICAOStandard>YES</aixm:markingICAOStandard>
+					<aixm:group>YES</aixm:group>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:lightingICAOStandard>YES</aixm:lightingICAOStandard>
+					<aixm:synchronisedLighting>YES</aixm:synchronisedLighting>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="vsp0002-9">
+							<aixm:verticalExtent uom="M">119.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">3</aixm:verticalExtentAccuracy>
+							<aixm:markingPattern>HBANDS</aixm:markingPattern>
+							<aixm:markingFirstColour>RED</aixm:markingFirstColour>
+							<aixm:markingSecondColour>WHITE</aixm:markingSecondColour>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ep00023-1-2">
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="c0001-1">
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.36171388888889 -31.73756666666666 
+																		52.31271388888889 -31.74756666666666 
+																		52.31371388888889 -31.75756666666666
+																		52.36371388888889 -31.75756666666666
+																		52.36171388888889 -31.73756666666666</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">215.0</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">3</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+							<aixm:lighting>
+								<aixm:LightElement gml:id="le00022-1-2">
+									<aixm:colour>RED</aixm:colour>
+									<aixm:intensityLevel>LIM</aixm:intensityLevel>
+									<aixm:type>OTHER:FLASHING</aixm:type>
+								</aixm:LightElement>
+							</aixm:lighting>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<!-- SINGLE PART OBSTACLE (Natural Highpoint) Area 2b 27R -->
+	<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.cd0bfb54-81b9-491e-880b-7f85fe2dbfb8">
+			<gml:identifier codeSpace="urn:uuid:">cd0bfb54-81b9-491e-880b-7f85fe2dbfb8</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-EADD-1008">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_3714">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_3714">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-EADD-1008</aixm:name>
+					<aixm:type>NATURAL_HIGHPOINT</aixm:type>
+					<aixm:lighted>NO</aixm:lighted>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_3715">
+							<aixm:verticalExtent uom="M">3.5</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">3</aixm:verticalExtentAccuracy>
+							<aixm:type>NATURAL_HIGHPOINT</aixm:type>
+							<aixm:horizontalProjection_location>
+								<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_3176">
+									<gml:pos>52.37833333 -31.92027778</gml:pos>
+									<aixm:horizontalAccuracy uom="M">5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">17.5</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">3</aixm:verticalAccuracy>
+								</aixm:ElevatedPoint>
+							</aixm:horizontalProjection_location>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:annotation>
+						<aixm:Note gml:id="n005500">
+							<aixm:propertyName>markingICAOStandard</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln005500">
+									<aixm:note>marked=YES</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<!-- POLYGON OBSTACLE Area 3 (Control Tower) -->
+	<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.d22653bd-826d-411c-b8d3-838eba2a8325">
+			<gml:identifier codeSpace="urn:uuid:">d22653bd-826d-411c-b8d3-838eba2a8325</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-EADD-1009">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_209">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_209">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-EADD-0009</aixm:name>
+					<aixm:type>CONTROL_TOWER</aixm:type>
+					<aixm:lighted xsi:nil="true" nilReason="unknown"/>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_210">
+							<aixm:verticalExtent uom="M">12.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">0.5</aixm:verticalExtentAccuracy>
+							<aixm:type>BUILDING</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_211">
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="C001117">
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.373240585956786 -31.94466222350188
+																		52.373239760561745 -31.943667276726224
+																		52.37253439745958 -31.943665099679613
+																		52.37248632123943 -31.944468912666462
+																		52.37259178856422 -31.94439396362618
+																		52.37273479940925 -31.944331784997903
+																		52.372846720940146 -31.944338002860732
+																		52.37298351392235 -31.94438774576335
+																		52.373107871178895 -31.94453075660838
+																		52.373240585956786
+																		-31.94466222350188</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">40.0</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:annotation>
+						<aixm:Note gml:id="n00dd00">
+							<aixm:propertyName>markingICAOStandard</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln0000g">
+									<aixm:note>marked=YES</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<!-- POLYGON OBSTACLE Area 3 (AIS-MET) -->
+	<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.14d8289b-4628-41c3-bcaa-be6e26e4b96a">
+			<gml:identifier codeSpace="urn:uuid:">14d8289b-4628-41c3-bcaa-be6e26e4b96a</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-EADD-1010">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_213">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_213">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-EADD-1010 (AIS-MET)</aixm:name>
+					<aixm:type>BUILDING</aixm:type>
+					<aixm:lighted xsi:nil="true" nilReason="unknown"/>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_214">
+							<aixm:verticalExtent xsi:nil="true" nilReason="unknown"/>
+							<aixm:verticalExtentAccuracy xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:type>BUILDING</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_215">
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="C001118">
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.3724167440947 -31.944452297228914
+																		52.3724257628338 -31.943804648367422
+																		52.37207199275941 -31.943801818206826
+																		52.372079952926995 -31.94441012447827
+																		52.3724167440947 -31.944452297228914</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation xsi:nil="true" nilReason="unknown"/>
+									<aixm:verticalDatum  xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:verticalAccuracy  xsi:nil="true" nilReason="inapplicable"/>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:annotation>
+						<aixm:Note gml:id="n00ddd00">
+							<aixm:propertyName>markingICAOStandard</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln0ddd000">
+									<aixm:note>marked=UNKNOWN</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<!-- POLYGON OBSTACLE Area 3 (Terminal) -->
+	<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.9c171b9f-90d3-46e8-84b2-a8348e65e839">
+			<gml:identifier codeSpace="urn:uuid:">9c171b9f-90d3-46e8-84b2-a8348e65e839</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-EADD-1011">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_217">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_217">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-EADD-1011 (TERMINAL A)</aixm:name>
+					<aixm:type>BUILDING</aixm:type>
+					<aixm:lighted xsi:nil="true" nilReason="unknown"/>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_218">
+							<aixm:verticalExtent uom="M">15.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.5</aixm:verticalExtentAccuracy>
+							<aixm:type>BUILDING</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_219">
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="C001119">
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.37202325274635 -31.944411474482564
+																		52.37202671018989 -31.942652773005218
+																		52.37024936933618 -31.942381077588088
+																		52.370249685946185 -31.94399642025034
+																		52.37202325274635
+																		-31.944411474482564</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">31.5</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:annotation>
+						<aixm:Note gml:id="n0000dd">
+							<aixm:propertyName>markingICAOStandard</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln000dd0d">
+									<aixm:note>marked=UNKNOWN</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<!-- POLYGON OBSTACLE WITH SUPPORTED SERVICE Area 3 (Hangar 1) -->
+	<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.0a12b87b-fe93-4dbd-8f77-94b97d262083">
+			<gml:identifier codeSpace="urn:uuid:">0a12b87b-fe93-4dbd-8f77-94b97d262083</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-EADD-1012">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_225">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_225">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-EADD-1012 (HANGAR 1)</aixm:name>
+					<aixm:type>BUILDING</aixm:type>
+					<aixm:lighted xsi:nil="true" nilReason="unknown"/>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_226">
+							<aixm:verticalExtent uom="M">20.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.5</aixm:verticalExtentAccuracy>
+							<aixm:type>BUILDING</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_227">
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="C001120">
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.37336828819957 -31.94861756739893
+																		52.373304536303785 -31.94973261520167
+																		52.37212152917504 -31.949528843638824
+																		52.372153867201185 -31.9483824951364
+																		52.37336828819957 -31.94861756739893</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">55.0</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<!-- OPEN QUESTON: supportedService: is this information useful for an obstacle data set? -->
+					<aixm:supportedService xlink:href="urn:uuid:6d323fef-9ddb-4f7e-9986-a945276ed585" xlink:title="Hangar"/>
+					<aixm:annotation>
+						<aixm:Note gml:id="n0000ss">
+							<aixm:propertyName>markingICAOStandard</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln0000ss">
+									<aixm:note>marked=UNKNOWN</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<!-- POLYGON OBSTACLE Area 3 (Hangar 2) -->	
+	<message:hasMember>	
+		<aixm:VerticalStructure gml:id="uuid.742a1aa1-10a4-435e-9e18-7a0a30d1af59">
+			<gml:identifier codeSpace="urn:uuid:">742a1aa1-10a4-435e-9e18-7a0a30d1af59</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-EAD-1013">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_229">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_229">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-EADD-1013 (HANGAR 2)</aixm:name>
+					<aixm:type>BUILDING</aixm:type>
+					<aixm:lighted xsi:nil="true" nilReason="unknown"/>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_230">
+							<aixm:verticalExtent xsi:nil="true" nilReason="unknown"/>
+							<aixm:verticalExtentAccuracy xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:type>BUILDING</aixm:type>							
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_231">
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="C001121">
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.37396613869214 -31.948733118334466
+																		52.37397188482283 -31.949405421842457
+																		52.37355868137594 -31.949377120236502
+																		52.37356087309213 -31.948652735074965
+																		52.37396613869214
+																		-31.948733118334466</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation xsi:nil="true" nilReason="unknown"/>
+									<aixm:verticalDatum  xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:verticalAccuracy  xsi:nil="true" nilReason="inapplicable"/>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:annotation>
+						<aixm:Note gml:id="n0000zz">
+							<aixm:propertyName>markingICAOStandard</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln0000zz">
+									<aixm:note>marked=UNKNOWN</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<!-- POLYGON OBSTACLE Area 3 (Parking) -->
+	<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.225d45f0-b285-4d85-a699-84f76c57f4f8">
+			<gml:identifier codeSpace="urn:uuid:">225d45f0-b285-4d85-a699-84f76c57f4f8</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="ID_232">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_233">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_233">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-EADD-1014 OBS-EADD-1014 (PARKING AREA A)</aixm:name>
+					<aixm:type>BUILDING</aixm:type>
+					<aixm:lighted xsi:nil="true" nilReason="unknown"/>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_234">
+							<aixm:verticalExtent xsi:nil="true" nilReason="unknown"/>
+							<aixm:verticalExtentAccuracy xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:type>BUILDING</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_235">
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="C001122">
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.371823023325824
+																		-31.942040997867267 52.37068117016678
+																		-31.941727301944454 52.37095094866041
+																		-31.936588962728788 52.37164735360905
+																		-31.9357419837372 52.372199458433194
+																		-31.936369375582817 52.37206770614562
+																		-31.93879738202539 52.37200496696106
+																		-31.93947496521866 52.37194222777649
+																		-31.941790041129018 52.371823023325824
+																		-31.942040997867267</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation xsi:nil="true" nilReason="unknown"/>
+									<aixm:verticalDatum  xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:verticalAccuracy  xsi:nil="true" nilReason="inapplicable"/>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:annotation>
+						<aixm:Note gml:id="n0000ff">
+							<aixm:propertyName>markingICAOStandard</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln0000ff">
+									<aixm:note>marked=UNKNOWN</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
 	<message:hasMember>
 		<!-- AREA 1 -->
 		<aixm:ObstacleArea gml:id="uuid.03fcffab-d281-4da4-8acd-0b14461b7465">
@@ -10025,4 +11146,456 @@ Editorial note: this license is an instance of the BSD license template as provi
 			</aixm:timeSlice>
 		</aixm:ObstacleArea>
 	</message:hasMember>	
+		<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.225d45f0-b285-4d85-a699-84f76c57f4f8-1">
+			<gml:identifier codeSpace="urn:uuid:">225d45f0-b285-4d85-a699-84f76c57f4f8</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="ID_2327876">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_233453335">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_233456">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>OBS-EADD-1014 (PARKING AREA A)</aixm:name>
+					<aixm:type>BUILDING</aixm:type>
+					<aixm:lighted xsi:nil="true" nilReason="unknown"/>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_234567">
+							<aixm:verticalExtent xsi:nil="true" nilReason="unknown"/>
+							<aixm:verticalExtentAccuracy xsi:nil="true" nilReason="inapplicable"/>
+							<aixm:type>BUILDING</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_235-112">
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="C001122-112">
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.371823023325824
+																		-31.942040997867267 52.37068117016678
+																		-31.941727301944454 52.37095094866041
+																		-31.936588962728788 52.37164735360905
+																		-31.9357419837372 52.372199458433194
+																		-31.936369375582817 52.37206770614562
+																		-31.93879738202539 52.37200496696106
+																		-31.93947496521866 52.37194222777649
+																		-31.941790041129018 52.371823023325824
+																		-31.942040997867267</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation xsi:nil="true" nilReason="unknown"/>
+									<aixm:verticalDatum  xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:verticalAccuracy  xsi:nil="true" nilReason="inapplicable"/>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:annotation>
+						<aixm:Note gml:id="n0000ff-112">
+							<aixm:propertyName>markingICAOStandard</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln0000ff-112">
+									<aixm:note>marked=UNKNOWN</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+	<!-- AREA 2a (RWY 09L/27R)-->
+	<message:hasMember>
+		<aixm:ObstacleArea gml:id="uuid.f5824443-d2f6-4c66-8c40-799665734678">
+			<gml:identifier codeSpace="urn:uuid:">uuid.f5824443-d2f6-4c66-8c40-799665734678</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ObstacleAreaTimeSlice gml:id="oats0001-112">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp001">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp0001-112">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>OTHER:AREA2A</aixm:type>
+					<!-- In AIXM 5.1(1) does not provide a relationship between ObstcaleArea and Runway feature which is needed for AREA 2a. 
+						The workaround is to create an association from the ObstacleArea to the RunwayDirection with the lower designator value of the related Runway 
+						and add a corresponding Note containing the UUID of the Runway concerned (as described in the corresponding CP for AIXM 5.2). --> 
+					<aixm:reference_ownerRunway xlink:href="urn:uuid:c8455a6b-9319-4bb7-b797-08e644342d64" xlink:title="EADD RWY 09L"/>
+					<aixm:obstacle xlink:href="urn:uuid:c9bc6ea4-2b5e-4a71-af8a-eec2e4ff3dc3" xlink:title="OBS-EADD-1005 (GP 27R)"/>
+					<aixm:annotation>
+						<aixm:Note gml:id="n00010-0">
+							<aixm:propertyName>referenceownerRunway</aixm:propertyName>
+							<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="tn00010-2">
+									<aixm:note lang="eng">isRunway Runway identified by xlink:href="urn:uuid:9e51668f-bf8a-4f5b-ba6e-27087972b9b8"</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:ObstacleAreaTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ObstacleArea>
+	</message:hasMember>
+	<!-- AREA 2a (RWY 09R/27L)-->
+	<message:hasMember>
+		<aixm:ObstacleArea gml:id="uuid.7a5d14ab-b53f-4184-b37e-53ba37568338">
+			<gml:identifier codeSpace="urn:uuid:">7a5d14ab-b53f-4184-b37e-53ba37568338</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ObstacleAreaTimeSlice gml:id="oats0001-2">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp002">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp0001-2">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>OTHER:AREA2A</aixm:type>
+					<!-- In AIXM 5.1(1) does not provide a relationship between ObstcaleArea and Runway feature which is needed for AREA 2a. 
+						The workaround is to create an association from the ObstacleArea to the RunwayDirection with the lower designator value of the related Runway 
+						and add a corresponding Note containing the UUID of the Runway concerned (as described in the corresponding CP for AIXM 5.2). --> 
+					<aixm:reference_ownerRunway xlink:href="urn:uuid:5d6513d4-a62a-49e1-9e26-0b8cbf320daf" xlink:title="EADD RWY 09R"/>
+					<aixm:annotation>
+						<aixm:Note gml:id="n00020-1">
+							<aixm:propertyName>referenceownerRunway</aixm:propertyName>
+							<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="tn00020-2">
+									<aixm:note lang="eng">isRunway Runway identified by xlink:href="urn:uuid:4428d037-1cdf-433a-9bfa-d0857aaf448a"</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:ObstacleAreaTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ObstacleArea>
+	</message:hasMember>
+	<!-- AREA 2b (09L) -->
+	<message:hasMember>
+		<aixm:ObstacleArea gml:id="uuid.79f766fb-d8be-41c0-9a40-15f2ba46fbe1">
+			<gml:identifier codeSpace="urn:uuid:">79f766fb-d8be-41c0-9a40-15f2ba46fbe1</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ObstacleAreaTimeSlice gml:id="oats00020">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp003">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp00020">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>OTHER:AREA2B</aixm:type>
+					<aixm:reference_ownerRunway xlink:href="urn:uuid:c8455a6b-9319-4bb7-b797-08e644342d64" xlink:title="EADD RWY 09L"/>
+					<aixm:obstacle xlink:href="urn:uuid:83985f79-91f0-4f79-b9ba-87251e67ae9d" xlink:title="OBS-EADD-1004 (NDB SCONE)"/>			
+				</aixm:ObstacleAreaTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ObstacleArea>
+	</message:hasMember>
+	<!-- AREA 2b (27R) -->
+	<message:hasMember>
+		<aixm:ObstacleArea gml:id="uuid.7966d7eb-188b-4aa3-830e-d2a5d5b8809d">
+			<gml:identifier codeSpace="urn:uuid:">7966d7eb-188b-4aa3-830e-d2a5d5b8809d</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ObstacleAreaTimeSlice gml:id="oats00050">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp004">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp00050">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>OTHER:AREA2B</aixm:type>
+					<aixm:reference_ownerRunway xlink:href="urn:uuid:" xlink:title="EADD RWY 27R"/>
+					<aixm:obstacle xlink:href="urn:uuid:aa0c0b1e-3e9c-4564-b858-ace28b473c0a" xlink:title="OBS-EADD-1003 (Crane Temporary)"/>
+					<aixm:obstacle xlink:href="urn:uuid:8a6626f9-0739-4ec2-ae56-4a8af45ec9fe" xlink:title="OBS-EADD-1006 (Railroad)"/>
+					<aixm:obstacle xlink:href="urn:uuid:cd0bfb54-81b9-491e-880b-7f85fe2dbfb8" xlink:title="OBS-EADD-1008 (High Point)"/>
+				</aixm:ObstacleAreaTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ObstacleArea>
+	</message:hasMember>
+	<!-- AREA 2b (09R) -->
+	<message:hasMember>
+		<aixm:ObstacleArea gml:id="uuid.efe495c6-b220-40be-8556-ac8289d6f1be">
+			<gml:identifier codeSpace="urn:uuid:">efe495c6-b220-40be-8556-ac8289d6f1be</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ObstacleAreaTimeSlice gml:id="oats00060">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp007">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp00060">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>OTHER:AREA2B</aixm:type>
+					<aixm:reference_ownerRunway xlink:href="urn:uuid:" xlink:title="EADD RWY 09R"/>
+				</aixm:ObstacleAreaTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ObstacleArea>
+	</message:hasMember>
+	<!-- AREA 2b (27L) -->
+	<message:hasMember>
+		<aixm:ObstacleArea gml:id="uuid.9bce0fbc-a8d4-4c53-ba18-16e5fc7e7047">
+			<gml:identifier codeSpace="urn:uuid:">9bce0fbc-a8d4-4c53-ba18-16e5fc7e7047</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ObstacleAreaTimeSlice gml:id="oats00070">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp008">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp00070">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>OTHER:AREA2B</aixm:type>
+					<aixm:reference_ownerRunway xlink:href="urn:uuid:" xlink:title="EADD RWY 27L"/>
+				</aixm:ObstacleAreaTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ObstacleArea>
+	</message:hasMember>
+	<!-- AREA 2c (RWY 09L/27R)-->
+	<message:hasMember>
+		<aixm:ObstacleArea gml:id="uuid.82f937b7-8337-4e0c-82fd-f64086f9020c">
+			<gml:identifier codeSpace="urn:uuid:">82f937b7-8337-4e0c-82fd-f64086f9020c</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ObstacleAreaTimeSlice gml:id="oats00030">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp009">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp00030">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>OTHER:AREA2C</aixm:type>
+					<!-- In AIXM 5.1(1) does not provide a relationship between ObstcaleArea and Runway feature which is needed for AREA 2c. 
+						The workaround is to create an association from the ObstacleArea to the RunwayDirection with the lower designator value of the related Runway 
+						and add a corresponding Note containing the UUID of the Runway concerned (as described in the corresponding CP for AIXM 5.2). -->
+					<aixm:reference_ownerRunway xlink:href="urn:uuid:c8455a6b-9319-4bb7-b797-08e644342d64" xlink:title="EADD RWY 09L"/>
+					<aixm:obstacle xlink:href="urn:uuid:df421db4-3698-4003-9d71-93ca57e70ffc" xlink:title="OBS-EADD-1002 (Crane)"/>					
+					<aixm:annotation>
+						<aixm:Note gml:id="n00030-0">
+							<aixm:propertyName>referenceownerRunway</aixm:propertyName>
+							<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="tn00030-2">
+									<aixm:note lang="eng">isRunway Runway identified by xlink:href="urn:uuid:9e51668f-bf8a-4f5b-ba6e-27087972b9b8"</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:ObstacleAreaTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ObstacleArea>
+	</message:hasMember>
+	<!-- AREA 2c (RWY 09R/27L)-->
+	<message:hasMember>
+		<aixm:ObstacleArea gml:id="uuid.3aacffa4-e646-4ae6-9ab7-6e249a1957aa">
+			<gml:identifier codeSpace="urn:uuid:">3aacffa4-e646-4ae6-9ab7-6e249a1957aa</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ObstacleAreaTimeSlice gml:id="oats0001-3">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp011">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp0001-3">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>OTHER:AREA2C</aixm:type>
+					<!-- In AIXM 5.1(1) does not provide a relationship between ObstcaleArea and Runway feature which is needed for AREA 2a. 
+						The workaround is to create an association from the ObstacleArea to the RunwayDirection with the lower designator value of the related Runway 
+						and add a corresponding Note containing the UUID of the Runway concerned (as described in the corresponding CP for AIXM 5.2). --> 
+					<aixm:reference_ownerRunway xlink:href="urn:uuid:5d6513d4-a62a-49e1-9e26-0b8cbf320daf" xlink:title="EADD RWY 09R"/>
+					<aixm:obstacle xlink:href="urn:uuid:df421db4-3698-4003-9d71-93ca57e70ffc" xlink:title="OBS-EADD-1002 (Crane)"/>
+					<aixm:obstacle xlink:href="urn:uuid:aa0c0b1e-3e9c-4564-b858-ace28b473c0a" xlink:title="OBS-EADD-1003 (Crane Temporary)"/>
+					<aixm:annotation>
+						<aixm:Note gml:id="n00030-1">
+							<aixm:propertyName>referenceownerRunway</aixm:propertyName>
+							<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="tn00030-3">
+									<aixm:note lang="eng">isRunway Runway identified by xlink:href="urn:uuid:4428d037-1cdf-433a-9bfa-d0857aaf448a"</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:ObstacleAreaTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ObstacleArea>
+	</message:hasMember>
+	<!-- AREA 2d -->
+	<message:hasMember>
+		<aixm:ObstacleArea gml:id="uuid.47da6d21-c2e5-4dcc-a4dc-47d49ed850a4">
+			<gml:identifier codeSpace="urn:uuid:">47da6d21-c2e5-4dcc-a4dc-47d49ed850a4</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ObstacleAreaTimeSlice gml:id="oats00040">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp012">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp00040">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>OTHER:AREA2D</aixm:type>
+					<aixm:reference_ownerAirport xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c64" xlink:title="EADD"/>
+					<aixm:obstacle xlink:href="urn:uuid:499c5bb4-de1e-49fc-8db1-11ffa84406d6" xlink:title="DONLON NORTHEAST I"/>
+				</aixm:ObstacleAreaTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ObstacleArea>
+	</message:hasMember>
+	<!-- AREA 3 -->
+	<message:hasMember>
+		<aixm:ObstacleArea gml:id="uuid.691e4b3c-9d33-4115-860f-2f380e5b227b">
+			<gml:identifier codeSpace="urn:uuid:">691e4b3c-9d33-4115-860f-2f380e5b227b</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ObstacleAreaTimeSlice gml:id="oats00150">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp014">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp00150">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>AREA3</aixm:type>
+					<aixm:reference_ownerAirport xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c64" xlink:title="EADD"/>
+					<aixm:obstacle xlink:href="urn:uuid:66e649c8-aaba-4fac-9432-7ee33f90e2d5" xlink:title="OBS-EADD-1001 (Windsock)"/>
+					<aixm:obstacle xlink:href="urn:uuid:c9bc6ea4-2b5e-4a71-af8a-eec2e4ff3dc3" xlink:title="OBS-EADD-1005 (GP 27R)"/>
+					<aixm:obstacle xlink:href="urn:uuid:d22653bd-826d-411c-b8d3-838eba2a8325" xlink:title="OBS-EADD-1009 (TOWER EADD)"/>
+					<aixm:obstacle xlink:href="urn:uuid:14d8289b-4628-41c3-bcaa-be6e26e4b96a" xlink:title="OBS-EADD-1010 (AIS-MET)"/>
+					<aixm:obstacle xlink:href="urn:uuid:9c171b9f-90d3-46e8-84b2-a8348e65e839" xlink:title="OBS-EADD-1011 (Terminal)"/>
+					<aixm:obstacle xlink:href="urn:uuid:0a12b87b-fe93-4dbd-8f77-94b97d262083" xlink:title="OBS-EADD-1012 (Hangar 1)"/>
+					<aixm:obstacle xlink:href="urn:uuid:742a1aa1-10a4-435e-9e18-7a0a30d1af59" xlink:title="OBS-EADD-1013 (Hangar 2)"/>
+					<aixm:obstacle xlink:href="urn:uuid:225d45f0-b285-4d85-a699-84f76c57f4f8" xlink:title="OBS-EADD-1014 (Parking)"/>
+				</aixm:ObstacleAreaTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ObstacleArea>
+	</message:hasMember>
+	<!-- AREA 4 (27R) -->
+	<message:hasMember>
+		<aixm:ObstacleArea gml:id="uuid.d3b0ed7e-7eaa-4d0f-a77d-82f0334bbc2a">
+			<gml:identifier codeSpace="urn:uuid:">d3b0ed7e-7eaa-4d0f-a77d-82f0334bbc2a</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ObstacleAreaTimeSlice gml:id="oats00090">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp013">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp00090">
+							<gml:beginPosition>2019-09-12T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>AREA4</aixm:type>
+					<aixm:reference_ownerRunway xlink:href="urn:uuid:7966d7eb-188b-4aa3-830e-d2a5d5b8809d" xlink:title="EADD RWY 27R"/>
+					<aixm:obstacle xlink:href="urn:uuid:8a6626f9-0739-4ec2-ae56-4a8af45ec9fe" xlink:title="OBS-EADD-1006 (Railroad)"/>
+				</aixm:ObstacleAreaTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ObstacleArea>
+	</message:hasMember>
 </message:AIXMBasicMessage>
