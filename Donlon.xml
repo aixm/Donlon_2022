@@ -7234,11 +7234,15 @@ Editorial note: this license is an instance of the BSD license template as provi
 					<aixm:designator>09L/27R</aixm:designator>
 					<aixm:type>RWY</aixm:type>
 					<!-- Not required by PANS-AIM for mininimum AIP data set, but needed to define RWY or FATO -->
-					<aixm:nominalLength uom="M">2800.0</aixm:nominalLength>
+					<aixm:nominalLength uom="M">3200.0</aixm:nominalLength>
+					<!-- 2800 was changed to 3200-->
+					<!-- GIS measures 3203.04(Geodesic) -->
+					<!-- EUROCONTROL DQTS tool 3203.4 -->
 					<aixm:lengthAccuracy uom="M">1</aixm:lengthAccuracy>
 					<aixm:nominalWidth uom="M">45.0</aixm:nominalWidth>
 					<aixm:widthAccuracy uom="M">1</aixm:widthAccuracy>
-					<aixm:lengthStrip uom="M">2920.0</aixm:lengthStrip>
+					<aixm:lengthStrip uom="M">3320.0</aixm:lengthStrip>
+					<!-- 2920 was changed to 3320, 300m added for DISTHR and another 100 to correct 100m existing shortage-->
 					<!-- Not required by PANS-AIM for mininimum AIP data set -->
 					<aixm:widthStrip uom="M">300.0</aixm:widthStrip>
 					<!-- Not required by PANS-AIM for mininimum AIP data set -->
@@ -7319,7 +7323,10 @@ Editorial note: this license is an instance of the BSD license template as provi
 					<aixm:designator>09R/27L</aixm:designator>
 					<aixm:type>RWY</aixm:type>
 					<!-- Not required by PANS-AIM for mininimum AIP data set, but needed to define RWY or FATO -->
-					<aixm:nominalLength uom="M">2600.0</aixm:nominalLength>
+					<aixm:nominalLength uom="M">2700.0</aixm:nominalLength>
+					<!-- 2600 was changed to 2700-->
+					<!-- GIS measures 2702.03(Geodesic) -->
+					<!-- EUROCONTROL DQTS tool 2702.032 -->
 					<aixm:lengthAccuracy xsi:nil="true" nilReason="unknown"/>
 					<aixm:nominalWidth uom="M">45.0</aixm:nominalWidth>
 					<aixm:widthAccuracy xsi:nil="true" nilReason="unknown"/>
@@ -7451,7 +7458,10 @@ Editorial note: this license is an instance of the BSD license template as provi
 						</gml:TimePeriod>
 					</aixm:featureLifetime>
 					<aixm:designator>09L</aixm:designator>
-					<aixm:trueBearing>85.23</aixm:trueBearing>
+					<aixm:trueBearing>84.28</aixm:trueBearing>
+					<!-- was changed from 85.23 to 84.28-->
+					<!-- GIS 84.29 (measured from THR09L to new START RUN 27R)-->
+					<!-- EUROCONTROL DQTS tool 84.28 (measured from THR09L to new START RUN 27R)-->
 					<aixm:trueBearingAccuracy>0.01</aixm:trueBearingAccuracy>
 					<aixm:usedRunway xlink:href="urn:uuid:9e51668f-bf8a-4f5b-ba6e-27087972b9b8" xlink:title="RWY_EADD_09L_27R"/>
 				</aixm:RunwayDirectionTimeSlice>
@@ -7478,10 +7488,15 @@ Editorial note: this license is an instance of the BSD license template as provi
 						</gml:TimePeriod>
 					</aixm:featureLifetime>
 					<aixm:designator>27R</aixm:designator>
-					<aixm:trueBearing>265.23</aixm:trueBearing>
+					<aixm:trueBearing>264.32</aixm:trueBearing>
+					<!-- was changed from 265.23 to 264.32-->
+					<!-- GIS 264.3265 (measured from new DISTHR to 09L)-->
+					<!-- EUROCONTROL DQTS tool 264.315 (measured from new DISTHR to 09L)-->
+					<!-- EUROCONTROL DQTS tool 264.318 (measured from new START_RUN to 09L)-->
 					<aixm:trueBearingAccuracy>0.01</aixm:trueBearingAccuracy>
-					<aixm:elevationTDZ uom="M">20.5</aixm:elevationTDZ>
+					<aixm:elevationTDZ uom="M">17.0</aixm:elevationTDZ>
 					<!-- Not required by PANS-AIM for the minimum AIP data set. -->
+					<!-- was changed from 20.5 to 17.0 (aern. charts doc value)  DISTHR elev=16.5m, more realystic  -->
 					<aixm:usedRunway xlink:href="urn:uuid:9e51668f-bf8a-4f5b-ba6e-27087972b9b8" xlink:title="RWY_EADD_09L_27R"/>
 				</aixm:RunwayDirectionTimeSlice>
 			</aixm:timeSlice>
@@ -7561,7 +7576,10 @@ Editorial note: this license is an instance of the BSD license template as provi
 						</gml:TimePeriod>
 					</aixm:featureLifetime>
 					<aixm:designator>09R</aixm:designator>
-					<aixm:trueBearing>85.29</aixm:trueBearing>
+					<aixm:trueBearing>83.488</aixm:trueBearing>
+					<!-- was changed from 85.29 to 83.488-->
+					<!-- GIS 83.499 -->
+					<!-- EUROCONTROL DQTS tool 83.488-->
 					<aixm:trueBearingAccuracy xsi:nil="true" nilReason="unknown"/>
 					<aixm:usedRunway xlink:href="urn:uuid:4428d037-1cdf-433a-9bfa-d0857aaf448a" xlink:title="RWY_EADD_09R_27L"/>
 				</aixm:RunwayDirectionTimeSlice>
@@ -7588,7 +7606,10 @@ Editorial note: this license is an instance of the BSD license template as provi
 						</gml:TimePeriod>
 					</aixm:featureLifetime>
 					<aixm:designator>27L</aixm:designator>
-					<aixm:trueBearing>265.29</aixm:trueBearing>
+					<aixm:trueBearing>263.52</aixm:trueBearing>
+					<!-- was changed from 265.29 to 263.52 -->
+					<!-- GIS 263.53 -->
+					<!-- EUROCONTROL DQTS tool 263.52-->
 					<aixm:trueBearingAccuracy xsi:nil="true" nilReason="unknown"/>
 					<aixm:usedRunway xlink:href="urn:uuid:4428d037-1cdf-433a-9bfa-d0857aaf448a" xlink:title="RWY_EADD_09R_27L"/>
 				</aixm:RunwayDirectionTimeSlice>
@@ -7630,7 +7651,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<aixm:type>TORA</aixm:type>
 							<aixm:declaredValue>
 								<aixm:RunwayDeclaredDistanceValue gml:id="rddv001">
-									<aixm:distance uom="M">2800</aixm:distance>
+									<aixm:distance uom="M">3200</aixm:distance>
+									<!-- 2800 was changed to 3200-->
 									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"/>
 								</aixm:RunwayDeclaredDistanceValue>
 							</aixm:declaredValue>
@@ -7641,7 +7663,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<aixm:type>TODA</aixm:type>
 							<aixm:declaredValue>
 								<aixm:RunwayDeclaredDistanceValue gml:id="rddv002">
-									<aixm:distance uom="M">2800</aixm:distance>
+									<aixm:distance uom="M">3200</aixm:distance>
+									<!-- 2800 was changed to 3200-->
 									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"/>
 								</aixm:RunwayDeclaredDistanceValue>
 							</aixm:declaredValue>
@@ -7652,7 +7675,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<aixm:type>ASDA</aixm:type>
 							<aixm:declaredValue>
 								<aixm:RunwayDeclaredDistanceValue gml:id="rddv003">
-									<aixm:distance uom="M">2800</aixm:distance>
+									<aixm:distance uom="M">3200</aixm:distance>
+									<!-- 2800 was changed to 3200-->
 									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"/>
 								</aixm:RunwayDeclaredDistanceValue>
 							</aixm:declaredValue>
@@ -7663,7 +7687,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<aixm:type>LDA</aixm:type>
 							<aixm:declaredValue>
 								<aixm:RunwayDeclaredDistanceValue gml:id="rddv004">
-									<aixm:distance uom="M">2800</aixm:distance>
+									<aixm:distance uom="M">3200</aixm:distance>
+									<!-- 2800 was changed to 3200-->
 									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"/>
 								</aixm:RunwayDeclaredDistanceValue>
 							</aixm:declaredValue>
@@ -7893,7 +7918,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 		<aixm:RunwayCentrelinePoint gml:id="uuid.2ad2bc03-323b-41d3-992e-3c9d4e83dd02">
 			<gml:identifier codeSpace="urn:uuid:">2ad2bc03-323b-41d3-992e-3c9d4e83dd02</gml:identifier>
 			<aixm:timeSlice>
-				<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_07R">
+				<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_09R">
+				<!-- RCP_EADD_07R was changed to RCP_EADD_09R-->
 					<gml:validTime>
 						<gml:TimePeriod gml:id="ID_159">
 							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
@@ -7924,7 +7950,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<aixm:type>TORA</aixm:type>
 							<aixm:declaredValue>
 								<aixm:RunwayDeclaredDistanceValue gml:id="rddv021">
-									<aixm:distance uom="M">2600</aixm:distance>
+									<aixm:distance uom="M">2700</aixm:distance>
+									<!-- 2600 was changed to 2700-->
 									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"/>
 								</aixm:RunwayDeclaredDistanceValue>
 							</aixm:declaredValue>
@@ -7935,7 +7962,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<aixm:type>TODA</aixm:type>
 							<aixm:declaredValue>
 								<aixm:RunwayDeclaredDistanceValue gml:id="rddv022">
-									<aixm:distance uom="M">2600</aixm:distance>
+									<aixm:distance uom="M">2700</aixm:distance>
+									<!-- 2600 was changed to 2700-->
 									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"/>
 								</aixm:RunwayDeclaredDistanceValue>
 							</aixm:declaredValue>
@@ -7946,7 +7974,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<aixm:type>ASDA</aixm:type>
 							<aixm:declaredValue>
 								<aixm:RunwayDeclaredDistanceValue gml:id="rddv023">
-									<aixm:distance uom="M">2600</aixm:distance>
+									<aixm:distance uom="M">2700</aixm:distance>
+									<!-- 2600 was changed to 2700-->
 									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"/>
 								</aixm:RunwayDeclaredDistanceValue>
 							</aixm:declaredValue>
@@ -7957,7 +7986,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<aixm:type>LDA</aixm:type>
 							<aixm:declaredValue>
 								<aixm:RunwayDeclaredDistanceValue gml:id="rddv024">
-									<aixm:distance uom="M">2600</aixm:distance>
+									<aixm:distance uom="M">2700</aixm:distance>
+									<!-- 2600 was changed to 2700-->
 									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"/>
 								</aixm:RunwayDeclaredDistanceValue>
 							</aixm:declaredValue>
@@ -8002,7 +8032,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<aixm:type>TORA</aixm:type>
 							<aixm:declaredValue>
 								<aixm:RunwayDeclaredDistanceValue gml:id="rddv041">
-									<aixm:distance uom="M">2600</aixm:distance>
+									<aixm:distance uom="M">2700</aixm:distance>
+									<!-- 2600 was changed to 2700-->
 									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"/>
 								</aixm:RunwayDeclaredDistanceValue>
 							</aixm:declaredValue>
@@ -8013,7 +8044,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<aixm:type>TODA</aixm:type>
 							<aixm:declaredValue>
 								<aixm:RunwayDeclaredDistanceValue gml:id="rddv042">
-									<aixm:distance uom="M">3000</aixm:distance>
+									<aixm:distance uom="M">3100</aixm:distance>
+									<!-- 3000 was changed to 3100-->
 									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"/>
 								</aixm:RunwayDeclaredDistanceValue>
 							</aixm:declaredValue>
@@ -8024,7 +8056,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<aixm:type>ASDA</aixm:type>
 							<aixm:declaredValue>
 								<aixm:RunwayDeclaredDistanceValue gml:id="rddv043">
-									<aixm:distance uom="M">2800</aixm:distance>
+									<aixm:distance uom="M">2900</aixm:distance>
+									<!-- 2800 was changed to 2900-->
 									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"/>
 								</aixm:RunwayDeclaredDistanceValue>
 							</aixm:declaredValue>
@@ -8035,7 +8068,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<aixm:type>LDA</aixm:type>
 							<aixm:declaredValue>
 								<aixm:RunwayDeclaredDistanceValue gml:id="rddv044">
-									<aixm:distance uom="M">2600</aixm:distance>
+									<aixm:distance uom="M">2700</aixm:distance>
+									<!-- 2600 was changed to 2700-->
 									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"/>
 								</aixm:RunwayDeclaredDistanceValue>
 							</aixm:declaredValue>
