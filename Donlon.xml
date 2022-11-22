@@ -8170,6 +8170,546 @@ Editorial note: this license is an instance of the BSD license template as provi
 		</aixm:GuidanceLine>
 	</message:hasMember>
 	<message:hasMember>
+		<aixm:RunwayElement gml:id="uuid.7a8f00e8-15f0-402f-9562-3c109999d545">
+			<gml:identifier codeSpace="urn:uuid:">7a8f00e8-15f0-402f-9562-3c109999d545</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RunwayElementTimeSlice gml:id="ID_164">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_165">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_165">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:associatedRunway xlink:href="urn:uuid:9e51668f-bf8a-4f5b-ba6e-27087972b9b8"/>
+					<aixm:extent>
+						<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_166">
+							<gml:patches>
+								<gml:PolygonPatch>
+									<gml:exterior>
+										<gml:Ring>
+											<gml:curveMember>
+												<gml:Curve gml:id="C00114">
+													<gml:segments>
+														<gml:GeodesicString>
+															<gml:posList>52.37590585931356 -31.964278043969905 52.375111423433644 -31.964228391727417 52.377870286949445 -31.92180984838786 52.378484819142066 -31.921878401779864 52.37590585931356 -31.964278043969905</gml:posList>
+														</gml:GeodesicString>
+													</gml:segments>
+												</gml:Curve>
+											</gml:curveMember>
+										</gml:Ring>
+									</gml:exterior>
+								</gml:PolygonPatch>
+							</gml:patches>
+						</aixm:ElevatedSurface>
+					</aixm:extent>
+				</aixm:RunwayElementTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayElement>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RunwayElement gml:id="uuid.e24947bb-5083-433e-b125-89199c1d1233">
+			<gml:identifier codeSpace="urn:uuid:">e24947bb-5083-433e-b125-89199c1d1233</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RunwayElementTimeSlice gml:id="ID_167">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_168">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_168">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:associatedRunway xlink:href="urn:uuid:4428d037-1cdf-433a-9bfa-d0857aaf448a"/>
+					<aixm:extent>
+						<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_169">
+							<gml:patches>
+								<gml:PolygonPatch>
+									<gml:exterior>
+										<gml:Ring>
+											<gml:curveMember>
+												<gml:Curve gml:id="C00115">
+													<gml:segments>
+														<gml:GeodesicString>
+															<gml:posList>52.36589862656441 -31.96504267834769 52.36519841646239 -31.964972171080476 52.36785927788303 -31.925539068377507 52.36850257170318 -31.92561516687336 52.36589862656441 -31.96504267834769</gml:posList>
+														</gml:GeodesicString>
+													</gml:segments>
+												</gml:Curve>
+											</gml:curveMember>
+										</gml:Ring>
+									</gml:exterior>
+								</gml:PolygonPatch>
+							</gml:patches>
+						</aixm:ElevatedSurface>
+					</aixm:extent>
+				</aixm:RunwayElementTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayElement>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:ApronElement gml:id="uuid.285fd2af-599a-4f9b-b812-fd24a68416c4">
+			<gml:identifier codeSpace="urn:uuid:">285fd2af-599a-4f9b-b812-fd24a68416c4</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ApronElementTimeSlice gml:id="ID_191">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_192">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_192">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:associatedApron xlink:href="urn:uuid:d6cf5b07-9fb4-4afb-9b47-841643da3e99"/>
+					<aixm:extent>
+						<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_193">
+							<gml:patches>
+								<gml:PolygonPatch>
+									<gml:exterior>
+										<gml:Ring>
+											<gml:curveMember>
+												<gml:Curve gml:id="C001113">
+													<gml:segments>
+														<gml:GeodesicString>
+															<gml:posList>52.369376203479014 -31.947955104361693 52.36948258558073 -31.947865454851 52.372153867201185 -31.9483824951364 52.37336828819957 -31.94861756739893 52.37356087309213 -31.948652735074965 52.37396613869214 -31.948733118334466 52.374096781103304 -31.94875745923603 52.37429500429997 -31.948911632833443 52.3745158937468 -31.94927834993428 52.37490876237152 -31.942638644826488 52.37475453248021 -31.9432259047973 52.3745528472377 -31.943863586078734 52.37433633219796 -31.944296616158216 52.37404882338086 -31.944655400246912 52.37384564168429 -31.944668155420775 52.373419352744456 -31.94465243187102 52.373240585956786 -31.94466222350188 52.373107871178895 -31.94453075660838 52.37298351392235 -31.94438774576335 52.372846720940146 -31.944338002860732 52.37273479940925 -31.944331784997903 52.37259178856422 -31.94439396362618 52.37248632123943 -31.944468912666462 52.3724167440947 -31.944452297228914 52.372079952926995 -31.94441012447827 52.37202325274635 -31.944411474482564 52.370249685946185 -31.94399642025034 52.37006846582388 -31.943919305304682 52.369937370416245 -31.943788209897058 52.3698101307559 -31.943618557016602 52.36966361235915 -31.943132732858935 52.369376203479014 -31.947955104361693</gml:posList>
+														</gml:GeodesicString>
+													</gml:segments>
+												</gml:Curve>
+											</gml:curveMember>
+										</gml:Ring>
+									</gml:exterior>
+								</gml:PolygonPatch>
+							</gml:patches>
+						</aixm:ElevatedSurface>
+					</aixm:extent>
+				</aixm:ApronElementTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ApronElement>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:ApronElement gml:id="uuid.f2cd7c2f-2d8a-4a78-a101-b14fdd1e742c">
+			<gml:identifier codeSpace="urn:uuid:">f2cd7c2f-2d8a-4a78-a101-b14fdd1e742c</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ApronElementTimeSlice gml:id="ID_198">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_199">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_199">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:associatedApron xlink:href="urn:uuid:1707f988-e674-4290-933c-047d87b85bd8"/>
+					<aixm:extent>
+						<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_200">
+							<gml:patches>
+								<gml:PolygonPatch>
+									<gml:exterior>
+										<gml:Ring>
+											<gml:curveMember>
+												<gml:Curve gml:id="C001114">
+													<gml:segments>
+														<gml:GeodesicString>
+															<gml:posList>52.37044355915342 -31.928666462531368 52.3705558375811 -31.925885568981418 52.37077393114787 -31.925981131191815 52.370994179144176 -31.926235263495247 52.37096876591384 -31.927810883776495 52.37044355915342 -31.928666462531368</gml:posList>
+														</gml:GeodesicString>
+													</gml:segments>
+												</gml:Curve>
+											</gml:curveMember>
+										</gml:Ring>
+									</gml:exterior>
+								</gml:PolygonPatch>
+							</gml:patches>
+						</aixm:ElevatedSurface>
+					</aixm:extent>
+				</aixm:ApronElementTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ApronElement>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:ApronElement gml:id="uuid.7c413d5e-c678-4d65-8975-c1411a5968ce">
+			<gml:identifier codeSpace="urn:uuid:">7c413d5e-c678-4d65-8975-c1411a5968ce</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ApronElementTimeSlice gml:id="ID_205">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_206">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_206">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:associatedApron xlink:href="urn:uuid:0e131693-cf13-4938-9969-994d7f56a23c"/>
+					<aixm:extent>
+						<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_207">
+							<gml:patches>
+								<gml:PolygonPatch>
+									<gml:exterior>
+										<gml:Ring>
+											<gml:curveMember>
+												<gml:Curve gml:id="C001116">
+													<gml:segments>
+														<gml:GeodesicString>
+															<gml:posList>52.374727292287155 -31.964265101088674 52.374597782032694 -31.964408744622993 52.37446847054829 -31.964543670223794 52.374403184591124 -31.96479548748714 52.37335843906866 -31.964651876423467 52.37319265266536 -31.964430827885742 52.37314492627653 -31.964227362754418 52.37321871079687 -31.961960211633183 52.3734622004889 -31.96167429078847 52.37366508594749 -31.961349674054734 52.37382493754196 -31.960971595710426 52.37367432444154 -31.96407068771583 52.374727292287155 -31.964265101088674</gml:posList>
+														</gml:GeodesicString>
+													</gml:segments>
+												</gml:Curve>
+											</gml:curveMember>
+										</gml:Ring>
+									</gml:exterior>
+								</gml:PolygonPatch>
+							</gml:patches>
+						</aixm:ElevatedSurface>
+					</aixm:extent>
+				</aixm:ApronElementTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ApronElement>
+	</message:hasMember>
+		<message:hasMember>
+		<aixm:TaxiwayElement gml:id="uuid.cf10b08e-3cd0-4ac3-be6d-ec423bac7a90">
+			<gml:identifier codeSpace="urn:uuid:">cf10b08e-3cd0-4ac3-be6d-ec423bac7a90</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:TaxiwayElementTimeSlice gml:id="ID_170">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_171">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_171">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:associatedTaxiway xlink:href="urn:uuid:78396f68-9c03-438a-a6b4-331157b1a79c"/>
+					<aixm:extent>
+						<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_172">
+							<gml:patches>
+								<gml:PolygonPatch>
+									<gml:exterior>
+										<gml:Ring>
+											<gml:curveMember>
+												<gml:Curve gml:id="C00116">
+													<gml:segments>
+														<gml:GeodesicString>
+															<gml:posList>52.374114061066535 -31.960971595710426 52.3744611279516 -31.95616981216965 52.37453053140269 -31.954519552332492 52.37521579457132 -31.943777975195324 52.37535133179981 -31.941558553078725 52.376147020041884 -31.92837951247149 52.37622521459678 -31.92756498585794 52.37654100007663 -31.922114654922687 52.376575701802174 -31.921983559515066 52.376660528242404 -31.921929579053103 52.37784085296367 -31.922251530702038 52.377870286949445 -31.92180984838786 52.37655754145512 -31.921374583594957 52.37640766855823 -31.921394132233683 52.37627495351409 -31.921509302599247 52.37619398282116 -31.92167509973242 52.37615353625479 -31.921869815775995 52.37490876237152 -31.942638644826488 52.3745158937468 -31.94927834993428 52.37382493754196 -31.960971595710426 52.37367432444154 -31.96407068771583 52.374727292287155 -31.964265101088674 52.375111423433644 -31.964228391727417 52.37514852880121 -31.963669143754903 52.37413010408671 -31.963484475292006 52.37403221201539 -31.963411376762416 52.37398348915221 -31.963265930776455 52.374114061066535 -31.960971595710426</gml:posList>
+														</gml:GeodesicString>
+													</gml:segments>
+												</gml:Curve>
+											</gml:curveMember>
+										</gml:Ring>
+									</gml:exterior>
+								</gml:PolygonPatch>
+							</gml:patches>
+						</aixm:ElevatedSurface>
+					</aixm:extent>
+				</aixm:TaxiwayElementTimeSlice>
+			</aixm:timeSlice>
+		</aixm:TaxiwayElement>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:TaxiwayElement gml:id="uuid.d5465b90-8f8b-4332-b9f4-f564ffefd7ea">
+			<gml:identifier codeSpace="urn:uuid:">d5465b90-8f8b-4332-b9f4-f564ffefd7ea</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:TaxiwayElementTimeSlice gml:id="ID_173">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_174">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_174">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:associatedTaxiway xlink:href="urn:uuid:8a3a6406-6d9e-42e5-a5d7-daac00dc0d52"/>
+					<aixm:extent>
+						<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_175">
+							<gml:patches>
+								<gml:PolygonPatch>
+									<gml:exterior>
+										<gml:Ring>
+											<gml:curveMember>
+												<gml:Curve gml:id="C00117">
+													<gml:segments>
+														<gml:GeodesicString>
+															<gml:posList>52.3744611279516 -31.95616981216965 52.374534458374534 -31.95583776746803 52.374603861825626 -31.95566040309301 52.374734957233244 -31.95545990423429 52.37585820657654 -31.952764796553602 52.375960762592015 -31.951171207621044 52.374694569889876 -31.954570921916073 52.37465008049815 -31.954615411307802 52.374575931511934 -31.954573887875526 52.37453053140269 -31.954519552332492 52.3744611279516 -31.95616981216965</gml:posList>
+														</gml:GeodesicString>
+													</gml:segments>
+												</gml:Curve>
+											</gml:curveMember>
+										</gml:Ring>
+									</gml:exterior>
+								</gml:PolygonPatch>
+							</gml:patches>
+						</aixm:ElevatedSurface>
+					</aixm:extent>
+				</aixm:TaxiwayElementTimeSlice>
+			</aixm:timeSlice>
+		</aixm:TaxiwayElement>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:TaxiwayElement gml:id="uuid.867a4fab-e1e7-499c-90fd-38543a4bc19c">
+			<gml:identifier codeSpace="urn:uuid:">867a4fab-e1e7-499c-90fd-38543a4bc19c</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:TaxiwayElementTimeSlice gml:id="ID_176">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_177">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_177">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:associatedTaxiway xlink:href="urn:uuid:d3a7ea1e-93d2-4298-adb3-141906a7b178"/>
+					<aixm:extent>
+						<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_178">
+							<gml:patches>
+								<gml:PolygonPatch>
+									<gml:exterior>
+										<gml:Ring>
+											<gml:curveMember>
+												<gml:Curve gml:id="C00118">
+													<gml:segments>
+														<gml:GeodesicString>
+															<gml:posList>52.37521579457132 -31.943777975195324 52.37533561042285 -31.943061454913373 52.37550740385998 -31.942445861763698 52.37671701222849 -31.939541219415187 52.37682671332614 -31.937855848697783 52.37535133179981 -31.941558553078725 52.37521579457132 -31.943777975195324</gml:posList>
+														</gml:GeodesicString>
+													</gml:segments>
+												</gml:Curve>
+											</gml:curveMember>
+										</gml:Ring>
+									</gml:exterior>
+								</gml:PolygonPatch>
+							</gml:patches>
+						</aixm:ElevatedSurface>
+					</aixm:extent>
+				</aixm:TaxiwayElementTimeSlice>
+			</aixm:timeSlice>
+		</aixm:TaxiwayElement>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:TaxiwayElement gml:id="uuid.63f05cec-6e82-49f6-8e0c-20ef2e1b3ac1">
+			<gml:identifier codeSpace="urn:uuid:">63f05cec-6e82-49f6-8e0c-20ef2e1b3ac1</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:TaxiwayElementTimeSlice gml:id="ID_179">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_180">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_180">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:associatedTaxiway xlink:href="urn:uuid:51474004-6ec1-47a0-bada-404b866e6549"/>
+					<aixm:extent>
+						<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_181">
+							<gml:patches>
+								<gml:PolygonPatch>
+									<gml:exterior>
+										<gml:Ring>
+											<gml:curveMember>
+												<gml:Curve gml:id="C00119">
+													<gml:segments>
+														<gml:GeodesicString>
+															<gml:posList>52.376147020041884 -31.92837951247149 52.37631186072712 -31.92831215561649 52.37718553237552 -31.928537670382788 52.37741623285176 -31.928785664733155 52.37748253483813 -31.927771164459894 52.377238895008716 -31.927982851524785 52.37640740347544 -31.92780356267792 52.37622521459678 -31.92756498585794 52.376147020041884 -31.92837951247149</gml:posList>
+														</gml:GeodesicString>
+													</gml:segments>
+												</gml:Curve>
+											</gml:curveMember>
+										</gml:Ring>
+									</gml:exterior>
+								</gml:PolygonPatch>
+							</gml:patches>
+						</aixm:ElevatedSurface>
+					</aixm:extent>
+				</aixm:TaxiwayElementTimeSlice>
+			</aixm:timeSlice>
+		</aixm:TaxiwayElement>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:TaxiwayElement gml:id="uuid.3d4a46a4-df85-497a-b19a-e2d7d16cd66b">
+			<gml:identifier codeSpace="urn:uuid:">3d4a46a4-df85-497a-b19a-e2d7d16cd66b</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:TaxiwayElementTimeSlice gml:id="ID_182">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_183">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_183">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:associatedTaxiway xlink:href="urn:uuid:a45ec8a1-2259-4140-8322-a441e3006cb3"/>
+					<aixm:extent>
+						<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_184">
+							<gml:patches>
+								<gml:PolygonPatch>
+									<gml:exterior>
+										<gml:Ring>
+											<gml:curveMember>
+												<gml:Curve gml:id="C001110">
+													<gml:segments>
+														<gml:GeodesicString>
+															<gml:posList>52.369376203479014 -31.947955104361693 52.36966361235915 -31.943132732858935 52.37044355915342 -31.928666462531368 52.3705558375811 -31.925885568981418 52.36850257170318 -31.92561516687336 52.36847133176303 -31.926078211791108 52.36992989174596 -31.92645630929092 52.37017550284791 -31.926561571191748 52.36985971714541 -31.93303267185691 52.369794555016334 -31.93398504143583 52.36890734756649 -31.947739263143987 52.36874193600805 -31.94818036063317 52.36669067900043 -31.953041507599508 52.36659929409392 -31.95443305049401 52.369376203479014 -31.947955104361693</gml:posList>
+														</gml:GeodesicString>
+													</gml:segments>
+												</gml:Curve>
+											</gml:curveMember>
+										</gml:Ring>
+									</gml:exterior>
+								</gml:PolygonPatch>
+							</gml:patches>
+						</aixm:ElevatedSurface>
+					</aixm:extent>
+				</aixm:TaxiwayElementTimeSlice>
+			</aixm:timeSlice>
+		</aixm:TaxiwayElement>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:TaxiwayElement gml:id="uuid.0a6b3bbb-912b-4afd-9412-33947d8dca61">
+			<gml:identifier codeSpace="urn:uuid:">0a6b3bbb-912b-4afd-9412-33947d8dca61</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:TaxiwayElementTimeSlice gml:id="ID_185">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_186">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_186">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:associatedTaxiway xlink:href="urn:uuid:125d2cc5-2fd4-4917-8a08-a1586bce481d"/>
+					<aixm:extent>
+						<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_187">
+							<gml:patches>
+								<gml:PolygonPatch>
+									<gml:exterior>
+										<gml:Ring>
+											<gml:curveMember>
+												<gml:Curve gml:id="C001111">
+													<gml:segments>
+														<gml:GeodesicString>
+															<gml:posList>52.369794555016334 -31.93398504143583 52.369727240094264 -31.933821252142682 52.36962343151356 -31.933735239318672 52.3679875582048 -31.933408647349477 52.36802915351955 -31.932787080998335 52.369693660147306 -31.93309968028133 52.3697861980821 -31.93308811303948 52.36985971714541 -31.93303267185691 52.369794555016334 -31.93398504143583</gml:posList>
+														</gml:GeodesicString>
+													</gml:segments>
+												</gml:Curve>
+											</gml:curveMember>
+										</gml:Ring>
+									</gml:exterior>
+								</gml:PolygonPatch>
+							</gml:patches>
+						</aixm:ElevatedSurface>
+					</aixm:extent>
+				</aixm:TaxiwayElementTimeSlice>
+			</aixm:timeSlice>
+		</aixm:TaxiwayElement>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:TaxiwayElement gml:id="uuid.4d78044e-2ca4-475a-a678-123e5f7f388b">
+			<gml:identifier codeSpace="urn:uuid:">4d78044e-2ca4-475a-a678-123e5f7f388b</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:TaxiwayElementTimeSlice gml:id="ID_188">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_189">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_189">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:associatedTaxiway xlink:href="urn:uuid:0c049047-56f5-41a1-ba56-d0695817a3d2"/>
+					<aixm:extent>
+						<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_190">
+							<gml:patches>
+								<gml:PolygonPatch>
+									<gml:exterior>
+										<gml:Ring>
+											<gml:curveMember>
+												<gml:Curve gml:id="C001112">
+													<gml:segments>
+														<gml:GeodesicString>
+															<gml:posList>52.373419352744456 -31.94465243187102 52.37341876432026 -31.94356698787013 52.3738353611297 -31.943635384361233 52.37384564168429 -31.944668155420775 52.373419352744456 -31.94465243187102</gml:posList>
+														</gml:GeodesicString>
+													</gml:segments>
+												</gml:Curve>
+											</gml:curveMember>
+										</gml:Ring>
+									</gml:exterior>
+								</gml:PolygonPatch>
+							</gml:patches>
+						</aixm:ElevatedSurface>
+					</aixm:extent>
+				</aixm:TaxiwayElementTimeSlice>
+			</aixm:timeSlice>
+		</aixm:TaxiwayElement>
+	</message:hasMember>
+	<message:hasMember>
 		<aixm:VerticalStructure gml:id="uuid.5f68d835-828c-4ccd-91b7-791058d9dd4d">
 			<!-- SINGLE POINT OBSTACLE. 
 			This sample obstacle contains all the AIXM properties for Vertical Stucture (with annotations). 
