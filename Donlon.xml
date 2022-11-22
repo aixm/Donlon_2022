@@ -7770,8 +7770,9 @@ Editorial note: this license is an instance of the BSD license template as provi
 					<aixm:role>START_RUN</aixm:role>
 					<aixm:location>
 						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="RCPP11">
-							<gml:pos>52.378189 -31.921847</gml:pos>
+							<gml:pos>52.37845606 -31.91746175</gml:pos>
 							<!-- ICAO/EC AIP specimen data of DONLON have altered, a displaced THR has been added. the actul THR psoition is usewd for START_RUN-->
+							<!-- RCP_EADD_27R_START_RUN  was moved to a new position calculated by GIS, 300m from new RCP_EADD_27R(DISTHR)-->
 							<aixm:horizontalAccuracy uom="M">1</aixm:horizontalAccuracy>
 							<aixm:elevation uom="M">16.5</aixm:elevation>
 							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
@@ -7784,7 +7785,10 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<aixm:type>TORA</aixm:type>
 							<aixm:declaredValue>
 								<aixm:RunwayDeclaredDistanceValue gml:id="rddv0111">
-									<aixm:distance uom="M">2800</aixm:distance>
+									<aixm:distance uom="M">3200</aixm:distance>
+									<!-- 2800 was changed to 3200-->
+									<!-- GIS measures 3203.04(Geodesic) -->
+									<!-- EUROCONTROL DQTS tool 3203.4 -->
 									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"/>
 								</aixm:RunwayDeclaredDistanceValue>
 							</aixm:declaredValue>
@@ -7795,7 +7799,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<aixm:type>TODA</aixm:type>
 							<aixm:declaredValue>
 								<aixm:RunwayDeclaredDistanceValue gml:id="rddv0121">
-									<aixm:distance uom="M">2800</aixm:distance>
+									<aixm:distance uom="M">3200</aixm:distance>
+									<!-- 2800 was changed to 3200-->
 									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"/>
 								</aixm:RunwayDeclaredDistanceValue>
 							</aixm:declaredValue>
@@ -7806,7 +7811,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<aixm:type>ASDA</aixm:type>
 							<aixm:declaredValue>
 								<aixm:RunwayDeclaredDistanceValue gml:id="rddv013">
-									<aixm:distance uom="M">2800</aixm:distance>
+									<aixm:distance uom="M">3200</aixm:distance>
+									<!-- 2800 was changed to 3200-->
 									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"/>
 								</aixm:RunwayDeclaredDistanceValue>
 							</aixm:declaredValue>
