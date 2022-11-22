@@ -7695,7 +7695,8 @@ Editorial note: this license is an instance of the BSD license template as provi
 					<aixm:role>DISTHR</aixm:role>
 					<aixm:location>
 						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="RCPP1">
-							<gml:pos>52.377736 -31.930628</gml:pos>
+							<gml:pos>52.378189 -31.921847</gml:pos>
+							<!-- coordinates were changed from DISTHR old coordinates to START_RUN old coordinates-->
 							<!-- ICAO/EC AIP specimen data of DONLON have altered, a displaced THR (of 300m) has been calculated-->
 							<aixm:horizontalAccuracy uom="M">1</aixm:horizontalAccuracy>
 							<aixm:elevation uom="M">16.5</aixm:elevation>
@@ -7709,7 +7710,10 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<aixm:type>LDA</aixm:type>
 							<aixm:declaredValue>
 								<aixm:RunwayDeclaredDistanceValue gml:id="rddv014">
-									<aixm:distance uom="M">2500</aixm:distance>
+									<aixm:distance uom="M">2900</aixm:distance>
+									<!-- 2500 was changed to 2900-->
+									<!-- GIS measures 2902.9(Geodesic) -->
+									<!-- EUROCONTROL DQTS tool 2902.9 -->
 									<aixm:distanceAccuracy xsi:nil="true" nilReason="unknown"/>
 								</aixm:RunwayDeclaredDistanceValue>
 							</aixm:declaredValue>
