@@ -63,12 +63,12 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <event:scope>AE</event:scope>
                             <event:minimumFL>000</event:minimumFL> 
                             <event:maximumFL>999</event:maximumFL>
-                            <event:coordinates>5222N03156W</event:coordinates>
+                            <event:coordinates>5221N03158W</event:coordinates>
                             <event:radius>001</event:radius>
                             <event:location>EADD</event:location>
                             <event:effectiveStart>2206030700</event:effectiveStart>
                             <event:effectiveEnd>2207012100</event:effectiveEnd>
-                            <event:text> Temporary group of power plant located in the vicinity of EADD DONLON/INTL airport.
+                            <event:text>Temporary group of power plant located in the vicinity of EADD DONLON/INTL airport.
                                 522059N 0315803W 522058N 0315759W 522108N 0315759W 522102N 0315801W 522059N 315807W 522059N 0315804W (height 130.5M)
                                 3.5KM (1.9NM) from EADD DONLON/INTL. ARP
                                 Lighted.
@@ -89,11 +89,11 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <event:minimumFL>000</event:minimumFL> 
                             <event:maximumFL>999</event:maximumFL>
                             <event:coordinates>5217N03202W</event:coordinates>
-                            <event:radius>001</event:radius>
+                            <event:radius>005</event:radius>
                             <event:location>EADH</event:location>
                             <event:effectiveStart>2206030700</event:effectiveStart>
                             <event:effectiveEnd>2207012100</event:effectiveEnd>
-                            <event:text> Temporary group of power plant erected located in the vicinity of EADD DONLON/INTL airport.
+                            <event:text>Temporary group of power plant erected located in the vicinity of EADD DONLON/INTL airport.
                                 522059N 0315803W 522058N 0315759W 522108N 0315759W 522102N 0315801W 522059N 315807W 522059N 0315804W (height 130.5M)
                                 3.5KM (1.9NM) from EADD DONLON/INTL. ARP
                                 Lighted.
@@ -111,8 +111,8 @@ Editorial note: this license is an instance of the BSD license template as provi
                 <aixm:VerticalStructureTimeSlice gml:id="ID_n001">
                     <gml:validTime>
                         <gml:TimePeriod gml:id="ID_n002">
-                            <gml:beginPosition>2018-06-03T07:00:00Z</gml:beginPosition>
-                            <gml:endPosition>2018-07-01T21:00:00Z</gml:endPosition>
+                            <gml:beginPosition>2022-06-03T07:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-07-01T21:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
@@ -120,8 +120,8 @@ Editorial note: this license is an instance of the BSD license template as provi
                     <aixm:correctionNumber>0</aixm:correctionNumber>
                     <aixm:featureLifetime>
                         <gml:TimePeriod gml:id="ID_n003">
-                            <gml:beginPosition>2018-06-03T07:00:00Z</gml:beginPosition>
-                            <gml:endPosition>2018-07-01T21:00:00Z</gml:endPosition>
+                            <gml:beginPosition>2022-06-03T07:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-07-01T21:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                     </aixm:featureLifetime>
                     <aixm:type>POWER_PLANT</aixm:type>
