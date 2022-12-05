@@ -11124,6 +11124,1434 @@ Editorial note: this license is an instance of the BSD license template as provi
 			</aixm:timeSlice>
 		</aixm:VerticalStructure>
 	</message:hasMember>
+	<!-- Precision Approach Terrain Contours coded as Polygons -->
+	<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.c2398627-0dc0-4bd6-ad19-a740e68c444f">
+			<gml:identifier codeSpace="urn:uuid:">c2398627-0dc0-4bd6-ad19-a740e68c444f</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-Terrain_polygons">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_07">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt_ID_DCH_07">
+							<gml:beginPosition>2013-04-23T12:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>DONLON RWY 27R - PRECISION APPROACH TERRAIN CONTOURS</aixm:name>
+					<aixm:type>OTHER:TERRAIN_CONTOURS</aixm:type>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_08">
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_09">
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_002">
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.377652266 -31.921759696 52.378725734 -31.921934306 52.378992801 -31.917548999 52.377919327 -31.917374495 52.377652266 -31.921759696 </gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">16.5</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_11">
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_12">
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_003">
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.378828439 -31.917522278 52.378795663 -31.917349339 52.378828726 -31.917188309 52.379030289 -31.916933225 52.379057199 -31.916491175 52.378923157 -31.916208501 52.378860004 -31.916144804 52.378798209 -31.916223033 52.378757447 -31.916274626 52.378695649 -31.916352841 52.378592415 -31.916412004 52.378591077 -31.916411856 52.378426255 -31.916431015 52.378384603 -31.916389008 52.378370125 -31.916312605 52.378256489 -31.9160729 52.378235214 -31.916005103 52.378089515 -31.916007001 52.378016881 -31.916030492 52.37799449 -31.916139801 52.377993768 -31.916151661 52.377995256 -31.916308842 52.378065876 -31.916457813 52.37809531 -31.916613106 52.378137407 -31.916701906 52.37813808 -31.916772104 52.378097322 -31.91682369 52.377973724 -31.916980137 52.377953345 -31.917005934 52.377939608 -31.917041344 52.377919326 -31.917374495 52.378828439 -31.917522278</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">17.4</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_14">
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_15">
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_004">
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.378828439 -31.917522278 52.378795663 -31.917349339 52.378828726 -31.917188309 52.379030289 -31.916933225 52.378992801 -31.917548999 52.378828439 -31.917522278 </gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">16.3</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_17">
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_18">
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_005">
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.377993768 -31.916151661 52.377995256 -31.916308842 52.378065876 -31.916457813 52.37809531 -31.916613106 52.378137407 -31.916701906 52.37813808 -31.916772104 52.378097322 -31.91682369 52.377973724 -31.916980137 52.377953345 -31.917005934 52.377939608 -31.917041344 52.377993768 -31.916151661</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">15.3</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_20">
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_21">
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_006">
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.379057199 -31.916491175 52.378923157 -31.916208501 52.378860004 -31.916144804 52.378798209 -31.916223033 52.378757447 -31.916274626 52.378695649 -31.916352841 52.378592415 -31.916412004 52.378591077 -31.916411856 52.378426255 -31.916431015 52.378384603 -31.916389008 52.378370125 -31.916312605 52.378256489 -31.9160729 52.378235214 -31.916005103 52.378089515 -31.916007001 52.378016881 -31.916030492 52.37799449 -31.916139801 52.378022594 -31.915678086 52.378052959 -31.915662801 52.378086067 -31.915646358 52.378097144 -31.915645068 52.378119237 -31.915636204 52.378250724 -31.915469766 52.378284133 -31.915484772 52.378418506 -31.915620291 52.378495206 -31.915523207 52.378557141 -31.915505927 52.378583584 -31.915487738 52.378650047 -31.91548001 52.378750825 -31.915581649 52.378901991 -31.915734108 52.378918967 -31.915769917 52.378965683 -31.916016394 52.379072397 -31.916241476 52.379057199 -31.916491175 </gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">15.6</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_23">
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_24">
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_007">
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.379072397 -31.916241476 52.378965683 -31.916016394 52.378918967 -31.915769917 52.378901991 -31.915734108 52.378750825 -31.915581649 52.378650047 -31.91548001 52.378583584 -31.915487738 52.378557141 -31.915505927 52.378495206 -31.915523207 52.378418506 -31.915620291 52.378284133 -31.915484772 52.378250724 -31.915469766 52.378119237 -31.915636204 52.378097144 -31.915645068 52.378086067 -31.915646358 52.378052959 -31.915662801 52.378022594 -31.915678086 52.378043488 -31.915334805 52.378070022 -31.915332239 52.378083057 -31.915331594 52.378181111 -31.915267457 52.378248469 -31.915233998 52.378367204 -31.915265029 52.378415429 -31.915298287 52.378453653 -31.915287622 52.378510764 -31.915248333 52.378580454 -31.91516012 52.378644083 -31.915134584 52.37874666 -31.915145932 52.378900526 -31.915162955 52.378913252 -31.915171731 52.378925919 -31.915174361 52.37908056 -31.915272755 52.379130565 -31.915285804 52.379072397 -31.916241476  </gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">12.5</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_26"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_27"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_008"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.378043488 -31.915334805 52.378070022 -31.915332239 52.378083057 -31.915331594 52.378181111 -31.915267457 52.378248469 -31.915233998 52.378367204 -31.915265029 52.378415429 -31.915298287 52.378453653 -31.915287622 52.378510764 -31.915248333 52.378580454 -31.91516012 52.378644083 -31.915134584 52.37874666 -31.915145932 52.378900526 -31.915162955 52.378913252 -31.915171731 52.378925919 -31.915174361 52.37908056 -31.915272755 52.379130565 -31.915285804 52.379150237 -31.914962584 52.379112119 -31.91495471 52.379083256 -31.914951514 52.379077473 -31.914949806 52.379071674 -31.914946312 52.379059997 -31.914931299 52.379059717 -31.914901861 52.378993141 -31.914619405 52.378981238 -31.914487778 52.378831546 -31.914420545 52.378760341 -31.914767392 52.378760623 -31.914796831 52.378749135 -31.914801442 52.378734702 -31.914799846 52.378577315 -31.914831929 52.378532911 -31.914900075 52.378452194 -31.914940165 52.378412485 -31.914990432 52.378307245 -31.914978788 52.378245965 -31.914972007 52.378154185 -31.915088177 52.378107187 -31.915111526 52.378081117 -31.915128578 52.378055496 -31.915137513 52.378043488 -31.915334805 </gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">9.5</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_29"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_30"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_009"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.379150237 -31.914962584 52.379112119 -31.91495471 52.379083256 -31.914951514 52.379077473 -31.914949806 52.379071674 -31.914946312 52.379059997 -31.914931299 52.379059717 -31.914901861 52.378993141 -31.914619405 52.378981238 -31.914487778 52.378831546 -31.914420545 52.378760341 -31.914767392 52.378760623 -31.914796831 52.378749135 -31.914801442 52.378734702 -31.914799846 52.378577315 -31.914831929 52.378532911 -31.914900075 52.378452194 -31.914940165 52.378412485 -31.914990432 52.378307245 -31.914978788 52.378245965 -31.914972007 52.378154185 -31.915088177 52.378107187 -31.915111526 52.378081117 -31.915128578 52.378055496 -31.915137513 52.378071894 -31.914868078 52.378078661 -31.914871613 52.378136511 -31.914798382 52.378197621 -31.914747551 52.378243661 -31.91473115 52.378324648 -31.914745894 52.37841036 -31.914768295 52.378458988 -31.91474414 52.37850072 -31.914680099 52.378531424 -31.914412025 52.378571437 -31.914217133 52.378593495 -31.914158042 52.378572819 -31.913874786 52.378735205 -31.91394771 52.37889759 -31.91402065 52.378906945 -31.914024852 52.3790713 -31.9138168 52.379103962 -31.913823582 52.37921878 -31.913836231 52.379150237 -31.914962584 </gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">6.4</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_32"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_33"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_010"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.379223701 -31.91284535 52.379166204 -31.912724071 52.37909648 -31.912622849 52.379054526 -31.91254964 52.378886642 -31.912319281 52.378884634 -31.912318003 52.378719801 -31.912337177 52.378665452 -31.912405973 52.378638727 -31.912487173 52.37864007 -31.912627586 52.378618471 -31.91275994 52.378581683 -31.912784009 52.378559055 -31.912922672 52.378505149 -31.912990913 52.378560477 -31.913071232 52.378603904 -31.913246381 52.378665871 -31.913344955 52.378676283 -31.913538294 52.378637719 -31.913614178 52.378565905 -31.913638899 52.378504572 -31.913730827 52.378456988 -31.913814871 52.378445129 -31.91402038 52.378448616 -31.914092971 52.378437937 -31.914144997 52.378405893 -31.91430108 52.37839398 -31.914350296 52.378367024 -31.914550146 52.378241862 -31.914542846 52.378224094 -31.914555856 52.3781237 -31.914591621 52.378086842 -31.914622307 52.378071364 -31.91487665 52.378078661 -31.914871613 52.378136511 -31.914798382 52.378197621 -31.914747551 52.378243661 -31.91473115 52.378324648 -31.914745894 52.37841036 -31.914768295 52.378458988 -31.91474414 52.37850072 -31.914680099 52.378531424 -31.914412025 52.378571437 -31.914217133 52.378593495 -31.914158042 52.378572819 -31.913874786 52.378735205 -31.91394771 52.37889759 -31.91402065 52.378906945 -31.914024852 52.3790713 -31.9138168 52.379103962 -31.913823582 52.37921873 -31.913836276 52.379275824 -31.912897838 52.379223701 -31.91284535 </gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">3.4</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_35"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_36"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_011"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.37882378 -31.912968053 52.378725133 -31.912894458 52.378655607 -31.912939937 52.378637584 -31.913050388 52.378666525 -31.913167113 52.378728687 -31.913266001 52.378810308 -31.913266264 52.378842734 -31.913142526 52.37882378 -31.912968053 </gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">6.1</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_38"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_39"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_012"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.379217946 -31.911896072 52.379214617 -31.911895703 52.379207868 -31.911885906 52.379047488 -31.911813868 52.378965999 -31.911641987 52.378879122 -31.911602975 52.378821677 -31.911626029 52.378741533 -31.911687752 52.378713722 -31.911701568 52.378629592 -31.911775591 52.378548763 -31.911846718 52.378385333 -31.911804017 52.378381382 -31.911806628 52.378380402 -31.911810259 52.378382263 -31.911830822 52.378435988 -31.912114262 52.378385588 -31.912178066 52.378352152 -31.912299847 52.378334004 -31.912350324 52.378222242 -31.912491802 52.378215631 -31.912505641 52.378205795 -31.912667312 52.378224716 -31.912750617 52.37826895 -31.912884836 52.378281116 -31.913081969 52.378388906 -31.913220572 52.378505676 -31.913370725 52.378475342 -31.913541253 52.378439889 -31.913594385 52.378399814 -31.913665171 52.378237228 -31.913710537 52.37823306 -31.913709671 52.378228595 -31.913712294 52.378135004 -31.913830823 52.378086842 -31.914622307 52.3781237 -31.914591621 52.378224094 -31.914555856 52.378241862 -31.914542846 52.378367024 -31.914550146 52.37839398 -31.914350296 52.378405893 -31.91430108 52.378437937 -31.914144997 52.378448616 -31.914092971 52.378445129 -31.91402038 52.378456988 -31.913814871 52.378504572 -31.913730827 52.378565905 -31.913638899 52.378637719 -31.913614178 52.378676283 -31.913538294 52.378665871 -31.913344955 52.378603904 -31.913246381 52.378560477 -31.913071232 52.378505149 -31.912990913 52.378559055 -31.912922672 52.378581683 -31.912784009 52.378618471 -31.91275994 52.37864007 -31.912627586 52.378638727 -31.912487173 52.378665452 -31.912405973 52.378719801 -31.912337177 52.378884634 -31.912318003 52.378886642 -31.912319281 52.379054526 -31.91254964 52.37909648 -31.912622849 52.379166204 -31.912724071 52.379223701 -31.91284535 52.379275824 -31.912897838 52.379333607 -31.911947983 52.379217946 -31.911896072  </gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">0.34</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_41"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_42"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_013"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.378388906 -31.913220572 52.378281116 -31.913081969 52.37826895 -31.912884836 52.378224716 -31.912750617 52.378205795 -31.912667312 52.378135004 -31.913830823 52.378228595 -31.913712294 52.37823306 -31.913709671 52.378237228 -31.913710537 52.378399814 -31.913665171 52.378439889 -31.913594385 52.378475342 -31.913541253 52.378505676 -31.913370725 52.378388906 -31.913220572</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-2.7</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_44"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_45"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_014"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>52.379342074 -31.911614253 52.379211598 -31.911580158 52.379102085 -31.911469716 52.379042832 -31.911327181 52.378978982 -31.911230654 52.378934722 -31.911108554 52.378874603 -31.911130444 52.37885459 -31.911140717 52.378829674 -31.911163602 52.378710024 -31.911315066 52.37865017 -31.911364857 52.378545421 -31.911497457 52.378509461 -31.911522198 52.378473695 -31.911567474 52.378380187 -31.911613919 52.378323795 -31.911685304 52.378288246 -31.911766057 52.378255164 -31.911968797 52.378261222 -31.91203578 52.378248657 -31.912081548 52.378239947 -31.912105927 52.378215631 -31.912505641 52.378222242 -31.912491802 52.378334004 -31.912350324 52.378352152 -31.912299847 52.378385588 -31.912178066 52.378435988 -31.912114262 52.378382263 -31.911830822 52.378380402 -31.911810259 52.378381382 -31.911806628 52.378385333 -31.911804017 52.378548763 -31.911846718 52.378629592 -31.911775591 52.378713722 -31.911701568 52.378741533 -31.911687752 52.378821677 -31.911626029 52.378879122 -31.911602975 52.378965999 -31.911641987 52.379047488 -31.911813868 52.379207868 -31.911885906 52.379214617 -31.911895703 52.379217946 -31.911896072 52.379333607 -31.911947983 52.379353654 -31.911618404 52.379342074 -31.911614253 </gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-1.8</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_47"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_48"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_015"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.379298983 -31.911220465 52.379263277 -31.911076462 52.379205091 -31.910899891 52.379177005 -31.910801851 52.379037582 -31.910778549 52.378950681 -31.910788661 52.378871666 -31.910823606 52.378798692 -31.910867827 52.378739597 -31.910898159 52.378706324 -31.910928718 52.378556107 -31.911014818 52.378540907 -31.911025629 52.378537861 -31.911027373 52.378530736 -31.911029359 52.378375445 -31.911118369 52.378314829 -31.911111669 52.378298462 -31.91114399 52.378273458 -31.911555041 52.3783186 -31.911497819 52.378377565 -31.91133985 52.378405965 -31.911303898 52.3784488 -31.911274428 52.378542924 -31.911236647 52.378700475 -31.911105583 52.378707976 -31.911101282 52.378797094 -31.911019441 52.378873168 -31.910980385 52.378970456 -31.910944961 52.379015365 -31.910925103 52.379038959 -31.910922354 52.379076814 -31.91092868 52.379097868 -31.911002178 52.379164833 -31.911314119 52.379185578 -31.911364025 52.379209764 -31.911388416 52.37923858 -31.911395942 52.37936443 -31.911441256 52.379375806 -31.911247517 52.379298983 -31.911220465 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-1.7</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_50"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_51"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_016"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.37923858 -31.911395942 52.379209764 -31.911388416 52.379185578 -31.911364025 52.379164833 -31.911314119 52.379097868 -31.911002178 52.379076814 -31.91092868 52.379038959 -31.910922354 52.379015365 -31.910925103 52.378970456 -31.910944961 52.378873168 -31.910980385 52.378797094 -31.911019441 52.378707976 -31.911101282 52.378700475 -31.911105583 52.378542924 -31.911236647 52.3784488 -31.911274428 52.378405965 -31.911303898 52.378377565 -31.91133985 52.3783186 -31.911497819 52.378273458 -31.911555041 52.378239947 -31.912105927 52.378248657 -31.912081548 52.378261222 -31.91203578 52.378255164 -31.911968797 52.378288246 -31.911766057 52.378323795 -31.911685304 52.378380187 -31.911613919 52.378473695 -31.911567474 52.378509461 -31.911522198 52.378545421 -31.911497457 52.37865017 -31.911364857 52.378710024 -31.911315066 52.378829674 -31.911163602 52.37885459 -31.911140717 52.378874603 -31.911130444 52.378934722 -31.911108554 52.378978982 -31.911230654 52.379042832 -31.911327181 52.379102085 -31.911469716 52.379211598 -31.911580158 52.379342074 -31.911614253 52.379353654 -31.911618404 52.37936443 -31.911441256 52.37923858 -31.911395942
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-7.8</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_53"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_54"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_017"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.379372118 -31.910971004 52.379318564 -31.910819424 52.379256235 -31.910701554 52.379202777 -31.910658009 52.37914067 -31.910634678 52.379036094 -31.910623118 52.37893385 -31.910646655 52.378885996 -31.910652224 52.378870095 -31.910659255 52.378806586 -31.910697739 52.378686327 -31.910785796 52.378656912 -31.910804158 52.378539583 -31.910887574 52.378486112 -31.910918222 52.378373829 -31.910949558 52.378335156 -31.910941533 52.378310939 -31.91093886 52.378298462 -31.91114399 52.378314829 -31.911111669 52.378375445 -31.911118369 52.378530736 -31.911029359 52.378537861 -31.911027373 52.378540907 -31.911025629 52.378556107 -31.911014818 52.378706324 -31.910928718 52.378739597 -31.910898159 52.378798692 -31.910867827 52.378871666 -31.910823606 52.378950681 -31.910788661 52.379037582 -31.910778549 52.379177005 -31.910801851 52.379205091 -31.910899891 52.379263277 -31.911076462 52.379298983 -31.911220465 52.379375806 -31.911247517 52.379391033 -31.911003861 52.379372118 -31.910971004
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-11.8</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_56"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_57"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_018"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.379369427 -31.910689677 52.3793278 -31.910610961 52.37920134 -31.910507948 52.379054425 -31.910452758 52.379034444 -31.910450549 52.378994608 -31.91045972 52.378868709 -31.910514577 52.378834508 -31.910543619 52.378639283 -31.910686568 52.378537602 -31.91074995 52.378434366 -31.910809073 52.378372649 -31.910826296 52.37831847 -31.910815052 52.378310939 -31.91093886 52.378335156 -31.910941533 52.378373829 -31.910949558 52.378486112 -31.910918222 52.378539583 -31.910887574 52.378656912 -31.910804158 52.378686327 -31.910785796 52.378806586 -31.910697739 52.378870095 -31.910659255 52.378885996 -31.910652224 52.37893385 -31.910646655 52.379036094 -31.910623118 52.37914067 -31.910634678 52.379202777 -31.910658009 52.379256235 -31.910701554 52.379318564 -31.910819424 52.379372118 -31.910971004 52.379391033 -31.911003861 52.379407314 -31.910736199 52.379369427 -31.910689677 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-14.8</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_59"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_60"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_019"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.379366584 -31.910392751 52.379293029 -31.91040131 52.379199476 -31.910313093 52.37912971 -31.910288692 52.379032853 -31.910284258 52.378984648 -31.910305575 52.378914383 -31.910356045 52.378867389 -31.910376522 52.378787464 -31.91044439 52.378592239 -31.910587339 52.378537038 -31.910621796 52.378401149 -31.910689304 52.37838262 -31.910699926 52.37837147 -31.910703036 52.378352802 -31.910699163 52.378326359 -31.910685329 52.37831847 -31.910815052 52.378372649 -31.910826296 52.378434366 -31.910809073 52.378537602 -31.91074995 52.378639283 -31.910686568 52.378834508 -31.910543619 52.378868709 -31.910514577 52.378994608 -31.91045972 52.379034444 -31.910450549 52.379054425 -31.910452758 52.37920134 -31.910507948 52.3793278 -31.910610961 52.379369427 -31.910689677 52.379407314 -31.910736199 52.379427239 -31.91040859 52.379366584 -31.910392751
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-17.9</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_62"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_63"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_020"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.379424564 -31.909915431 52.379362395 -31.909954958 52.37935 -31.909966734 52.379197167 -31.910071881 52.379151688 -31.910103176 52.379031254 -31.910117189 52.379023688 -31.910123261 52.378919966 -31.910169139 52.378865776 -31.91020806 52.378792211 -31.910301187 52.378740422 -31.910345161 52.378545196 -31.910488112 52.378535815 -31.910493971 52.37850138 -31.910511079 52.378369369 -31.91048369 52.378339863 -31.910463316 52.378326359 -31.910685329 52.378352802 -31.910699163 52.37837147 -31.910703036 52.37838262 -31.910699926 52.378401149 -31.910689304 52.378537038 -31.910621796 52.378592239 -31.910587339 52.378787464 -31.91044439 52.378867389 -31.910376522 52.378914383 -31.910356045 52.378984648 -31.910305575 52.379032853 -31.910284258 52.37912971 -31.910288692 52.379199476 -31.910313093 52.379293029 -31.91040131 52.379366584 -31.910392751 52.379427239 -31.91040859 52.379458542 -31.909893901 52.379424564 -31.909915431 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-20.9</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_65"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_66"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_021"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.379424238 -31.909568589 52.379359245 -31.909625775 52.379310009 -31.909688104 52.379246503 -31.909748432 52.379194414 -31.909784268 52.379048192 -31.909884874 52.379029052 -31.909887097 52.378933964 -31.909963459 52.37886382 -31.910003668 52.378849881 -31.910021312 52.378832795 -31.910037541 52.378699412 -31.910206393 52.378681927 -31.910221781 52.378643253 -31.910234292 52.378533544 -31.910256666 52.378453259 -31.910294195 52.378367341 -31.910271749 52.378352105 -31.910262032 52.378339863 -31.910463316 52.378369369 -31.91048369 52.37850138 -31.910511079 52.378535815 -31.910493971 52.378545196 -31.910488112 52.378740422 -31.910345161 52.378792211 -31.910301187 52.378865776 -31.91020806 52.378919966 -31.910169139 52.379023688 -31.910123261 52.379031254 -31.910117189 52.379151688 -31.910103176 52.379197167 -31.910071881 52.37935 -31.909966734 52.379362395 -31.909954958 52.379424564 -31.909915431 52.379458542 -31.909893901 52.379482831 -31.909494535 52.379424238 -31.909568589
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-24.0</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_68"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_69"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_022"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.379574035 -31.907665582 52.379507322 -31.907716963 52.379388312 -31.90775018 52.379359084 -31.907766934 52.379342235 -31.907849005 52.379295683 -31.907990455 52.379297614 -31.908192017 52.379179305 -31.908205783 52.379059708 -31.908085187 52.378889929 -31.907727087 52.378841346 -31.907656568 52.378744802 -31.907580749 52.37867339 -31.907488925 52.378655392 -31.907450966 52.378647055 -31.907417346 52.37863682 -31.907352993 52.378620056 -31.907123356 52.37856779 -31.906988836 52.378615137 -31.906839282 52.37864573 -31.906817056 52.378666617 -31.906782015 52.378784102 -31.906633279 52.378804311 -31.906596804 52.378830604 -31.906535334 52.378911357 -31.906408546 52.378937972 -31.906323982 52.37897281 -31.906154269 52.378916389 -31.905974474 52.378851267 -31.905817832 52.378821663 -31.905602352 52.378803475 -31.905544385 52.378654257 -31.905492216 52.378642797 -31.905481425 52.378631229 -31.905671702 52.378656203 -31.905695236 52.378678236 -31.905702939 52.378691825 -31.905746248 52.378824582 -31.905906914 52.378874644 -31.906027326 52.378904912 -31.906123784 52.378886223 -31.906214837 52.378835916 -31.906374676 52.378829165 -31.906385274 52.378769811 -31.906524038 52.378724195 -31.906606383 52.378665646 -31.906680502 52.378618494 -31.906759613 52.378562618 -31.906800206 52.378435945 -31.908883454 52.378521746 -31.909024244 52.378560777 -31.9090698 52.378641747 -31.909187334 52.378597929 -31.909368346 52.37856502 -31.909420462 52.378526011 -31.909469846 52.378394948 -31.909560076 52.378352105 -31.910262032 52.378367341 -31.910271749 52.378453259 -31.910294195 52.378533544 -31.910256666 52.378643253 -31.910234292 52.378681927 -31.910221781 52.378699412 -31.910206393 52.378832795 -31.910037541 52.378849881 -31.910021312 52.37886382 -31.910003668 52.378933964 -31.909963459 52.379029052 -31.909887097 52.379048192 -31.909884874 52.379194414 -31.909784268 52.379246503 -31.909748432 52.379310009 -31.909688104 52.379359245 -31.909625775 52.379424238 -31.909568589 52.379482831 -31.909494535 52.379595711 -31.907638224 52.379574035 -31.907665582
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-27.0</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_71"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_72"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_023"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.37890225 -31.909430588 52.378858041 -31.909400103 52.378828979 -31.909422487 52.378808453 -31.909462876 52.378692998 -31.909536288 52.378651266 -31.909602382 52.378609411 -31.909655365 52.37852943 -31.909826904 52.378507735 -31.90985437 52.378471339 -31.909875232 52.378443368 -31.910011496 52.378530667 -31.909955989 52.378552557 -31.909948909 52.378580554 -31.909924273 52.378696009 -31.909850866 52.378746385 -31.909803012 52.378796613 -31.90973943 52.378859813 -31.909585159 52.378888742 -31.909548542 52.378909264 -31.909508149 52.37890225 -31.909430588 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-30.1</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_74"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_75"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_024"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.378682705 -31.908461598 52.37863884 -31.908466705 52.378566046 -31.908508435 52.37864027 -31.908616175 52.378684478 -31.908646657 52.378728482 -31.908655781 52.378742468 -31.908587652 52.378682705 -31.908461598 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-30.1</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_77"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_78"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_025"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.378560777 -31.9090698 52.378521746 -31.909024244 52.378435945 -31.908883454 52.378394948 -31.909560076 52.378526011 -31.909469846 52.37856502 -31.909420462 52.378597929 -31.909368346 52.378641747 -31.909187334 52.378560777 -31.9090698 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-25.8</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_80"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_81"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_026"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.379395319 -31.908806393 52.379351215 -31.908786586 52.379322048 -31.908798294 52.379301522 -31.908838685 52.379323001 -31.908897941 52.379352746 -31.908946735 52.379396749 -31.908955859 52.379402335 -31.908883954 52.379395319 -31.908806393 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-30.1</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_83"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_84"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_027"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.379510293 -31.908027291 52.379488454 -31.90803981 52.379481461 -31.908073878 52.379481938 -31.908123699 52.379511581 -31.908161816 52.379540746 -31.908150108 52.379566568 -31.908117517 52.379577198 -31.907942689 52.379510293 -31.908027291  
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-30.1</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_86"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_87"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_028"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.379747381 -31.904922435 52.379646654 -31.904896126 52.379579742 -31.904903922 52.379505647 -31.904984151 52.379481796 -31.905051867 52.37941482 -31.90511081 52.379385091 -31.905211897 52.379350294 -31.905425148 52.379369652 -31.905486833 52.37948836 -31.905737214 52.379509777 -31.905796291 52.379503957 -31.905829011 52.379496269 -31.905837331 52.37948949 -31.905855123 52.379458276 -31.905861494 52.379363531 -31.905765959 52.379321434 -31.905677163 52.37928068 -31.90572876 52.379186958 -31.905739673 52.379157078 -31.905885242 52.379149465 -31.905951718 52.379091531 -31.906093135 52.378992111 -31.906029894 52.378958137 -31.905921625 52.37892961 -31.905853003 52.37891 -31.90571026 52.378980314 -31.905593904 52.378964653 -31.905340332 52.378819117 -31.905336628 52.378746645 -31.905365726 52.37865215 -31.905330136 52.378642797 -31.905481425 52.378654257 -31.905492216 52.378803475 -31.905544385 52.378821663 -31.905602352 52.378851267 -31.905817832 52.378916389 -31.905974474 52.37897281 -31.906154269 52.378937972 -31.906323982 52.378911357 -31.906408546 52.378830604 -31.906535334 52.378804311 -31.906596804 52.378784102 -31.906633279 52.378666617 -31.906782015 52.37864573 -31.906817056 52.378615137 -31.906839282 52.37856779 -31.906988836 52.378620056 -31.907123356 52.37863682 -31.907352993 52.378647055 -31.907417346 52.378655392 -31.907450966 52.37867339 -31.907488925 52.378744802 -31.907580749 52.378841346 -31.907656568 52.378889929 -31.907727087 52.379059708 -31.908085187 52.379179305 -31.908205783 52.379297614 -31.908192017 52.379295683 -31.907990455 52.379342235 -31.907849005 52.379359084 -31.907766934 52.379388312 -31.90775018 52.379507322 -31.907716963 52.379574035 -31.907665582 52.379595711 -31.907638224 52.379619706 -31.907243586 52.379550847 -31.907259423 52.379503255 -31.907292169 52.379368263 -31.907231556 52.379336706 -31.907271504 52.379288332 -31.907222725 52.37928755 -31.907141196 52.379303067 -31.907094045 52.379313149 -31.906870819 52.379332632 -31.906846152 52.379381686 -31.906705129 52.379477505 -31.906662746 52.379496805 -31.906618903 52.379569932 -31.906704246 52.379649178 -31.906758863 52.379658333 -31.90660827 52.379613553 -31.906441961 52.379528035 -31.906346221 52.379496943 -31.906107731 52.379553769 -31.905958613 52.379623775 -31.905882808 52.379654453 -31.905710326 52.379689528 -31.905690215 52.379700758 -31.905635501 52.37964236 -31.905327403 52.379600774 -31.905108039 52.379625466 -31.905037947 52.379637244 -31.905025195 52.379647877 -31.905023956 52.379663887 -31.905028141 52.379712262 -31.905076917 52.379748259 -31.905129151 52.37976005 -31.904935198 52.379747381 -31.904922435 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-27.0</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_93"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_94"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_030"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.379569932 -31.906704246 52.379496805 -31.906618903 52.379477505 -31.906662746 52.379381686 -31.906705129 52.379332632 -31.906846152 52.379313149 -31.906870819 52.379303067 -31.907094045 52.37928755 -31.907141196 52.379288332 -31.907222725 52.379336706 -31.907271504 52.379368263 -31.907231556 52.379503255 -31.907292169 52.379550847 -31.907259423 52.379619706 -31.907243586 52.379649178 -31.906758863 52.379569932 -31.906704246 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-27.0</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_96"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_97"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_031"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.379569271 -31.906867059 52.379498717 -31.906818413 52.379446371 -31.906841567 52.379419575 -31.906918604 52.379416925 -31.907059927 52.379501392 -31.907097858 52.379561336 -31.907084057 52.379588938 -31.906994653 52.379569271 -31.906867059 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-30.1</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_99"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_100"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_032"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.379058925 -31.906474803 52.379027005 -31.90640748 52.378995697 -31.906404019 52.378989719 -31.906433133 52.378986797 -31.906442418 52.378934304 -31.906524834 52.378997464 -31.906588518 52.379059944 -31.906581245 52.379058925 -31.906474803  
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-23.7</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_102"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_103"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_033"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.378874644 -31.906027326 52.378824582 -31.905906914 52.378691825 -31.905746248 52.378678236 -31.905702939 52.378656203 -31.905695236 52.378631229 -31.905671702 52.378617918 -31.905890648 52.378658249 -31.905908747 52.378799159 -31.906031206 52.378826086 -31.906063797 52.378832897 -31.906080176 52.378837015 -31.906093301 52.378834471 -31.906105689 52.378826724 -31.906130306 52.378779004 -31.906349123 52.37873531 -31.906451273 52.378664515 -31.906579151 52.378591257 -31.906702165 52.378567531 -31.906719407 52.378562618 -31.906800206 52.378618494 -31.906759613 52.378665646 -31.906680502 52.378724195 -31.906606383 52.378769811 -31.906524038 52.378829165 -31.906385274 52.378835916 -31.906374676 52.378886223 -31.906214837 52.378904912 -31.906123784 52.378874644 -31.906027326
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-30.1</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_105"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_106"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_034"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.378832897 -31.906080176 52.378826086 -31.906063797 52.378799159 -31.906031206 52.378658249 -31.905908747 52.378617918 -31.905890648 52.378606515 -31.906078211 52.378660104 -31.906102266 52.378755977 -31.906177559 52.378723952 -31.906324407 52.378700813 -31.906378506 52.378663397 -31.90644604 52.378615863 -31.906557741 52.378572986 -31.906629684 52.378567531 -31.906719407 52.378591257 -31.906702165 52.378664515 -31.906579151 52.37873531 -31.906451273 52.378779004 -31.906349123 52.378826724 -31.906130306 52.378834471 -31.906105689 52.378837015 -31.906093301 52.378832897 -31.906080176 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-33.1</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_108"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_109"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_035"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.378660104 -31.906102266 52.378606515 -31.906078211 52.3785954 -31.906261024 52.378648927 -31.906269077 52.378661758 -31.906274835 52.378672483 -31.90628326 52.378668901 -31.90629969 52.378666312 -31.906305742 52.378662125 -31.906313297 52.378580571 -31.906504934 52.378572986 -31.906629684 52.378615863 -31.906557741 52.378663397 -31.90644604 52.378700813 -31.906378506 52.378723952 -31.906324407 52.378755977 -31.906177559 52.378660104 -31.906102266 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-36.2</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_111"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_112"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_036"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.378661758 -31.906274835 52.378648927 -31.906269077 52.3785954 -31.906261024 52.378580571 -31.906504934 52.378662125 -31.906313297 52.378666312 -31.906305742 52.378668901 -31.90629969 52.378672483 -31.90628326 52.378661758 -31.906274835 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-39.3</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_114"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_115"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_037"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.379712262 -31.905076917 52.379663887 -31.905028141 52.379647877 -31.905023956 52.379637244 -31.905025195 52.379625466 -31.905037947 52.379600774 -31.905108039 52.37964236 -31.905327403 52.379700758 -31.905635501 52.379689528 -31.905690215 52.379654453 -31.905710326 52.379623775 -31.905882808 52.379553769 -31.905958613 52.379496943 -31.906107731 52.379528035 -31.906346221 52.379613553 -31.906441961 52.379658333 -31.90660827 52.379675858 -31.906320046 52.379660328 -31.906323608 52.3795996 -31.906255619 52.379585503 -31.906147495 52.379611266 -31.906079887 52.379657514 -31.906029814 52.379693108 -31.906036291 52.379748259 -31.905129151 52.379712262 -31.905076917
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-30.1</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_117"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_118"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_038"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.379657514 -31.906029814 52.379611266 -31.906079887 52.379585503 -31.906147495 52.3795996 -31.906255619 52.379660328 -31.906323608 52.379675858 -31.906320046 52.379693108 -31.906036291 52.379657514 -31.906029814
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-32.8</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_120"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_121"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_039"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.379350784 -31.904851482 52.379313483 -31.904847363 52.379291151 -31.904849965 52.379269061 -31.90487793 52.379203523 -31.905037919 52.379173966 -31.905117108 52.379168174 -31.905145324 52.379150007 -31.905147441 52.379131642 -31.905128924 52.378983023 -31.905081516 52.37887184 -31.905075045 52.378816672 -31.905081473 52.378678514 -31.905176538 52.378660904 -31.905183597 52.37865215 -31.905330136 52.378746645 -31.905365726 52.378819117 -31.905336628 52.378964653 -31.905340332 52.378980314 -31.905593904 52.37891 -31.90571026 52.37892961 -31.905853003 52.378958137 -31.905921625 52.378992111 -31.906029894 52.379091531 -31.906093135 52.379149465 -31.905951718 52.379157078 -31.905885242 52.379186958 -31.905739673 52.37928068 -31.90572876 52.379321434 -31.905677163 52.379363531 -31.905765959 52.379458276 -31.905861494 52.37948949 -31.905855123 52.379496269 -31.905837331 52.379503957 -31.905829011 52.379509777 -31.905796291 52.37948836 -31.905737214 52.379369652 -31.905486833 52.379350294 -31.905425148 52.379385091 -31.905211897 52.37941482 -31.90511081 52.379481796 -31.905051867 52.379505647 -31.904984151 52.379579742 -31.904903922 52.379646654 -31.904896126 52.379747381 -31.904922435 52.37976005 -31.904935198 52.379768586 -31.90479477 52.379662776 -31.904772829 52.379645427 -31.904768295 52.379522243 -31.904782641 52.379479656 -31.904828756 52.379350784 -31.904851482 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-20.9</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_123"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_124"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_040"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.378673787 -31.9049717 52.378660904 -31.905183597 52.378678514 -31.905176538 52.378816672 -31.905081473 52.37887184 -31.905075045 52.378983023 -31.905081516 52.379131642 -31.905128924 52.379150007 -31.905147441 52.379168174 -31.905145324 52.379173966 -31.905117108 52.379203523 -31.905037919 52.379269061 -31.90487793 52.379291151 -31.904849965 52.379313483 -31.904847363 52.379350784 -31.904851482 52.379479656 -31.904828756 52.379522243 -31.904782641 52.379645427 -31.904768295 52.379662776 -31.904772829 52.379768586 -31.90479477 52.379777415 -31.904649534 52.379707201 -31.90461801 52.379643862 -31.904604876 52.37951777 -31.904640074 52.379477838 -31.904639057 52.379447766 -31.904625555 52.379317945 -31.904618004 52.379311278 -31.904617272 52.37918765 -31.904631672 52.379145574 -31.904684934 52.379011016 -31.904762081 52.378995675 -31.904781501 52.378980106 -31.904776902 52.378956815 -31.904777208 52.378814659 -31.904871481 52.378786268 -31.904894565 52.378733369 -31.904919299 52.378673787 -31.9049717 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-17.9</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_125"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_126"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_041"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.378683666 -31.904809172 52.378673787 -31.9049717 52.378733369 -31.904919299 52.378786268 -31.904894565 52.378814659 -31.904871481 52.378956815 -31.904777208 52.378980106 -31.904776902 52.378995675 -31.904781501 52.379011016 -31.904762081 52.379145574 -31.904684934 52.37918765 -31.904631672 52.379311278 -31.904617272 52.379317945 -31.904618004 52.379447766 -31.904625555 52.379477838 -31.904639057 52.37951777 -31.904640074 52.379643862 -31.904604876 52.379707201 -31.90461801 52.379777415 -31.904649534 52.379785584 -31.904515165 52.379660714 -31.904459105 52.37962095 -31.904436098 52.379514376 -31.904424326 52.379475771 -31.904423345 52.379318392 -31.904352686 52.379308736 -31.904352127 52.379289476 -31.904356055 52.379143056 -31.904422231 52.379101301 -31.904449552 52.379059792 -31.904502106 52.378978158 -31.904573948 52.378927611 -31.904637945 52.378856509 -31.904692715 52.37881322 -31.904721419 52.378734519 -31.904785421 52.378683666 -31.904809172 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-14.9</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_128"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_129"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_042"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.378702787 -31.904494686 52.378683666 -31.904809172 52.378734519 -31.904785421 52.37881322 -31.904721419 52.378856509 -31.904692715 52.378927611 -31.904637945 52.378978158 -31.904573948 52.379059792 -31.904502106 52.379101301 -31.904449552 52.379143056 -31.904422231 52.379289476 -31.904356055 52.379308736 -31.904352127 52.379318392 -31.904352686 52.379475771 -31.904423345 52.379514376 -31.904424326 52.37962095 -31.904436098 52.379660714 -31.904459105 52.379785584 -31.904515165 52.379793022 -31.904392774 52.378898776 -31.904248023 52.378832398 -31.904361681 52.378815093 -31.904392253 52.378812608 -31.904395397 52.378810112 -31.90439732 52.378787686 -31.904418289 52.378702787 -31.904494686
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-11.8</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_131"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_132"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_043"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.378781282 -31.904228946 52.378755108 -31.904274123 52.378714285 -31.904305528 52.378702787 -31.904494686 52.378787686 -31.904418289 52.378810112 -31.90439732 52.378812608 -31.904395397 52.378815093 -31.904392253 52.378832398 -31.904361681 52.378898776 -31.904248023 52.378781282 -31.904228946 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-8.8</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="ID_DCH_134"> <!-- +3-->
+							<aixm:verticalExtent uom="M">0.0</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy>0.0</aixm:verticalExtentAccuracy>
+							<aixm:type>OTHER:TERRAIN_CONTOUR</aixm:type>
+							<aixm:horizontalProjection_surfaceExtent>
+								<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_135"> <!-- +3-->
+									<gml:patches>
+										<gml:PolygonPatch>
+											<gml:exterior>
+												<gml:Ring>
+													<gml:curveMember>
+														<gml:Curve gml:id="DCH_044"> <!-- +1-->
+															<gml:segments>
+																<gml:GeodesicString>
+																	<gml:posList>
+																		52.37871953 -31.904218587 52.378714285 -31.904305528 52.378755108 -31.904274123 52.378781282 -31.904228946 52.37871953 -31.904218587 
+																	</gml:posList>
+																</gml:GeodesicString>
+															</gml:segments>
+														</gml:Curve>
+													</gml:curveMember>
+												</gml:Ring>
+											</gml:exterior>
+										</gml:PolygonPatch>
+									</gml:patches>
+									<aixm:horizontalAccuracy uom="M">0.5</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">-5.7</aixm:elevation>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">0.5</aixm:verticalAccuracy>
+								</aixm:ElevatedSurface>
+							</aixm:horizontalProjection_surfaceExtent>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
 	<message:hasMember>
 		<aixm:ObstacleArea gml:id="uuid.03fcffab-d281-4da4-8acd-0b14461b7465">
 			<!-- AREA 1 -->
