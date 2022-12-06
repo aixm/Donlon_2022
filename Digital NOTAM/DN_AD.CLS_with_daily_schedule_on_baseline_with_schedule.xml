@@ -127,7 +127,7 @@ Editorial note: this license is an instance of the BSD license template as provi
                     </aixm:availability>
                     <aixm:extension>
                         <event:AirportHeliportExtension gml:id="ID_ACT_80">
-                            <event:theEvent xlink:href="#uuid.53432671-c3f4-4b5d-b72a-85722755b4d6" xsi:nil="true"/>
+                            <event:theEvent xlink:href="#uuid.53432671-c3f4-4b5d-b72a-85722755b4d6"/>
                         </event:AirportHeliportExtension>
                     </aixm:extension>
                 </aixm:AirportHeliportTimeSlice>
@@ -157,6 +157,7 @@ Editorial note: this license is an instance of the BSD license template as provi
                     </aixm:featureLifetime>
                     <event:scenario>AD.CLS</event:scenario>
                     <event:version>2.0</event:version>
+                    <event:concernedAirportHeliport xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c64"/>
                     <event:notification>
                         <event:NOTAM gml:id="IDE_ACT_84">
                             <event:series>B</event:series>
