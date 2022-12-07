@@ -31,7 +31,7 @@ Editorial note: this license is an instance of the BSD license template as provi
     http://www.aixm.aero/schema/5.1.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1.1-i/Event_Features.xsd"
     gml:id="M00001">
     
-    <!-- This is a DN for a new area creation - SAA.NEW - Restricted Area due to SAR activity-->
+    <!-- This is a DN for a new area creation - SAA.NEW - Restricted Area (Polygon) with excluded Airspace and due to SAR activity-->
    
     <message:hasMember>
         <aixm:Airspace gml:id="uuid.9807dee1-c3f6-4a46-9be3-dd8155d921c4">
@@ -55,7 +55,6 @@ Editorial note: this license is an instance of the BSD license template as provi
                     </aixm:featureLifetime>
                     <aixm:type>TRA</aixm:type>
                     <aixm:designator>ALPHA04</aixm:designator>
-                    <aixm:name>ALPHA04</aixm:name>
                     <aixm:geometryComponent>
                         <aixm:AirspaceGeometryComponent gml:id="ID_11005">
                             <aixm:operation>BASE</aixm:operation>
@@ -105,7 +104,7 @@ Editorial note: this license is an instance of the BSD license template as provi
                                     <aixm:contributorAirspace>
                                         <aixm:AirspaceVolumeDependency gml:id="ID_13006">
                                             <aixm:dependency>FULL_GEOMETRY</aixm:dependency>
-                                            <aixm:theAirspace xlink:href="urn:uuid:21a13c9f-a8ff-4fdd-9aaa-5dbfd91514b9"/>
+                                            <aixm:theAirspace xlink:href="urn:uuid:21a13c9f-a8ff-4fdd-9aaa-5dbfd91514b9" xlink:title="CTR DONLON"/>
                                         </aixm:AirspaceVolumeDependency>
                                     </aixm:contributorAirspace>
                                 </aixm:AirspaceVolume>
@@ -197,9 +196,9 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <gml:endPosition>2022-08-29T22:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                     </aixm:featureLifetime>
-                    <event:name>RA_20220929</event:name>
                     <event:scenario>SAA.NEW</event:scenario>
                     <event:version>2.0</event:version>
+                    <event:concernedAirspace xlink:href="urn:uuid:f4d5e4d4-d84a-481f-b9e3-b359e42c0dff" xlink:title="FIR AMSWELL EAAD"/>
                     <event:notification>
                         <event:NOTAM gml:id="ID_11003">
                             <event:series>A</event:series>

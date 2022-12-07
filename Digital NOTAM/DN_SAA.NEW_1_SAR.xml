@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- Example created by Andreea PERCA, ASBU For Future GMBH, updated by Wolfgang Scheucher, SOLITEC Software Soltuions GmbH-->
-<!-- Copyright (c) 2018, EUROCONTROL & FAA
+<!-- Copyright (c) 2022, EUROCONTROL
 
 All rights reserved.
 
@@ -40,8 +40,8 @@ Editorial note: this license is an instance of the BSD license template as provi
                 <aixm:AirspaceTimeSlice gml:id="ID_11004">
                     <gml:validTime>
                         <gml:TimePeriod gml:id="ID_0001">
-                            <gml:beginPosition>2012-08-29T17:00:00Z</gml:beginPosition>
-                            <gml:endPosition>2012-08-29T19:00:00Z</gml:endPosition>
+                            <gml:beginPosition>2022-08-29T17:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-08-29T19:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                     </gml:validTime>
                     <aixm:interpretation>BASELINE</aixm:interpretation>
@@ -54,12 +54,12 @@ Editorial note: this license is an instance of the BSD license template as provi
                         </gml:TimePeriod>
                     </aixm:featureLifetime>
                     <aixm:type>R</aixm:type>
-                    <aixm:designator>EAR0001-22</aixm:designator>
+                    <aixm:designator>EAR0011-22</aixm:designator>
                     <aixm:geometryComponent>
                         <aixm:AirspaceGeometryComponent gml:id="ID_11005">
                             <aixm:theAirspaceVolume>
                                 <aixm:AirspaceVolume gml:id="ID_11006">
-                                    <aixm:upperLimit uom="FT">500</aixm:upperLimit>
+                                    <aixm:upperLimit uom="FT">5000</aixm:upperLimit>
                                     <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
                                     <aixm:lowerLimit uom="FT">GND</aixm:lowerLimit>
                                     <aixm:horizontalProjection>
@@ -73,7 +73,7 @@ Editorial note: this license is an instance of the BSD license template as provi
                                                                     <gml:segments>
                                                                         <gml:CircleByCenterPoint numArc="1">
                                                                             <gml:pos>53.103333 -40.033055</gml:pos>
-                                                                            <gml:radius uom="NM">3</gml:radius>
+                                                                            <gml:radius uom="[nmi_i]">3</gml:radius>
                                                                         </gml:CircleByCenterPoint>
                                                                     </gml:segments>
                                                                 </aixm:Curve>
@@ -119,8 +119,8 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <aixm:status>ACTIVE</aixm:status>
                             <aixm:levels>
                                 <aixm:AirspaceLayer gml:id="ID_11013">
-                                    <aixm:upperLimit uom="OTHER">CEILING</aixm:upperLimit>
-                                    <aixm:lowerLimit uom="OTHER">FLOOR</aixm:lowerLimit>
+                                    <aixm:upperLimit>CEILING</aixm:upperLimit>
+                                    <aixm:lowerLimit>FLOOR</aixm:lowerLimit>
                                 </aixm:AirspaceLayer>
                             </aixm:levels>
                         </aixm:AirspaceActivation>
@@ -177,9 +177,9 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <gml:endPosition>2022-08-29T19:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                     </aixm:featureLifetime>
-                    <event:name>RA_20220829</event:name>
                     <event:scenario>SAA.NEW</event:scenario>
                     <event:version>2.0</event:version>
+                    <event:concernedAirspace xlink:href="ur:uuid:f4d5e4d4-d84a-481f-b9e3-b359e42c0dff" xlink:title="FIR AMSWELL EAAD"/>
                     <event:notification>
                         <event:NOTAM gml:id="ID_11003">
                             <event:series>A</event:series>
@@ -192,22 +192,22 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <event:purpose>NBO</event:purpose>
                             <event:scope>W</event:scope>
                             <event:minimumFL>000</event:minimumFL>
-                            <event:maximumFL>005</event:maximumFL>
+                            <event:maximumFL>050</event:maximumFL>
                             <event:coordinates>5306N04002W</event:coordinates>
                             <event:radius>4</event:radius>
                             <event:location>EAAD</event:location>
                             <event:effectiveStart>2208291700</event:effectiveStart>
                             <event:effectiveEnd>2208291900</event:effectiveEnd>
                             <event:text>
-                                Restricted Area established for search and rescue within: 
-                                4NM radius centered on 5306N 04002W.
+                                Temporary Restricted Area EAR0011-22 established for search and rescue within: 
+                                4NM radius centered on 530612N 0400159W.
                                 To ensure their own safety and to avoid interference with control and SAR activities, 
                                 pilots are urgently requested not to fly in or near the area without the permission of 
                                 aeronautical rescue and coordination center emergency controlling authority
                                 tel 01 309 678377.
                             </event:text>
                             <event:lowerLimit>SFC</event:lowerLimit>
-                            <event:upperLimit>500FT AMSL</event:upperLimit>
+                            <event:upperLimit>5000FT AMSL</event:upperLimit>
                         </event:NOTAM>
                     </event:notification>
                 </event:EventTimeSlice>
