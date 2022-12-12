@@ -48,6 +48,7 @@ Editorial note: this license is an instance of the BSD license template as provi
                     </aixm:featureLifetime>
                     <event:scenario>OBS.NEW</event:scenario>
                     <event:version>2.0</event:version>
+                    <event:concernedAirspace xlink:href="urn:uid:f4d5e4d4-d84a-481f-b9e3-b359e42c0dff"/>
                     <event:concernedAirportHeliport xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c64" xlink:title="DONLON/INTL."/>
                     <event:concernedAirportHeliport xlink:href="urn:uuid:dd062d88-3e64-4a5d-bebd-89476db9ebea" xlink:title="DONLON/DOWNTOWN HELIPORT"/>
                     <event:notification>

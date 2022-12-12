@@ -48,6 +48,7 @@ Editorial note: this license is an instance of the BSD license template as provi
                     </aixm:featureLifetime>
                     <event:scenario>OBS.NEW</event:scenario>
                     <event:version>2.0</event:version>
+                    <event:concernedAirspace xlink:href="urn:uid:f4d5e4d4-d84a-481f-b9e3-b359e42c0dff"/>
                     <event:notification>
                         <event:NOTAM gml:id="ID_707">
                             <event:series>A</event:series>
@@ -59,7 +60,6 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <event:traffic>IV</event:traffic>
                             <event:purpose>M</event:purpose>
                             <event:scope>E</event:scope>
-                            <event:minimumFL>000</event:minimumFL> <!--to be checked-->
                             <event:maximumFL>999</event:maximumFL> <!--to be checked-->
                             <event:coordinates>5221N03224W</event:coordinates>
                             <event:radius>005</event:radius>
