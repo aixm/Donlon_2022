@@ -34,7 +34,9 @@ Editorial note: this license is an instance of the BSD license template as provi
     <!-- This is a DN for an R area activation with changed vertical limits-->
     
     <message:hasMember>
+        <!-- EAR2 PARSOUND -->
         <aixm:Airspace gml:id="uuid.902e92df-e5cb-48cb-a339-18bc86da4999">
+            <gml:identifier codeSpace="urn:uuid:">902e92df-e5cb-48cb-a339-18bc86da4999</gml:identifier>
             <aixm:timeSlice>
                 <aixm:AirspaceTimeSlice gml:id="ID_730">
                     <gml:validTime>
@@ -55,18 +57,22 @@ Editorial note: this license is an instance of the BSD license template as provi
                                     <aixm:lowerLimit uom="FL">300</aixm:lowerLimit>
                                     <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
                                     <aixm:horizontalProjection>
-                                        <aixm:Surface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_735">
+                                        <aixm:Surface srsName="urn:ogc:def:crs:EPSG::4326"
+                                            gml:id="data2001323">
                                             <gml:patches>
                                                 <gml:PolygonPatch>
                                                     <gml:exterior>
                                                         <gml:Ring>
                                                             <gml:curveMember>
-                                                                <gml:Curve gml:id="ID_736">
+                                                                <gml:Curve gml:id="data23231">
                                                                     <gml:segments>
-                                                                        <gml:CircleByCenterPoint numArc="1">
-                                                                            <gml:posList>41.7969444444445 -35.02694444</gml:posList>
-                                                                            <gml:radius uom="[nmi_i]">10.0</gml:radius>
-                                                                        </gml:CircleByCenterPoint>
+                                                                        <gml:GeodesicString>
+                                                                            <gml:posList>55.7782100948564 -39.3012893342284 
+                                                                                55.8884443896817 -40.5033587282312 
+                                                                                54.6883471675964 -41.0089114950151 
+                                                                                54.5549821065137 -39.7769687815495 
+                                                                                55.7782100948564 -39.3012893342284</gml:posList>
+                                                                        </gml:GeodesicString>
                                                                     </gml:segments>
                                                                 </gml:Curve>
                                                             </gml:curveMember>
@@ -74,7 +80,7 @@ Editorial note: this license is an instance of the BSD license template as provi
                                                     </gml:exterior>
                                                 </gml:PolygonPatch>
                                             </gml:patches>
-                                            <aixm:horizontalAccuracy uom="KM">1.0</aixm:horizontalAccuracy>
+                                            <aixm:horizontalAccuracy uom="KM">2.0</aixm:horizontalAccuracy>
                                         </aixm:Surface>
                                     </aixm:horizontalProjection>
                                 </aixm:AirspaceVolume>
@@ -85,6 +91,14 @@ Editorial note: this license is an instance of the BSD license template as provi
                         <aixm:AirspaceActivation gml:id="ID_737">
                             <aixm:activity>EXERCISE</aixm:activity>
                             <aixm:status>ACTIVE</aixm:status>
+                            <aixm:levels>
+                                <aixm:AirspaceLayer gml:id="data402023">
+                                    <aixm:upperLimit uom="FL">400</aixm:upperLimit>
+                                    <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+                                    <aixm:lowerLimit uom="FL">300</aixm:lowerLimit>
+                                    <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+                                </aixm:AirspaceLayer>
+                            </aixm:levels>
                         </aixm:AirspaceActivation>
                     </aixm:activation>
                     <aixm:extension>
@@ -117,9 +131,10 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <gml:endPosition>2022-05-08T14:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                     </aixm:featureLifetime>
-                    <event:name>EAR2_22180507</event:name>
                     <event:scenario>SAA.ACT</event:scenario>
                     <event:version>2.0</event:version>
+                    <event:concernedAirspace xlink:href="ur:uuid:f4d5e4d4-d84a-481f-b9e3-b359e42c0dff" xlink:title="FIR AMSWELL" />
+                    <event:concernedAirspace xlink:href="urn:uuid:6fa9b51a-ea66-40a7-a23a-058c3a034719" xlink:title="UIR YORK NEW"/>
                     <event:notification>
                         <event:NOTAM gml:id="ID_742">
                             <event:series>A</event:series>
@@ -135,7 +150,7 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <event:maximumFL>400</event:maximumFL>
                             <event:coordinates>4147N03501W</event:coordinates>
                             <event:radius>11</event:radius>
-                            <event:location>EAAD</event:location>
+                            <event:location>EAAD KAAD</event:location>
                             <event:effectiveStart>2205071400</event:effectiveStart>
                             <event:effectiveEnd>2205081400</event:effectiveEnd>
                             <event:text>Restricted Area EAR2 PASOUND activated, military exercise. Vertical limits changed during activation.</event:text>

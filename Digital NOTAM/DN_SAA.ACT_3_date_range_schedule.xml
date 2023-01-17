@@ -58,6 +58,12 @@ Editorial note: this license is an instance of the BSD license template as provi
                             </aixm:timeInterval>
                             <aixm:activity>AIR_DROP</aixm:activity>
                             <aixm:status>ACTIVE</aixm:status>
+                            <aixm:levels>
+                                <aixm:AirspaceLayer gml:id="data3000122">
+                                    <aixm:upperLimit>CEILING</aixm:upperLimit>
+                                    <aixm:lowerLimit>FLOOR</aixm:lowerLimit>
+                                </aixm:AirspaceLayer>
+                            </aixm:levels>
                         </aixm:AirspaceActivation>
                     </aixm:activation>
                     <aixm:activation>
@@ -95,6 +101,12 @@ Editorial note: this license is an instance of the BSD license template as provi
                                 </aixm:Note>
                             </aixm:annotation>
                             <aixm:status>INACTIVE</aixm:status>
+                            <aixm:levels>
+                                <aixm:AirspaceLayer gml:id="data3000132">
+                                    <aixm:upperLimit>CEILING</aixm:upperLimit>
+                                    <aixm:lowerLimit>FLOOR</aixm:lowerLimit>
+                                </aixm:AirspaceLayer>
+                            </aixm:levels>
                         </aixm:AirspaceActivation>
                     </aixm:activation>
                     <aixm:extension>
@@ -129,6 +141,8 @@ Editorial note: this license is an instance of the BSD license template as provi
                     <event:name>EAR2_20220510</event:name>
                     <event:scenario>SAA.ACT</event:scenario>
                     <event:version>2.0</event:version>
+                    <event:concernedAirspace xlink:href="ur:uuid:f4d5e4d4-d84a-481f-b9e3-b359e42c0dff" xlink:title="FIR AMSWELL" />
+                    <event:concernedAirspace xlink:href="urn:uuid:6fa9b51a-ea66-40a7-a23a-058c3a034719" xlink:title="UIR YORK NEW"/>
                     <event:notification>
                         <event:NOTAM gml:id="ID_724">
                             <event:series>A</event:series>
@@ -144,7 +158,7 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <event:maximumFL>350</event:maximumFL>
                             <event:coordinates>4147N03501W</event:coordinates>
                             <event:radius>11</event:radius>
-                            <event:location>EAAD</event:location>
+                            <event:location>EAAD KAAD</event:location>
                             <event:effectiveStart>2205100600</event:effectiveStart>
                             <event:effectiveEnd>2205201530</event:effectiveEnd>
                             <event:schedule>Daily 0600-1530</event:schedule>

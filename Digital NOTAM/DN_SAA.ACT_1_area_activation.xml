@@ -29,8 +29,9 @@ Editorial note: this license is an instance of the BSD license template as provi
     xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd 
     http://www.aixm.aero/schema/5.1.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1.1-i/Event_Features.xsd"
     gml:id="M00001">
-    <!-- This is a DN for a Simple R area activation - PASOUND-->
-    <message:hasMember>
+    <!-- This is a DN for an R area activation with 2 concerned FIRs-->
+    <message:hasMember>        
+        <!-- EAR2 PARSOUND -->
         <aixm:Airspace gml:id="uuid.902e92df-e5cb-48cb-a339-18bc86da4999">
             <gml:identifier codeSpace="urn:uuid:">902e92df-e5cb-48cb-a339-18bc86da4999</gml:identifier>
             <aixm:timeSlice>
@@ -48,6 +49,12 @@ Editorial note: this license is an instance of the BSD license template as provi
                         <aixm:AirspaceActivation gml:id="ID_702">
                             <aixm:activity>TRAINING</aixm:activity>
                             <aixm:status>ACTIVE</aixm:status>
+                            <aixm:levels>
+                                <aixm:AirspaceLayer gml:id="data3000122">
+                                    <aixm:upperLimit>CEILING</aixm:upperLimit>
+                                    <aixm:lowerLimit>FLOOR</aixm:lowerLimit>
+                                </aixm:AirspaceLayer>
+                            </aixm:levels>
                         </aixm:AirspaceActivation>
                     </aixm:activation>
                     <aixm:extension>
@@ -96,9 +103,9 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <event:scope>W</event:scope>
                             <event:minimumFL>250</event:minimumFL>
                             <event:maximumFL>350</event:maximumFL>
-                            <event:coordinates>4517N02214W</event:coordinates>
-                            <event:radius>86</event:radius>
-                            <event:location>EAAD</event:location>
+                            <event:coordinates>5514N04009W</event:coordinates>
+                            <event:radius>62</event:radius>
+                            <event:location>EAAD KAAD</event:location>
                             <event:effectiveStart>2205010500</event:effectiveStart>
                             <event:effectiveEnd>2205011500</event:effectiveEnd>
                             <event:text>Restricted Area EAR2 PASOUND activated, training activities.</event:text>

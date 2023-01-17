@@ -31,7 +31,7 @@ Editorial note: this license is an instance of the BSD license template as provi
     http://www.aixm.aero/schema/5.1.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1.1-i/Event_Features.xsd"
     gml:id="M00001">
     
-    <!-- This is a DN for a new area creation - SAA.NEW - Restricted Area (Polygon) with excluded Airspace and due to SAR activity-->
+    <!-- This is a DN for a new area creation - SAA.NEW - Restricted Area (Polygon) with excluded Airspace and due to PJE -->
    
     <message:hasMember>
         <aixm:Airspace gml:id="uuid.9807dee1-c3f6-4a46-9be3-dd8155d921c4">
@@ -61,7 +61,7 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <aixm:operationSequence>1</aixm:operationSequence>
                             <aixm:theAirspaceVolume>
                                 <aixm:AirspaceVolume gml:id="ID_11006">
-                                    <aixm:upperLimit uom="FT">500</aixm:upperLimit>
+                                    <aixm:upperLimit uom="FT">5000</aixm:upperLimit>
                                     <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
                                     <aixm:lowerLimit uom="FT">GND</aixm:lowerLimit>
                                     <aixm:horizontalProjection>
@@ -122,18 +122,6 @@ Editorial note: this license is an instance of the BSD license template as provi
                                     <aixm:excluded>NO</aixm:excluded>
                                 </aixm:Timesheet>
                             </aixm:timeInterval>
-                            <aixm:annotation>
-                                <aixm:Note gml:id="D_11011">
-                                    <aixm:propertyName>status</aixm:propertyName>
-                                    <aixm:purpose>REMARK</aixm:purpose>
-                                    <aixm:translatedNote>
-                                        <aixm:LinguisticNote gml:id="ID_11012">
-                                            <aixm:note lang="eng">
-                                            </aixm:note>
-                                        </aixm:LinguisticNote>
-                                    </aixm:translatedNote>
-                                </aixm:Note>
-                            </aixm:annotation>
                             <aixm:activity>PARACHUTE</aixm:activity>
                             <aixm:status>ACTIVE</aixm:status>
                             <aixm:levels>
@@ -165,6 +153,12 @@ Editorial note: this license is an instance of the BSD license template as provi
                                 </aixm:Timesheet>
                             </aixm:timeInterval>
                             <aixm:status>INACTIVE</aixm:status>
+                            <aixm:levels>
+                                <aixm:AirspaceLayer gml:id="ID_110134">
+                                    <aixm:upperLimit uom="OTHER">CEILING</aixm:upperLimit>
+                                    <aixm:lowerLimit uom="OTHER">FLOOR</aixm:lowerLimit>
+                                </aixm:AirspaceLayer>
+                            </aixm:levels>
                         </aixm:AirspaceActivation>
                     </aixm:activation>
                     <aixm:extension>

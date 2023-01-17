@@ -72,8 +72,8 @@ Editorial note: this license is an instance of the BSD license template as provi
                                                                 <aixm:Curve gml:id="ID_118d">
                                                                     <gml:segments>
                                                                         <gml:CircleByCenterPoint numArc="1">
-                                                                            <gml:pos>52.103333 -41.033055</gml:pos>
-                                                                            <gml:radius uom="[nmi_i]">4.0</gml:radius>
+                                                                            <gml:pos>52.103333 -32.033055</gml:pos>
+                                                                            <gml:radius uom="[nmi_i]">3.0</gml:radius>
                                                                         </gml:CircleByCenterPoint>
                                                                     </gml:segments>
                                                                 </aixm:Curve>
@@ -148,14 +148,14 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <event:scope>AW</event:scope>
                             <event:minimumFL>000</event:minimumFL>
                             <event:maximumFL>050</event:maximumFL>
-                            <event:coordinates>5306N04002W</event:coordinates>
+                            <event:coordinates>5206N03202W</event:coordinates>
                             <event:radius>4</event:radius>
                             <event:location>EADD</event:location>
                             <event:effectiveStart>2202050700</event:effectiveStart>
                             <event:effectiveEnd>2202052300</event:effectiveEnd>
                             <event:text>
-                                Restricted Area established for unmanned acft system activities within: 
-                                4NM radius centered on 5306N 04002W.
+                                Temporary Restricted Area established for unmanned acft system activities within: 
+                                4NM radius centered on 520612N 0320159W. 
                             </event:text>
                             <event:lowerLimit>SFC</event:lowerLimit>
                             <event:upperLimit>5000FT AMSL</event:upperLimit>
@@ -168,20 +168,22 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <event:year>2022</event:year>
                             <event:type>N</event:type>
                             <event:affectedFIR>EAAD</event:affectedFIR>
-                            <event:selectionCode>QRRCA</event:selectionCode>
+                            <event:selectionCode>QFALT</event:selectionCode>
                             <event:traffic>IV</event:traffic>
                             <event:purpose>NBO</event:purpose>
                             <event:scope>A</event:scope>
                             <event:minimumFL>000</event:minimumFL>
                             <event:maximumFL>005</event:maximumFL>
-                            <event:coordinates>5306N04002W</event:coordinates>
+                            <!-- ARP of EADH acc. OPADD 2.3.9.3 -->
+                            <event:coordinates>5217N03202W</event:coordinates>
                             <event:radius>4</event:radius>
                             <event:location>EADH</event:location>
                             <event:effectiveStart>2202050700</event:effectiveStart>
                             <event:effectiveEnd>2202052300</event:effectiveEnd>
+                            <!-- vertical limits added into E as field F,G are not allowed for scope A -->
                             <event:text>
-                                Restricted Area established for unmanned acft system activities within: 
-                                4NM radius centered on 5306N 04002W. From SFC to 5000FT AMSL.  
+                                Temporary Restricted Area EAR0012-22 established for unmanned acft system activities within: 
+                                4NM radius centered on 520612N 0320159W. From SFC to 5000FT AMSL.  
                             </event:text>
                         </event:NOTAM>
                     </event:notification>

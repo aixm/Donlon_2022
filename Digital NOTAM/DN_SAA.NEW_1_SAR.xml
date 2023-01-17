@@ -31,7 +31,7 @@ Editorial note: this license is an instance of the BSD license template as provi
     http://www.aixm.aero/schema/5.1.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1.1-i/Event_Features.xsd"
     gml:id="M00001">
     
-    <!-- This is a DN for a new area creation - SAA.NEW - Restricted Area due to SAR activity-->
+    <!-- This is a DN for a new area creation - SAA.NEW - Restricted Area due to SAR activity with schedule -->
    
     <message:hasMember>
         <aixm:Airspace gml:id="uuid.4dd17054-734a-4aaa-959b-2ac71645e4a6">
@@ -146,6 +146,12 @@ Editorial note: this license is an instance of the BSD license template as provi
                                 </aixm:Timesheet>
                             </aixm:timeInterval>
                             <aixm:status>INACTIVE</aixm:status>
+                            <aixm:levels>
+                                <aixm:AirspaceLayer gml:id="ID_1101333">
+                                    <aixm:upperLimit>CEILING</aixm:upperLimit>
+                                    <aixm:lowerLimit>FLOOR</aixm:lowerLimit>
+                                </aixm:AirspaceLayer>
+                            </aixm:levels>
                         </aixm:AirspaceActivation>
                     </aixm:activation>
                     <aixm:extension>
