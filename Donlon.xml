@@ -8289,7 +8289,7 @@ Editorial note: this license is an instance of the BSD license template as provi
 							<gml:endPosition indeterminatePosition="unknown"/>
 						</gml:TimePeriod>
 					</aixm:featureLifetime>
-					<aixm:associatedApron xlink:href="urn:uuid:d6cf5b07-9fb4-4afb-9b47-841643da3e99"/>
+					<aixm:associatedApron xlink:href="urn:uuid:0dac7a5f-4cb6-41a2-b0eb-dac1c555351c"/>
 					<aixm:extent>
 						<aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_193">
 							<gml:patches>
@@ -49684,5 +49684,30 @@ Editorial note: this license is an instance of the BSD license template as provi
 				</aixm:HoldingPatternTimeSlice>
 			</aixm:timeSlice>
 		</aixm:HoldingPattern>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:Apron gml:id="uuid.0dac7a5f-4cb6-41a2-b0eb-dac1c555351c">
+			<gml:identifier codeSpace="urn:uuid:">0dac7a5f-4cb6-41a2-b0eb-dac1c555351c</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ApronTimeSlice gml:id="APRONTS1EADDAPRON">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vt268128">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt268128">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>APRON</aixm:name>
+					<aixm:associatedAirportHeliport xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c64"/>
+				</aixm:ApronTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Apron>
 	</message:hasMember>
 </message:AIXMBasicMessage>
