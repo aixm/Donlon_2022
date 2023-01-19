@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- Example initially created by Andreea PERCA, ASBU For Future GMBH, updated by Manfred Odenstein, SOLITEC Software Soltuions GmbH -->
-<!-- Copyright (c) 2018, EUROCONTROL & FAA
+<!-- Copyright (c) 2022, EUROCONTROL & FAA
 
 All rights reserved.
 
@@ -27,11 +27,11 @@ Editorial note: this license is an instance of the BSD license template as provi
     xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd 
     http://www.aixm.aero/schema/5.1.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1.1-i/Event_Features.xsd"
     gml:id="M00001">    
-    <!-- This is a DN for EADH heliport FATO closure -->
+    <!-- This is a DN for EADH heliport FATO closure, one direction with schedule -->
     
     <message:hasMember>
-        <event:Event gml:id="uuid.8554838e-a893-466b-9fdd-838c296a3fe1">
-            <gml:identifier codeSpace="urn:uuid:">8554838e-a893-466b-9fdd-838c296a3fe1</gml:identifier>
+        <event:Event gml:id="uuid.f72eb1d8-0416-413b-bac8-041e0128190c">
+            <gml:identifier codeSpace="urn:uuid:">f72eb1d8-0416-413b-bac8-041e0128190c</gml:identifier>
             <event:timeSlice>
                 <event:EventTimeSlice gml:id="ID_RWYCLS_C1">
                     <gml:validTime>
@@ -71,7 +71,8 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <event:location>EADH</event:location>
                             <event:effectiveStart>2201221400</event:effectiveStart>
                             <event:effectiveEnd>2201271400</event:effectiveEnd>
-                            <event:text>FATO 03/21 closed.</event:text>
+                            <event:schedule>Daily 1000-1200</event:schedule>
+                            <event:text>FATO 03 closed.</event:text>
                         </event:NOTAM>
                     </event:notification>
                 </event:EventTimeSlice>
@@ -95,41 +96,52 @@ Editorial note: this license is an instance of the BSD license template as provi
                     <aixm:correctionNumber>0</aixm:correctionNumber>
                     <aixm:availability>
                         <aixm:ManoeuvringAreaAvailability gml:id="ID_RWYCLS_C7">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="ID_RWYCLS_C8">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:day>ANY</aixm:day>
+                                    <aixm:startTime>10:00</aixm:startTime>
+                                    <aixm:endTime>12:00</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
                             <aixm:operationalStatus>CLOSED</aixm:operationalStatus>
                         </aixm:ManoeuvringAreaAvailability>
                     </aixm:availability>
-                    <aixm:extension>
-                        <event:RunwayDirectionExtension gml:id="ID_RWYCLS_C8">
-                            <event:theEvent xlink:href="urn:uuid:8554838e-a893-466b-9fdd-838c296a3fe1"/>
-                        </event:RunwayDirectionExtension>
-                    </aixm:extension>
-                </aixm:RunwayDirectionTimeSlice>
-            </aixm:timeSlice>
-        </aixm:RunwayDirection>
-    </message:hasMember>
-
-    <message:hasMember>
-        <aixm:RunwayDirection gml:id="uuid.b9fad726-bed6-4b3b-a92f-64706eaa9ed5">
-            <gml:identifier codeSpace="urn:uuid:">b9fad726-bed6-4b3b-a92f-64706eaa9ed5</gml:identifier>            
-            <aixm:timeSlice>
-                <aixm:RunwayDirectionTimeSlice gml:id="ID_RWYCLS_C9">
-                    <gml:validTime>
-                        <gml:TimePeriod gml:id="ID_RWYCLS_C10">
-                            <gml:beginPosition>2022-01-22T14:00:00Z</gml:beginPosition>
-                            <gml:endPosition>2022-01-27T14:00:00Z</gml:endPosition>
-                        </gml:TimePeriod>
-                    </gml:validTime>
-                    <aixm:interpretation>TEMPDELTA</aixm:interpretation>
-                    <aixm:sequenceNumber>5</aixm:sequenceNumber>
-                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:availability>
+                        <aixm:ManoeuvringAreaAvailability gml:id="ID_RWYCLS_C9">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="ID_RWYCLS_C10">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:day>ANY</aixm:day>
+                                    <aixm:startTime>00:00</aixm:startTime>
+                                    <aixm:endTime>10:00</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+                        </aixm:ManoeuvringAreaAvailability>
+                    </aixm:availability>
                     <aixm:availability>
                         <aixm:ManoeuvringAreaAvailability gml:id="ID_RWYCLS_C11">
-                            <aixm:operationalStatus>CLOSED</aixm:operationalStatus>
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="ID_RWYCLS_C12">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:day>ANY</aixm:day>
+                                    <aixm:startTime>12:00</aixm:startTime>
+                                    <aixm:endTime>00:00</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
                         </aixm:ManoeuvringAreaAvailability>
                     </aixm:availability>
                     <aixm:extension>
-                        <event:RunwayDirectionExtension gml:id="ID_RWYCLS_C12">
-                            <event:theEvent xlink:href="urn:uuid:8554838e-a893-466b-9fdd-838c296a3fe1"/>
+                        <event:RunwayDirectionExtension gml:id="ID_RWYCLS_C13">
+                            <event:theEvent xlink:href="urn:uuid:f72eb1d8-0416-413b-bac8-041e0128190c"/>
                         </event:RunwayDirectionExtension>
                     </aixm:extension>
                 </aixm:RunwayDirectionTimeSlice>
