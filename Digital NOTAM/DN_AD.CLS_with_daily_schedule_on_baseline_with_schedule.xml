@@ -175,7 +175,7 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <event:location>EADD</event:location>
                             <event:effectiveStart>2202011100</event:effectiveStart>
                             <event:effectiveEnd>2202101300</event:effectiveEnd>
-                            <event:schedule>Daily 11:00-13:00</event:schedule>
+                            <event:schedule>Daily 1100-1300</event:schedule>
                             <event:text>AD closed.</event:text>
                         </event:NOTAM>
                     </event:notification>
