@@ -119,11 +119,6 @@ Editorial note: this license is an instance of the BSD license template as provi
                                     <aixm:excluded>NO</aixm:excluded>
                                 </aixm:Timesheet>
                             </aixm:timeInterval>
-                            <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
-                        </aixm:ApronAreaAvailability>
-                    </aixm:availability>
-                    <aixm:availability>
-                        <aixm:ApronAreaAvailability gml:id="apron0013">
                             <aixm:timeInterval>
                                 <aixm:Timesheet gml:id="apron0014">
                                     <aixm:timeReference>UTC</aixm:timeReference>
@@ -137,11 +132,11 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
                         </aixm:ApronAreaAvailability>
                     </aixm:availability>
-                    <aixm:extension>
-                        <event:ApronExtension gml:id="apron0015">
-                            <event:theEvent xlink:href="urn:uuid:cac304ed-743d-4dd5-9573-6f66cff5f476"/>
-                        </event:ApronExtension>
-                    </aixm:extension>
+                    <aixm:availability>
+                        <aixm:ApronAreaAvailability gml:id="apron0013">
+                            <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+                        </aixm:ApronAreaAvailability>
+                    </aixm:availability>
                 </aixm:ApronTimeSlice>
             </aixm:timeSlice>
         </aixm:Apron>
