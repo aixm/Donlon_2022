@@ -8144,6 +8144,1153 @@ Editorial note: this license is an instance of the BSD license template as provi
 		</aixm:RunwayCentrelinePoint>
 	</message:hasMember>
 	<message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.d3f9e6bf-62f9-411f-868f-031be049697f">
+    		<!-- from here start the additional runway centreline points providing elevations along the runway, for profile calculations (runway 27R/09L)-->
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_2-->
+    		<gml:identifier codeSpace="urn:uuid:">d3f9e6bf-62f9-411f-868f-031be049697f</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_2"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_205"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_206"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_207"> 
+                        	<gml:pos>52.378367061 -31.918923503</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">16.3</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.7f537540-7d70-46ba-bb79-7a97e5d359e3">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_3-->
+    		<gml:identifier codeSpace="urn:uuid:">7f537540-7d70-46ba-bb79-7a97e5d359e3</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_3"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_209"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_210"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_211"> 
+                        	<gml:pos>52.378278039 -31.920385254</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">16.4</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.b0456ce3-f364-4c70-8a7b-828fbb9c0755">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_4, DISTHR_27R-->
+    		<gml:identifier codeSpace="urn:uuid:">b0456ce3-f364-4c70-8a7b-828fbb9c0755</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_4"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_213"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_214"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_215"> 
+                        	<gml:pos>52.378189 -31.921847</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">16.5</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.c9d443b8-2815-43bc-9cef-3dc0e7044088">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_5-->
+    		<gml:identifier codeSpace="urn:uuid:">c9d443b8-2815-43bc-9cef-3dc0e7044088</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_5"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_217"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_218"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_219"> 
+                        	<gml:pos>52.378099943 -31.92330874</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">16.81</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.59f96c84-0444-494c-b910-76f60a26a31f">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_6-->
+    		<gml:identifier codeSpace="urn:uuid:">59f96c84-0444-494c-b910-76f60a26a31f</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_6"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_221"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_222"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_223"> 
+                        	<gml:pos>52.378010868 -31.924770475</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">19.2</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.e74b84ac-46a3-4380-b715-67ae7374ae5d">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_7-->
+    		<gml:identifier codeSpace="urn:uuid:">e74b84ac-46a3-4380-b715-67ae7374ae5d</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_7"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_225"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_226"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_227"> 
+                        	<gml:pos>52.377921773 -31.926232203</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">18.5</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.f9eef4c4-6ae2-4688-bcd3-ddd6f123ac41">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_8-->
+    		<gml:identifier codeSpace="urn:uuid:">f9eef4c4-6ae2-4688-bcd3-ddd6f123ac41</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_8"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_229"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_230"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_231"> 
+                        	<gml:pos>52.377832662 -31.927693927</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">19.47</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.54bacb88-c1fa-48c3-b844-a43448c49f80">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_9-->
+    		<gml:identifier codeSpace="urn:uuid:">54bacb88-c1fa-48c3-b844-a43448c49f80</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_9"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_233"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_234"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_235"> 
+                        	<gml:pos>52.377743532 -31.929155644</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">20.5</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.3bfc06b9-ee8a-404f-abfe-793832dd0663">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_10-->
+    		<gml:identifier codeSpace="urn:uuid:">3bfc06b9-ee8a-404f-abfe-793832dd0663</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_10"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_237"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_238"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_239"> 
+                        	<gml:pos>52.377654384 -31.930617356</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">20.58</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.21cb9118-d37d-4f62-8a26-5bf96b9a0484">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_11-->
+    		<gml:identifier codeSpace="urn:uuid:">21cb9118-d37d-4f62-8a26-5bf96b9a0484</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_11"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_241"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_242"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_243"> 
+                        	<gml:pos>52.377565218 -31.932079064</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">21.47</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.7f8631fc-a3ba-44b7-82ef-a2e8b7b053b7">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_12-->
+    		<gml:identifier codeSpace="urn:uuid:">7f8631fc-a3ba-44b7-82ef-a2e8b7b053b7</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_12"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_245"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_246"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_247"> 
+                        	<gml:pos>52.377476034 -31.933540765</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">20.5</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.5f5ebfec-c122-412f-8e1d-abea37afe50f">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_13-->
+    		<gml:identifier codeSpace="urn:uuid:">5f5ebfec-c122-412f-8e1d-abea37afe50f</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_13"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_249"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_250"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_251"> 
+                        	<gml:pos>52.377386832 -31.93500246</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">21.61</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.6769db65-4669-4b7f-b1ad-7c18bc6a126d">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_14-->
+    		<gml:identifier codeSpace="urn:uuid:">6769db65-4669-4b7f-b1ad-7c18bc6a126d</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_14"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_253"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_254"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_255"> 
+                        	<gml:pos>52.377297611 -31.936464149</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">22.7</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.d1a2a2cb-3472-44aa-84e6-0a6ff5bbf9c3">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_15-->
+    		<gml:identifier codeSpace="urn:uuid:">d1a2a2cb-3472-44aa-84e6-0a6ff5bbf9c3</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_15"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_257"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_258"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_259"> 
+                        	<gml:pos>52.377208372 -31.937925833</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">23.04</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.fe9a7d11-15d7-4a72-b76e-5db99f0f9c04">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_16-->
+    		<gml:identifier codeSpace="urn:uuid:">fe9a7d11-15d7-4a72-b76e-5db99f0f9c04</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_16"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_261"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_262"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_263"> 
+                        	<gml:pos>52.377119116 -31.939387511</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">23.05</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.73e5ee21-4f89-4a70-8e12-73e20ee7f988">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_17-->
+    		<gml:identifier codeSpace="urn:uuid:">73e5ee21-4f89-4a70-8e12-73e20ee7f988</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_17"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_265"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_266"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_267"> 
+                        	<gml:pos>52.377029841 -31.940849184</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">24.1</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.718f507e-e1b0-4b98-b8e0-a35c826dfea7">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_18-->
+    		<gml:identifier codeSpace="urn:uuid:">718f507e-e1b0-4b98-b8e0-a35c826dfea7</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_18"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_269"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_270"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_271"> 
+                        	<gml:pos>52.376940548 -31.942310851</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">24.47</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.6521a90b-9122-44a7-a0d5-6d9ad173d121">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_19-->
+    		<gml:identifier codeSpace="urn:uuid:">6521a90b-9122-44a7-a0d5-6d9ad173d121</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_19"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_273"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_274"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_275"> 
+                        	<gml:pos>52.376851237 -31.943772512</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">24.8</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.7c38a1ca-c12b-442d-b57c-cd19efec5be5">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_20-->
+    		<gml:identifier codeSpace="urn:uuid:">7c38a1ca-c12b-442d-b57c-cd19efec5be5</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_20"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_277"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_278"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_279"> 
+                        	<gml:pos>52.376761908 -31.945234167</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">25.47</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.94fe3683-1db7-4cdb-ba07-92a10e5ba894">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_21-->
+    		<gml:identifier codeSpace="urn:uuid:">94fe3683-1db7-4cdb-ba07-92a10e5ba894</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_21"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_281"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_282"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_283"> 
+                        	<gml:pos>52.37667256 -31.946695817</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">26.4</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.0f7233e8-ff6c-4d1a-ba88-63574e4ac666">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_22-->
+    		<gml:identifier codeSpace="urn:uuid:">0f7233e8-ff6c-4d1a-ba88-63574e4ac666</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_22"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_285"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_286"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_287"> 
+                        	<gml:pos>52.376583195 -31.948157462</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">26.87</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.73a13f24-ecdd-4e06-b205-671263b13c4c">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_23-->
+    		<gml:identifier codeSpace="urn:uuid:">73a13f24-ecdd-4e06-b205-671263b13c4c</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_23"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_289"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_290"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_291"> 
+                        	<gml:pos>52.376493812 -31.9496191</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">28.2</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.6c0a4638-4e92-4353-b99c-a07ca5d7cbac">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_24-->
+    		<gml:identifier codeSpace="urn:uuid:">6c0a4638-4e92-4353-b99c-a07ca5d7cbac</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_24"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_293"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_294"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_295"> 
+                        	<gml:pos>52.376404411 -31.951080733</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">28.51</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.23ebc9f2-74df-414d-9fcc-f9e1397bddd2">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_25-->
+    		<gml:identifier codeSpace="urn:uuid:">23ebc9f2-74df-414d-9fcc-f9e1397bddd2</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_25"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_297"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_298"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_299"> 
+                        	<gml:pos>52.376314991 -31.95254236</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">29.4</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.630e46ec-ea5e-4d2e-8f2f-860e91d6575e">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_26-->
+    		<gml:identifier codeSpace="urn:uuid:">630e46ec-ea5e-4d2e-8f2f-860e91d6575e</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_26"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_301"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_302"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_303"> 
+                        	<gml:pos>52.376225553 -31.954003982</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">31.3</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.dd8b5c44-3c44-4167-9346-37d4637b1bf3">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_27-->
+    		<gml:identifier codeSpace="urn:uuid:">dd8b5c44-3c44-4167-9346-37d4637b1bf3</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_27"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_305"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_306"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_307"> 
+                        	<gml:pos>52.376136098 -31.955465598</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">32.1</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.09b156eb-fc14-4653-89a0-37a3db06afe6">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_28-->
+    		<gml:identifier codeSpace="urn:uuid:">09b156eb-fc14-4653-89a0-37a3db06afe6</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_28"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_309"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_310"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_311"> 
+                        	<gml:pos>52.376046623 -31.956927209</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">31.9</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.4eddd7ed-b06d-4cda-bbca-3a8fd6ee3ca4">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_29-->
+    		<gml:identifier codeSpace="urn:uuid:">4eddd7ed-b06d-4cda-bbca-3a8fd6ee3ca4</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_29"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_313"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_314"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_315"> 
+                        	<gml:pos>52.375957131 -31.958388813</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">31.4</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.bdcdb157-543e-4087-84bc-5127a2b1e810">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_30-->
+    		<gml:identifier codeSpace="urn:uuid:">bdcdb157-543e-4087-84bc-5127a2b1e810</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_30"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_317"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_318"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_319"> 
+                        	<gml:pos>52.375867621 -31.959850414</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">31.1</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.0bac23f4-ee91-4cb7-a254-11b5ddbfe268">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_31-->
+    		<gml:identifier codeSpace="urn:uuid:">0bac23f4-ee91-4cb7-a254-11b5ddbfe268</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_31"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_321"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_322"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_323"> 
+                        	<gml:pos>52.375778093 -31.961312007</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">30.9</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+
+	
+    <message:hasMember>
+    	<aixm:RunwayCentrelinePoint gml:id="uuid.478d7554-fe27-4ad7-a482-9218f64f2a14">
+    		<!-- RWY 27R_09L RunwayCentrelinePoint_32-->
+    		<gml:identifier codeSpace="urn:uuid:">478d7554-fe27-4ad7-a482-9218f64f2a14</gml:identifier>
+			<aixm:timeSlice>
+	    		<aixm:RunwayCentrelinePointTimeSlice gml:id="RCP_EADD_27R_32"> 
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ID_DCH_325"> 
+							<gml:beginPosition>2017-01-07T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ID_DCH_326"> 
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/> 
+                        </gml:TimePeriod>
+    	            </aixm:featureLifetime>
+			        <aixm:role>OTHER</aixm:role>
+         	    	<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ID_DCH_327"> 
+                        	<gml:pos>52.375688546 -31.962773595</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true" nilReason="unknown"/>
+							<aixm:elevation uom="M">30.45</aixm:elevation>
+							<aixm:geoidUndulation uom="M">11.5</aixm:geoidUndulation>
+					   		<aixm:verticalAccuracy uom="M">0.25</aixm:verticalAccuracy>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:href="urn:uuid:b802d439-e9f3-49f9-96e1-0153b837e113" xlink:title="RDN_EADD_27R"/>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+	
+	<message:hasMember>
 		<aixm:Taxiway gml:id="uuid.78396f68-9c03-438a-a6b4-331157b1a79c">
 			<gml:identifier codeSpace="urn:uuid:">78396f68-9c03-438a-a6b4-331157b1a79c</gml:identifier>
 			<aixm:timeSlice>
