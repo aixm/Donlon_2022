@@ -1,0 +1,12 @@
+
+# Mac
+.DS_Store
+
+# WebStorm
+.idea/
+
+# vi
+*~
+
+# QGIS
+*.gfs
