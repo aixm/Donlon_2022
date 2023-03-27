@@ -24,7 +24,7 @@ Editorial note: this license is an instance of the BSD license template as provi
     xmlns:event="http://www.aixm.aero/schema/5.1.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd 
-    http://www.aixm.aero/schema/5.1.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1.1-i/Event_Features.xsd"
+    http://www.aixm.aero/schema/5.1.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1.1-j/Event_Features.xsd"
     gml:id="apron0001">    
     <!-- This is a DN for EADD apron closure (see AD 2-23 of Doc 8126) with schedule -->
     
@@ -65,7 +65,7 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <event:scope>A</event:scope>
                             <event:minimumFL>000</event:minimumFL>
                             <event:maximumFL>999</event:maximumFL>
-                            <event:coordinates>522236N315658W</event:coordinates>
+                            <event:coordinates>5222N03157W</event:coordinates>
                             <event:radius>005</event:radius>
                             <event:location>EADD</event:location>
                             <event:effectiveStart>2211031830</event:effectiveStart>
