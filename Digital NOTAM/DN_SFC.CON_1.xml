@@ -25,10 +25,87 @@ Editorial note: this license is an instance of the BSD license template as provi
     xmlns:event="http://www.aixm.aero/schema/5.1.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd 
-    http://www.aixm.aero/schema/5.1.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1.1-i/Event_Features.xsd"
+    http://www.aixm.aero/schema/5.1.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1.1-j/Event_Features.xsd"
     gml:id="M00001">
     
-    <!-- EXAMPLE NOT FINSISHED. WORK IN PROGRESS! This is a DN for a Surface Condition Report acc. ICAO Doc 10066 (PANS-AIM) -->
+ <!--  This is a DN for a Surface Condition Report acc. ICAO Doc 10066 (PANS-AIM). 
+    Example based on real live SNOWTAM (location changed to EADD, Runway designator changed to to 09L)!   	
+
+    SNOWTAM
+    ENKR
+    03100625 05 3/3/3 25/25/25 03/03/03 DRY SNOW ON TOP OF ICE/DRY SNOW ON
+    TOP OF ICE/DRY SNOW ON TOP OF ICE
+    RWY 05 DRIFTING SNOW. RWY 05 LOOSE SAND. RWY 05 DOWNGRADED / RWY 05
+    FROZEN SAND APPLIED / RWY 05 PATCHY CONTAMINANT / TWYS B/C/D/Y SANDED
+    / TWYS B/C/D/Y NO MARKING ON SNOW.-->
+    
+    <message:hasMember>
+        <event:Event gml:id="uuid.ded1d86d-7ee2-445c-9929-ab188c439914">
+            <gml:identifier codeSpace="urn:uuid:">ded1d86d-7ee2-445c-9929-ab188c439914</gml:identifier>
+            <event:timeSlice>
+                <event:EventTimeSlice gml:id="SFC.CON_01">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="TP01">
+                            <gml:beginPosition>2022-03-10T06:25:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-03-10T14:25:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="TP02">
+                            <gml:beginPosition>2022-03-10T06:25:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-03-10T14:25:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <event:name xsi:nil="true"/>
+                    <event:scenario>SFC.CON</event:scenario>
+                    <event:version>2.0</event:version>
+                    <event:concernedAirportHeliport xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c64" xlink:title="EADD DONLLON/Int."/>
+                    <event:notification>
+                        <event:SNOWTAM gml:id="ID_TWYB_C4">
+                            <event:series xsi:nil="true" nilReason="inapplicable"/>
+                            <event:number>0001</event:number>
+                            <event:year>2022</event:year>
+                            <event:location>EADD</event:location>
+                            <event:situationalAwareness>RWY 09L DRIFTING SNOW. RWY 09L LOOSE SAND. RWY 09L DOWNGRADED / RWY 09L FROZEN SAND APPLIED / RWY 09L PATCHY CONTAMINANT / TWYS B/C SANDED / TWYS B/C NO MARKING ON SNOW</event:situationalAwareness>
+                            <event:runwayCondition>
+                                <event:RunwayAssessment gml:id="R09L_1">
+                                    <event:assessmentCompletion>03100625</event:assessmentCompletion>
+                                    <event:runwayDesignator>09L</event:runwayDesignator>
+                                    <event:conditionCode>3</event:conditionCode>
+                                    <event:percentage>25</event:percentage>
+                                    <event:depth>03</event:depth>
+                                    <event:condition>Dry snow on top of ice</event:condition>
+                                </event:RunwayAssessment>
+                            </event:runwayCondition>
+                            <event:runwayCondition>
+                                <event:RunwayAssessment gml:id="R09L_2">
+                                    <event:assessmentCompletion>03100625</event:assessmentCompletion>
+                                    <event:runwayDesignator>09L</event:runwayDesignator>
+                                    <event:conditionCode>3</event:conditionCode>
+                                    <event:percentage>25</event:percentage>
+                                    <event:depth>03</event:depth>
+                                    <event:condition>Dry snow on top of ice</event:condition>
+                                </event:RunwayAssessment>
+                            </event:runwayCondition>
+                            <event:runwayCondition>
+                                <event:RunwayAssessment gml:id="R09L_3">
+                                    <event:assessmentCompletion>03100625</event:assessmentCompletion>
+                                    <event:runwayDesignator>09L</event:runwayDesignator>
+                                    <event:conditionCode>3</event:conditionCode>
+                                    <event:percentage>25</event:percentage>
+                                    <event:depth>03</event:depth>
+                                    <event:condition>Dry snow on top of ice</event:condition>
+                                </event:RunwayAssessment>
+                            </event:runwayCondition>
+                        </event:SNOWTAM>
+                    </event:notification>
+                </event:EventTimeSlice>
+            </event:timeSlice>
+        </event:Event>
+    </message:hasMember>
     
     <!-- RWY_EADD_09L_27R -->       
     <message:hasMember>
@@ -38,8 +115,8 @@ Editorial note: this license is an instance of the BSD license template as provi
                 <aixm:RunwayTimeSlice gml:id="RWY_EADD_09L_27R">
                     <gml:validTime>
                         <gml:TimePeriod gml:id="TP0010">
-                            <gml:beginPosition>2022-12-03T10:00:00Z</gml:beginPosition>
-                            <gml:endPosition>2022-12-03T18:00:00Z</gml:endPosition>
+                            <gml:beginPosition>2022-03-10T06:25:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-03-10T14:25:00Z</gml:endPosition>
                         </gml:TimePeriod>
                     </gml:validTime>
                     <aixm:interpretation>TEMPDELTA</aixm:interpretation>
@@ -47,43 +124,43 @@ Editorial note: this license is an instance of the BSD license template as provi
                     <aixm:correctionNumber>0</aixm:correctionNumber>
                     <aixm:overallContaminant>
                         <aixm:RunwayContamination gml:id="RC01">
-                            <aixm:observationTime>2022-12-03T10:00:00Z</aixm:observationTime>
-                            <aixm:frictionDevice>GRT</aixm:frictionDevice>
-                            <aixm:criticalRidge>
-                                <aixm:Ridge gml:id="R0010">
-                                    <aixm:side>BOTH</aixm:side>
-                                    <aixm:distance uom="M">25</aixm:distance>
-                                    <aixm:annotation>
-                                        <aixm:Note gml:id="N0010">
-                                            <aixm:purpose>WARNING</aixm:purpose>
-                                            <aixm:translatedNote>
-                                                <aixm:LinguisticNote gml:id="LN0010">
-                                                    <aixm:note>Snow banks present adjacent to the runway</aixm:note>
-                                                </aixm:LinguisticNote>
-                                            </aixm:translatedNote>
-                                        </aixm:Note>
-                                    </aixm:annotation>
-                                    <aixm:annotation>
-                                        <aixm:Note gml:id="N0011">
-                                            <aixm:propertyName>distance</aixm:propertyName>
-                                            <aixm:translatedNote>
-                                                <aixm:LinguisticNote gml:id="LN0011">
-                                                    <aixm:note>distance measured from runway centerline</aixm:note>
-                                                </aixm:LinguisticNote>
-                                            </aixm:translatedNote>
-                                        </aixm:Note>
-                                    </aixm:annotation>
-                                </aixm:Ridge>
-                            </aixm:criticalRidge>
-                            <aixm:clearedWidth uom="M">50</aixm:clearedWidth>
+                            <aixm:observationTime>2022-03-10T06:25:00Z</aixm:observationTime>
+                            <aixm:layer>
+                                <aixm:SurfaceContaminationLayer gml:id="scl0101">
+                                    <aixm:type>OTHER:DRIFTING_SNOW</aixm:type>
+                                </aixm:SurfaceContaminationLayer>
+                            </aixm:layer>
+                            <aixm:layer>
+                                <aixm:SurfaceContaminationLayer gml:id="scl0102">
+                                    <aixm:type>OTHER:LOOSE_SAND</aixm:type>
+                                </aixm:SurfaceContaminationLayer>
+                            </aixm:layer>
                         </aixm:RunwayContamination>
                     </aixm:overallContaminant>
+                    <aixm:annotation>
+                        <aixm:Note gml:id="n01010">
+                            <aixm:translatedNote>
+                                <aixm:LinguisticNote gml:id="ln0101">
+                                    <aixm:note lang="eng">RWY 09L DOWNGRADED / RWY 09L FROZEN SAND APPLIED / RWY 09L PATCHY CONTAMINANT</aixm:note>
+                                </aixm:LinguisticNote>
+                            </aixm:translatedNote>
+                        </aixm:Note>
+                    </aixm:annotation>
                     <aixm:areaContaminant>
                         <aixm:RunwaySectionContamination gml:id="RSC01">
+                            <aixm:depth uom="MM">3</aixm:depth>
                             <aixm:frictionEstimation>OTHER:RWYCC_3</aixm:frictionEstimation>
+                            <aixm:proportion>25</aixm:proportion>
                             <aixm:layer>
                                 <aixm:SurfaceContaminationLayer gml:id="SCL01">
-                                    <aixm:type>COMPACT_SNOW</aixm:type>
+                                    <aixm:layerOrder>1</aixm:layerOrder>
+                                    <aixm:type>DRY_SNOW</aixm:type>
+                                </aixm:SurfaceContaminationLayer>
+                            </aixm:layer>
+                            <aixm:layer>
+                                <aixm:SurfaceContaminationLayer gml:id="SCL01-2">
+                                    <aixm:layerOrder>2</aixm:layerOrder>
+                                    <aixm:type>ICE</aixm:type>
                                 </aixm:SurfaceContaminationLayer>
                             </aixm:layer>
                             <aixm:section>1_THIRD</aixm:section>
@@ -91,10 +168,19 @@ Editorial note: this license is an instance of the BSD license template as provi
                     </aixm:areaContaminant>
                     <aixm:areaContaminant>
                         <aixm:RunwaySectionContamination gml:id="RSC02">
+                            <aixm:depth uom="MM">3</aixm:depth>
                             <aixm:frictionEstimation>OTHER:RWYCC_3</aixm:frictionEstimation>
+                            <aixm:proportion>25</aixm:proportion>
                             <aixm:layer>
                                 <aixm:SurfaceContaminationLayer gml:id="SCL02">
-                                    <aixm:type>COMPACT_SNOW</aixm:type>
+                                    <aixm:layerOrder>1</aixm:layerOrder>
+                                    <aixm:type>DRY_SNOW</aixm:type>
+                                </aixm:SurfaceContaminationLayer>
+                            </aixm:layer>
+                            <aixm:layer>
+                                <aixm:SurfaceContaminationLayer gml:id="SCL02-2">
+                                    <aixm:layerOrder>2</aixm:layerOrder>
+                                    <aixm:type>ICE</aixm:type>
                                 </aixm:SurfaceContaminationLayer>
                             </aixm:layer>
                             <aixm:section>2_THIRD</aixm:section>
@@ -102,10 +188,19 @@ Editorial note: this license is an instance of the BSD license template as provi
                     </aixm:areaContaminant>
                     <aixm:areaContaminant>
                         <aixm:RunwaySectionContamination gml:id="RSC03">
+                            <aixm:depth uom="MM">3</aixm:depth>
                             <aixm:frictionEstimation>OTHER:RWYCC_3</aixm:frictionEstimation>
+                            <aixm:proportion>25</aixm:proportion>
                             <aixm:layer>
                                 <aixm:SurfaceContaminationLayer gml:id="SCL03">
-                                    <aixm:type>COMPACT_SNOW</aixm:type>
+                                    <aixm:layerOrder>1</aixm:layerOrder>
+                                    <aixm:type>DRY_SNOW</aixm:type>
+                                </aixm:SurfaceContaminationLayer>
+                            </aixm:layer>
+                            <aixm:layer>
+                                <aixm:SurfaceContaminationLayer gml:id="SCL03-2">
+                                    <aixm:layerOrder>2</aixm:layerOrder>
+                                    <aixm:type>ICE</aixm:type>
                                 </aixm:SurfaceContaminationLayer>
                             </aixm:layer>
                             <aixm:section>3_THIRD</aixm:section>
@@ -113,120 +208,15 @@ Editorial note: this license is an instance of the BSD license template as provi
                     </aixm:areaContaminant>
                     <aixm:extension>
                         <event:RunwayExtension gml:id="ID_TWYB_C8">
-                            <event:theEvent xlink:href="urn:uuid:0b43b69c-8582-4841-9243-f3decb4dd195"/>
+                            <event:theEvent xlink:href="urn:uuid:ded1d86d-7ee2-445c-9929-ab188c439914"/>
                         </event:RunwayExtension>
                     </aixm:extension>
                 </aixm:RunwayTimeSlice>
             </aixm:timeSlice>
         </aixm:Runway>
     </message:hasMember>
-    <!-- RWY_EADD_09R_27L -->
-    <message:hasMember>
-        <aixm:Runway gml:id="uuid.4428d037-1cdf-433a-9bfa-d0857aaf448a">
-            <gml:identifier codeSpace="urn:uuid:">4428d037-1cdf-433a-9bfa-d0857aaf448a</gml:identifier>
-            <aixm:timeSlice>
-                <aixm:RunwayTimeSlice gml:id="RWY_EADD_09R_27L">
-                    <gml:validTime>
-                        <gml:TimePeriod gml:id="TP0020">
-                            <gml:beginPosition>2022-12-03T10:00:00Z</gml:beginPosition>
-                            <gml:endPosition>2022-12-03T18:00:00Z</gml:endPosition>
-                        </gml:TimePeriod>
-                    </gml:validTime>
-                    <aixm:interpretation>TEMPDELTA</aixm:interpretation>
-                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
-                    <aixm:correctionNumber>0</aixm:correctionNumber>
-                    <aixm:overallContaminant>
-                        <aixm:RunwayContamination gml:id="RC02">
-                            <aixm:observationTime>2022-12-03T10:00:00Z</aixm:observationTime>
-                            <aixm:frictionDevice>GRT</aixm:frictionDevice>
-                            <aixm:criticalRidge>
-                                <aixm:Ridge gml:id="R0012">
-                                    <aixm:side>BOTH</aixm:side>
-                                    <aixm:distance uom="M">25</aixm:distance>
-                                    <aixm:annotation>
-                                        <aixm:Note gml:id="N0012">
-                                            <aixm:purpose>WARNING</aixm:purpose>
-                                            <aixm:translatedNote>
-                                                <aixm:LinguisticNote gml:id="LN0012">
-                                                    <aixm:note>Snow banks present adjacent to the runway</aixm:note>
-                                                </aixm:LinguisticNote>
-                                            </aixm:translatedNote>
-                                        </aixm:Note>
-                                    </aixm:annotation>
-                                    <aixm:annotation>
-                                        <aixm:Note gml:id="N0022">
-                                            <aixm:propertyName>distance</aixm:propertyName>
-                                            <aixm:translatedNote>
-                                                <aixm:LinguisticNote gml:id="LN0022">
-                                                    <aixm:note>distance measured from runway centerline</aixm:note>
-                                                </aixm:LinguisticNote>
-                                            </aixm:translatedNote>
-                                        </aixm:Note>
-                                    </aixm:annotation>
-                                </aixm:Ridge>
-                            </aixm:criticalRidge>
-                            <aixm:layer>
-                                <aixm:SurfaceContaminationLayer gml:id="SCL0150">
-                                    <aixm:type>OTHER:LOOSE_SAND</aixm:type>
-                                </aixm:SurfaceContaminationLayer>
-                            </aixm:layer>
-                            <aixm:clearedWidth uom="M">50</aixm:clearedWidth>
-                        </aixm:RunwayContamination>
-                    </aixm:overallContaminant>
-                    <aixm:areaContaminant>
-                        <aixm:RunwaySectionContamination gml:id="RSC021">
-                            <aixm:depth xsi:nil="true"/>
-                            <aixm:frictionEstimation>OTHER:RWYCC_3</aixm:frictionEstimation>
-                            <aixm:proportion>100.0</aixm:proportion>
-                            <aixm:layer>
-                                <aixm:SurfaceContaminationLayer gml:id="SCL021">
-                                    <aixm:type>COMPACT_SNOW</aixm:type>
-                                </aixm:SurfaceContaminationLayer>
-                            </aixm:layer>
-                            <aixm:layer>
-                                <aixm:SurfaceContaminationLayer gml:id="SCL010101">
-                                    <aixm:type>OTHER:DRIFTING_SNOW</aixm:type>
-                                </aixm:SurfaceContaminationLayer>
-                            </aixm:layer>
-                            <aixm:section>1_THIRD</aixm:section>
-                        </aixm:RunwaySectionContamination>
-                    </aixm:areaContaminant>
-                    <aixm:areaContaminant>
-                        <aixm:RunwaySectionContamination gml:id="RSC022">
-                            <aixm:depth xsi:nil="true"/>
-                            <aixm:frictionEstimation>OTHER:RWYCC_3</aixm:frictionEstimation>
-                            <aixm:proportion>100.0</aixm:proportion>
-                            <aixm:layer>
-                                <aixm:SurfaceContaminationLayer gml:id="SCL022">
-                                    <aixm:type>COMPACT_SNOW</aixm:type>
-                                </aixm:SurfaceContaminationLayer>
-                            </aixm:layer>
-                            <aixm:section>2_THIRD</aixm:section>
-                        </aixm:RunwaySectionContamination>
-                    </aixm:areaContaminant>
-                    <aixm:areaContaminant>
-                        <aixm:RunwaySectionContamination gml:id="RSC023">
-                            <aixm:depth xsi:nil="true"/>
-                            <aixm:frictionEstimation>OTHER:RWYCC_3</aixm:frictionEstimation>
-                            <aixm:proportion>100.0</aixm:proportion>
-                            <aixm:layer>
-                                <aixm:SurfaceContaminationLayer gml:id="SCL023">
-                                    <aixm:type>COMPACT_SNOW</aixm:type>
-                                </aixm:SurfaceContaminationLayer>
-                            </aixm:layer>
-                            <aixm:section>3_THIRD</aixm:section>
-                        </aixm:RunwaySectionContamination>
-                    </aixm:areaContaminant>
-                    <aixm:extension>
-                        <event:RunwayExtension gml:id="RE010">
-                            <event:theEvent xlink:href="urn:uuid:0b43b69c-8582-4841-9243-f3decb4dd195"/>
-                        </event:RunwayExtension>
-                    </aixm:extension>
-                </aixm:RunwayTimeSlice>
-            </aixm:timeSlice>
-        </aixm:Runway>
-    </message:hasMember>   
-    <!-- TWY_EADD_B -->
+    
+  <!-- EADD_TWY_B -->  
     <message:hasMember>
         <aixm:Taxiway gml:id="uuid.78396f68-9c03-438a-a6b4-331157b1a79c">
             <gml:identifier codeSpace="urn:uuid:">78396f68-9c03-438a-a6b4-331157b1a79c</gml:identifier>
@@ -234,132 +224,80 @@ Editorial note: this license is an instance of the BSD license template as provi
                 <aixm:TaxiwayTimeSlice gml:id="TWY_EADD_B">
                     <gml:validTime>
                         <gml:TimePeriod gml:id="ID_17">
-                            <gml:beginPosition>2022-12-03T10:00:00Z</gml:beginPosition>
-                            <gml:endPosition>2022-12-03T18:00:00Z</gml:endPosition>
+                            <gml:beginPosition>2022-03-10T06:25:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-03-10T14:25:00Z</gml:endPosition>
                         </gml:TimePeriod>
                     </gml:validTime>
                     <aixm:interpretation>TEMPDELTA</aixm:interpretation>
                     <aixm:sequenceNumber>1</aixm:sequenceNumber>
                     <aixm:correctionNumber>0</aixm:correctionNumber>
                     <aixm:contaminant>
-                        <aixm:TaxiwayContamination gml:id="TC010100">
-                            <aixm:frictionEstimation>POOR</aixm:frictionEstimation>
+                        <aixm:TaxiwayContamination gml:id="tc000111">
+                            <aixm:annotation>
+                                <aixm:Note gml:id="n454451">
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="lnadsad1">
+                                            <aixm:note lang="eng">SANDED</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                            <aixm:Note gml:id="n454452">
+                                <aixm:translatedNote>
+                                    <aixm:LinguisticNote gml:id="lnadsad2">
+                                        <aixm:note lang="eng">NO MARKING ON SNOW</aixm:note>
+                                    </aixm:LinguisticNote>
+                                </aixm:translatedNote>
+                            </aixm:Note>
+                            </aixm:annotation>
                         </aixm:TaxiwayContamination>
                     </aixm:contaminant>
-                    <aixm:extension>
-                        <event:TaxiwayExtension gml:id="RE010ewew">
-                            <event:theEvent xlink:href="urn:uuid:0b43b69c-8582-4841-9243-f3decb4dd195"/>
-                        </event:TaxiwayExtension>
-                    </aixm:extension>
+                </aixm:TaxiwayTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Taxiway>
+    </message:hasMember>  
+ 
+    <!-- EADD_TWY_C -->  
+    <message:hasMember>
+        <aixm:Taxiway gml:id="uuid.5c751c44-d570-4dfc-b5b1-e62fdaf36b5e">
+            <gml:identifier codeSpace="urn:uuid:">5c751c44-d570-4dfc-b5b1-e62fdaf36b5e</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:TaxiwayTimeSlice gml:id="TWY_EADD_C">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_17c">
+                            <gml:beginPosition>2022-03-10T06:25:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-03-10T14:25:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>TEMPDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:contaminant>
+                        <aixm:TaxiwayContamination gml:id="tc000111c">
+                            <aixm:annotation>
+                                <aixm:Note gml:id="n454451c">
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="lnadsad1c">
+                                            <aixm:note lang="eng">SANDED</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                            <aixm:annotation>
+                                <aixm:Note gml:id="n454452c">
+                                    <aixm:translatedNote>
+                                        <aixm:LinguisticNote gml:id="lnadsad2c">
+                                            <aixm:note lang="eng">NO MARKING ON SNOW</aixm:note>
+                                        </aixm:LinguisticNote>
+                                    </aixm:translatedNote>
+                                </aixm:Note>
+                            </aixm:annotation>
+                        </aixm:TaxiwayContamination>
+                    </aixm:contaminant>
                 </aixm:TaxiwayTimeSlice>
             </aixm:timeSlice>
         </aixm:Taxiway>
     </message:hasMember>
-    
-    <message:hasMember>
-        <aixm:AirportHeliport gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c64">
-            <gml:identifier codeSpace="urn:uuid:">1b54b2d6-a5ff-4e57-94c2-f4047a381c64</gml:identifier>
-            <aixm:timeSlice>
-                <aixm:AirportHeliportTimeSlice gml:id="AHP_EADD">
-                    <gml:validTime>
-                        <gml:TimePeriod gml:id="ID_233232">
-                            <gml:beginPosition>2022-12-03T10:00:00Z</gml:beginPosition>
-                            <gml:endPosition>2022-12-03T18:00:00Z</gml:endPosition>
-                        </gml:TimePeriod>
-                    </gml:validTime>
-                    <aixm:interpretation>TEMPDELTA</aixm:interpretation>
-                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
-                    <aixm:correctionNumber>0</aixm:correctionNumber>
-                    <aixm:contaminant>
-                        <aixm:AirportHeliportContamination gml:id="ahc132222">
-                            <aixm:annotation>
-                                <aixm:Note gml:id="n465465">
-                                    <aixm:purpose>WARNING</aixm:purpose>
-                                    <aixm:translatedNote>
-                                        <aixm:LinguisticNote gml:id="ln13213123">
-                                            <aixm:note>ALL TWYS POOR</aixm:note>
-                                        </aixm:LinguisticNote>
-                                    </aixm:translatedNote>
-                                </aixm:Note>
-                            </aixm:annotation>
-                            <aixm:annotation>
-                                <aixm:Note gml:id="n46546sd5">
-                                    <aixm:purpose>WARNING</aixm:purpose>
-                                    <aixm:translatedNote>
-                                        <aixm:LinguisticNote gml:id="ln13ds213123">
-                                            <aixm:note>ALL APRONS POOR</aixm:note>
-                                        </aixm:LinguisticNote>
-                                    </aixm:translatedNote>
-                                </aixm:Note>
-                            </aixm:annotation>
-                        </aixm:AirportHeliportContamination>
-                    </aixm:contaminant>
-                </aixm:AirportHeliportTimeSlice>
-            </aixm:timeSlice>
-        </aixm:AirportHeliport>
-    </message:hasMember>                   
-    
-    <message:hasMember>
-        <event:Event gml:id="uuid.0b43b69c-8582-4841-9243-f3decb4dd195">
-            <gml:identifier codeSpace="urn:uuid:">0b43b69c-8582-4841-9243-f3decb4dd195</gml:identifier>
-            <event:timeSlice>
-                <event:EventTimeSlice gml:id="SFC.CON_01">
-                    <gml:validTime>
-                        <gml:TimePeriod gml:id="TP01">
-                            <gml:beginPosition>2022-12-03T10:00:00Z</gml:beginPosition>
-                            <gml:endPosition>2022-12-03T18:00:00Z</gml:endPosition>
-                        </gml:TimePeriod>
-                    </gml:validTime>
-                    <aixm:interpretation>BASELINE</aixm:interpretation>
-                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
-                    <aixm:correctionNumber>0</aixm:correctionNumber>
-                    <aixm:featureLifetime>
-                        <gml:TimePeriod gml:id="TP02">
-                            <gml:beginPosition>2022-12-03T10:00:00Z</gml:beginPosition>
-                            <gml:endPosition>2022-12-03T18:00:00Z</gml:endPosition>
-                        </gml:TimePeriod>
-                    </aixm:featureLifetime>
-                    <event:name>EADD_SFC.CON_20220703</event:name>
-                    <event:scenario>SFC.CON</event:scenario>
-                    <event:version>2.0</event:version>
-                    <event:concernedAirportHeliport xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c64" xlink:title="EADD DONLLON/Int."/>
-                    <event:notification>
-                        <event:SNOWTAM gml:id="ID_TWYB_C4">
-                            <event:series>OTHER:SWEA</event:series>
-                            <event:number>0001</event:number>
-                            <event:year>2022</event:year>
-                            <event:issued>2022-12-03T09:51:22</event:issued>
-                            <event:location>EADD</event:location>
-                            <event:situationaAwareness>1</event:situationaAwareness>
-                            <event:runwayCondition>
-                                <event:RunwayAssessment gml:id="RA01">
-                                    <event:assessmentCompletion></event:assessmentCompletion>
-                                    <event:runwayDesignator>09L</event:runwayDesignator>
-                                    <event:conditionCode>1</event:conditionCode>
-                                    <event:percentage>0.1</event:percentage>
-                                    <event:depth>1</event:depth>
-                                    <event:condition>1</event:condition>
-                                    <event:width>1</event:width>
-                                </event:RunwayAssessment>
-                            </event:runwayCondition>
-                            <event:runwayCondition>
-                                <event:RunwayAssessment gml:id="RA01333">
-                                    <event:assessmentCompletion></event:assessmentCompletion>
-                                    <event:runwayDesignator>09R</event:runwayDesignator>
-                                    <event:conditionCode>1</event:conditionCode>
-                                    <event:percentage>0.1</event:percentage>
-                                    <event:depth>1</event:depth>
-                                    <event:condition>1</event:condition>
-                                    <event:width>1</event:width>
-                                </event:RunwayAssessment>
-                            </event:runwayCondition>                             
-                        </event:SNOWTAM>
-                    </event:notification>
-                </event:EventTimeSlice>
-            </event:timeSlice>
-        </event:Event>
-    </message:hasMember>
-
-
 
 </message:AIXMBasicMessage>
