@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Example initially created by Andreea PERCA, ASBU For Future GMBH, updated by Manfred Odenstein, SOLITEC Software Soltuions GmbH -->
-<!-- Copyright (c) 2022, EUROCONTROL & FAA
+<!-- Copyright (c) 2022, EUROCONTROL & FAA All rights reserved.
 
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+Redistribution and use in source and binary forms, with or without modification, are permitted
+provided that the following conditions are met:
 
     Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
     Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
@@ -23,11 +22,11 @@ Editorial note: this license is an instance of the BSD license template as provi
     xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
     xmlns:event="http://www.aixm.aero/schema/5.1.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd 
-    http://www.aixm.aero/schema/5.1.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1.1-j/Event_Features.xsd"
-    gml:id="apron0001">    
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd
+                        http://www.aixm.aero/schema/5.1.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1.1-j/Event_Features.xsd"
+    gml:id="apron0001">
     <!-- This is a DN for EADD apron closure (see AD 2-23 of Doc 8126) with schedule -->
-    
+
     <message:hasMember>
         <event:Event gml:id="uuid.cac304ed-743d-4dd5-9573-6f66cff5f476">
             <gml:identifier codeSpace="urn:uuid:">cac304ed-743d-4dd5-9573-6f66cff5f476</gml:identifier>
@@ -50,8 +49,11 @@ Editorial note: this license is an instance of the BSD license template as provi
                     </aixm:featureLifetime>
                     <event:scenario>APN.CLS</event:scenario>
                     <event:version>2.0</event:version>
-                    <event:concernedAirspace xlink:href="urn:uuid:f4d5e4d4-d84a-481f-b9e3-b359e42c0dff"/>
-                    <event:concernedAirportHeliport xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c64" xlink:title="DONLON/INTL."/>
+                    <event:concernedAirspace
+                        xlink:href="urn:uuid:f4d5e4d4-d84a-481f-b9e3-b359e42c0dff" />
+                    <event:concernedAirportHeliport
+                        xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c64"
+                        xlink:title="DONLON/INTL." />
                     <event:notification>
                         <event:NOTAM gml:id="apron0005">
                             <event:series>A</event:series>
@@ -137,8 +139,83 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
                         </aixm:ApronAreaAvailability>
                     </aixm:availability>
+                    <aixm:extension>
+                        <event:ApronExtension gml:id="apron0015">
+                            <event:theEvent
+                                xlink:href="urn:uuid:cac304ed-743d-4dd5-9573-6f66cff5f476" />
+                        </event:ApronExtension>
+                    </aixm:extension>
                 </aixm:ApronTimeSlice>
             </aixm:timeSlice>
         </aixm:Apron>
+    </message:hasMember>
+    <message:hasMember>
+        <aixm:ApronElement gml:id="uuid.285fd2af-599a-4f9b-b812-fd24a68416">
+            <gml:identifier codeSpace="urn:uuid:">285fd2af-599a-4f9b-b812-fd24a68416</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:ApronElementTimeSlice gml:id="apron0016">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="apron0017">
+                            <gml:beginPosition>2022-11-03T08:30:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-11-17T14:30:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>TEMPDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:availability>
+                        <aixm:ApronAreaAvailability gml:id="apron0018">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="apron0019">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:day>ANY</aixm:day>
+                                    <aixm:startTime>10:00</aixm:startTime>
+                                    <aixm:endTime>12:00</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:operationalStatus>CLOSED</aixm:operationalStatus>
+                        </aixm:ApronAreaAvailability>
+                    </aixm:availability>
+                    <aixm:availability>
+                        <aixm:ApronAreaAvailability gml:id="apron0020">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="apron0021">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:day>ANY</aixm:day>
+                                    <aixm:startTime>00:00</aixm:startTime>
+                                    <aixm:endTime>10:00</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="apron0022">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:day>ANY</aixm:day>
+                                    <aixm:startTime>12:00</aixm:startTime>
+                                    <aixm:endTime>00:00</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+                        </aixm:ApronAreaAvailability>
+                    </aixm:availability>
+                    <aixm:availability>
+                        <aixm:ApronAreaAvailability gml:id="apron0023">
+                            <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+                        </aixm:ApronAreaAvailability>
+                    </aixm:availability>
+                    <aixm:extension>
+                        <event:ApronElementExtension gml:id="apron0024">
+                            <event:theEvent
+                                xlink:href="urn:uuid:cac304ed-743d-4dd5-9573-6f66cff5f476" />
+                        </event:ApronElementExtension>
+                    </aixm:extension>
+                </aixm:ApronElementTimeSlice>
+            </aixm:timeSlice>
+        </aixm:ApronElement>
     </message:hasMember>
 </message:AIXMBasicMessage>
