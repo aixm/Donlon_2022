@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Example initially created by Andreea PERCA, ASBU For Future GMBH, updated by Manfred Odenstein, SOLITEC Software Soltuions GmbH -->
+<!-- Copyright (c) 2018, EUROCONTROL & FAA
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+    Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+    Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+    Neither the names of EUROCONTROL or FAA nor the names of their contributors may be used to endorse or promote products derived from this specification without specific prior written permission.
+
+THIS FICTITIOUS DATA SET IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, 
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; 
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR 
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Editorial note: this license is an instance of the BSD license template as provided by the Open Source Initiative: http://www.opensource.org/licenses/bsd-license.php-->
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:event="http://www.aixm.aero/schema/5.1.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd 
+    http://www.aixm.aero/schema/5.1.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1.1-j/Event_Features.xsd"
+    gml:id="M00001">    
+    <!-- This is a DN for EADH heliport FATO closed, except for prior permission request -->
+    
+    <message:hasMember>
+        <event:Event gml:id="uuid.50376058-c17c-4cf1-b0f9-e0dba5a45cf1">
+            <gml:identifier codeSpace="urn:uuid:">ddb9035a-6b0d-428b-9231-b1c30b42765e</gml:identifier>
+            <event:timeSlice>
+                <event:EventTimeSlice gml:id="ID_RWYLIM_C1">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_RWYLIM_C2">
+                            <gml:beginPosition>2022-01-22T14:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-01-27T14:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="ID_RWYLIM_C3">
+                            <gml:beginPosition>2022-01-22T14:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-01-27T14:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <event:scenario>RWY.LIM</event:scenario>
+                    <event:version>2.0</event:version>
+                    <event:concernedAirspace xlink:href="urn:uuid:f4d5e4d4-d84a-481f-b9e3-b359e42c0dff"/>
+                    <event:concernedAirportHeliport xlink:href="urn:uuid:dd062d88-3e64-4a5d-bebd-89476db9ebea" xlink:title="DONLON/DOWNTOWN HELIPORT"/>
+                    <event:notification>
+                        <event:NOTAM gml:id="ID_RWYLIM_C4">
+                            <event:series>A</event:series>
+                            <event:number>0023</event:number>
+                            <event:year>2022</event:year>
+                            <event:type>N</event:type>
+                            <event:affectedFIR>EAAD</event:affectedFIR>
+                            <event:selectionCode>QFPLT</event:selectionCode>
+                            <event:traffic>IV</event:traffic>
+                            <event:purpose>NBO</event:purpose>
+                            <event:scope>A</event:scope>
+                            <event:minimumFL>000</event:minimumFL>
+                            <event:maximumFL>999</event:maximumFL>
+                            <event:coordinates>5217N03202W</event:coordinates>
+                            <event:radius>005</event:radius>
+                            <event:location>EADH</event:location>
+                            <event:effectiveStart>2201221400</event:effectiveStart>
+                            <event:effectiveEnd>2201271400</event:effectiveEnd>
+                            <event:text>FATO 03/21 closed, except for PPR 1HR.</event:text>
+                        </event:NOTAM>
+                    </event:notification>
+                </event:EventTimeSlice>
+            </event:timeSlice>
+        </event:Event>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <aixm:RunwayDirection gml:id="uuid.921966d2-bae8-4b4b-bc8a-8012faf991be">
+            <gml:identifier codeSpace="urn:uuid:">921966d2-bae8-4b4b-bc8a-8012faf991be</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:RunwayDirectionTimeSlice gml:id="ID_RWYLIM_C5">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_RWYLIM_C6">
+                            <gml:beginPosition>2022-01-22T14:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-01-27T14:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>TEMPDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>5</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:availability>
+                        <aixm:ManoeuvringAreaAvailability gml:id="ID_RWYLIM_C7">
+                            <aixm:operationalStatus>LIMITED</aixm:operationalStatus>
+                            <aixm:usage>
+                                <aixm:ManoeuvringAreaUsage gml:id="ID_RWYLIM_C8">
+                                    <aixm:type>RESERV</aixm:type>
+                                    <aixm:priorPermission uom="HR">1</aixm:priorPermission>
+                                    <aixm:operation>ALL</aixm:operation>
+                                </aixm:ManoeuvringAreaUsage>
+                            </aixm:usage>
+                        </aixm:ManoeuvringAreaAvailability>
+                    </aixm:availability>
+                    <aixm:extension>
+                        <event:RunwayDirectionExtension gml:id="ID_RWYLIM_C11">
+                            <event:theEvent xlink:href="urn:uuid:50376058-c17c-4cf1-b0f9-e0dba5a45cf1"/>
+                        </event:RunwayDirectionExtension>
+                    </aixm:extension>
+                </aixm:RunwayDirectionTimeSlice>
+            </aixm:timeSlice>
+        </aixm:RunwayDirection>
+    </message:hasMember>
+
+    <message:hasMember>
+        <aixm:RunwayDirection gml:id="uuid.b9fad726-bed6-4b3b-a92f-64706eaa9ed5">
+            <gml:identifier codeSpace="urn:uuid:">b9fad726-bed6-4b3b-a92f-64706eaa9ed5</gml:identifier>            
+            <aixm:timeSlice>
+                <aixm:RunwayDirectionTimeSlice gml:id="ID_RWYLIM_C12">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_RWYLIM_C13">
+                            <gml:beginPosition>2022-01-22T14:00:00Z</gml:beginPosition>
+                            <gml:endPosition>2022-01-27T14:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>TEMPDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>5</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:availability>
+                        <aixm:ManoeuvringAreaAvailability gml:id="ID_RWYLIM_C14">
+                            <aixm:operationalStatus>LIMITED</aixm:operationalStatus>
+                            <aixm:usage>
+                                <aixm:ManoeuvringAreaUsage gml:id="ID_RWYLIM_C15">
+                                    <aixm:type>RESERV</aixm:type>
+                                    <aixm:priorPermission uom="HR">1</aixm:priorPermission>
+                                    <aixm:operation>ALL</aixm:operation>
+                                </aixm:ManoeuvringAreaUsage>
+                            </aixm:usage>
+                        </aixm:ManoeuvringAreaAvailability>
+                    </aixm:availability>
+                    <aixm:extension>
+                        <event:RunwayDirectionExtension gml:id="ID_RWYLIM_C18">
+                            <event:theEvent xlink:href="urn:uuid:50376058-c17c-4cf1-b0f9-e0dba5a45cf1"/>
+                        </event:RunwayDirectionExtension>
+                    </aixm:extension>
+                </aixm:RunwayDirectionTimeSlice>
+            </aixm:timeSlice>
+        </aixm:RunwayDirection>
+    </message:hasMember>
+
+</message:AIXMBasicMessage>
