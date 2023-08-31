@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Example created by Eduard POROSNICU, Eurocontrol -->
+<!-- Copyright (c) 2023, EUROCONTROL 
+    
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+    
+    Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+    Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+    Neither the names of EUROCONTROL or FAA nor the names of their contributors may be used to endorse or promote products derived from this specification without specific prior written permission.
+
+THIS FICTITIOUS DATA SET IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, 
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; 
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR 
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Editorial note: this license is an instance of the BSD license template as provided by the Open Source Initiative: http://www.opensource.org/licenses/bsd-license.php-->
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+    xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+    xmlns:event="http://www.aixm.aero/schema/5.1.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd 
+    http://www.aixm.aero/schema/5.1.1/event http://www.aixm.aero/schema/5.1.1/event/version_5.1.1-j/Event_Features.xsd"
+    gml:id="M00001">
+    
+    <!--This is a Digital NOTAM with a modified termination (in future) of the Aerodrome closure in the case of an active Event (NOTAM in force). See https://ext.eurocontrol.int/aixm_confluence/display/DNOTAM/Event+update+or+cancellation  -->
+    
+    <message:hasMember>
+        <aixm:AirportHeliport gml:id="uuid.1b54b2d6-a5ff-4e57-94c2-f4047a381c64">
+            <gml:identifier codeSpace="urn:uuid:">1b54b2d6-a5ff-4e57-94c2-f4047a381c64</gml:identifier>
+            <aixm:timeSlice>
+                <aixm:AirportHeliportTimeSlice gml:id="ID_ACT_55">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="ID_ACT_56">
+                            <gml:beginPosition>2022-02-01T11:00:00Z</gml:beginPosition>
+                            <!-- modified termination of the Tempdelta validity -->
+                            <gml:endPosition>2022-02-09T12:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>TEMPDELTA</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <!-- new correction number -->
+                    <aixm:correctionNumber>1</aixm:correctionNumber>
+                    <!-- the baseline status of the airport -->
+                    <aixm:availability>
+                        <aixm:AirportHeliportAvailability gml:id="ID_ACT_59">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="ID_ACT_62">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:day>WORK_DAY</aixm:day>
+                                    <aixm:startTime>06:00</aixm:startTime>
+                                    <aixm:endTime>20:00</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust> 
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="ID_ACT_63">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:day>SAT</aixm:day>
+                                    <aixm:startTime>07:00</aixm:startTime>
+                                    <aixm:endTime>20:00</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust> 
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="ID_ACT_64">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:day>SUN</aixm:day>
+                                    <aixm:startTime>07:00</aixm:startTime>
+                                    <aixm:endTime>20:00</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust> 
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="ID_ACT_65">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:day>HOL</aixm:day>
+                                    <aixm:startTime>07:00</aixm:startTime>
+                                    <aixm:endTime>20:00</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>YES</aixm:daylightSavingAdjust> 
+                                    <aixm:excluded>NO</aixm:excluded>
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+                            <aixm:usage>
+                                <aixm:AirportHeliportUsage gml:id="AHU_EADD_PERMIT">
+                                    <aixm:type>PERMIT</aixm:type>
+                                    <aixm:selection>
+                                        <aixm:ConditionCombination gml:id="cc001">
+                                            <aixm:logicalOperator>OR</aixm:logicalOperator>
+                                            <aixm:flight>
+                                                <aixm:FlightCharacteristic gml:id="fc001">
+                                                    <aixm:rule>IFR</aixm:rule>
+                                                </aixm:FlightCharacteristic>
+                                            </aixm:flight>
+                                            <aixm:flight>
+                                                <aixm:FlightCharacteristic gml:id="fc002">
+                                                    <aixm:rule>VFR</aixm:rule>
+                                                </aixm:FlightCharacteristic>
+                                            </aixm:flight>
+                                        </aixm:ConditionCombination>
+                                    </aixm:selection>
+                                </aixm:AirportHeliportUsage>
+                            </aixm:usage>
+                        </aixm:AirportHeliportAvailability>
+                    </aixm:availability>
+                    <!--The time when the airport is closed-->      
+                    <aixm:availability>
+                        <aixm:AirportHeliportAvailability gml:id="ID_ACT_57">
+                            <aixm:timeInterval>
+                                <aixm:Timesheet gml:id="ID_ACT_58">
+                                    <aixm:timeReference>UTC</aixm:timeReference>
+                                    <aixm:day>ANY</aixm:day>
+                                    <aixm:startTime>11:00</aixm:startTime>
+                                    <aixm:endTime>13:00</aixm:endTime>
+                                    <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                                    <aixm:excluded>NO</aixm:excluded> 
+                                </aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:operationalStatus>CLOSED</aixm:operationalStatus>
+                        </aixm:AirportHeliportAvailability>
+                    </aixm:availability>
+                    <aixm:extension>
+                        <event:AirportHeliportExtension gml:id="ID_ACT_80">
+                            <event:theEvent xlink:href="#uuid.53432671-c3f4-4b5d-b72a-85722755b4d6"/>
+                        </event:AirportHeliportExtension>
+                    </aixm:extension>
+                </aixm:AirportHeliportTimeSlice>
+            </aixm:timeSlice>
+        </aixm:AirportHeliport>
+    </message:hasMember>
+    
+    <message:hasMember>
+        <event:Event gml:id="uuid.53432671-c3f4-4b5d-b72a-85722755b4d6">
+            <gml:identifier codeSpace="urn:uuid:">53432671-c3f4-4b5d-b72a-85722755b4d6</gml:identifier>
+            <!-- first, the correction TimeSlice for the Event BASELINE, ending at the time of the update (assuming that the current time is 2022-02-08-08:35-->
+            <event:timeSlice>
+                <event:EventTimeSlice gml:id="IDE_ACT_81">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="IDE_ACT_82">
+                            <gml:beginPosition>2022-02-01T11:00:00Z</gml:beginPosition>
+                            <!-- modified end of validity -->
+                            <gml:endPosition>2022-02-08T08:35:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                    <!-- new correction number -->
+                    <aixm:correctionNumber>1</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="IDE_ACT_83">
+                            <gml:beginPosition>2022-02-01T11:00:00Z</gml:beginPosition>
+                            <!-- no modification to the original end of life, that will come with the BASELINE 2.0 -->
+                            <gml:endPosition>2022-02-10T13:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <event:scenario>AD.CLS</event:scenario>
+                    <event:version>2.0</event:version>
+                    <event:concernedAirspace xlink:href="urn:uuid:f4d5e4d4-d84a-481f-b9e3-b359e42c0dff"/>
+                    <event:concernedAirportHeliport xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c64"/>
+                    <event:notification>
+                        <event:NOTAM gml:id="IDE_ACT_84">
+                            <event:series>B</event:series>
+                            <event:number>0214</event:number>
+                            <event:year>2022</event:year>
+                            <event:type>N</event:type>
+                            <event:affectedFIR>EAAD</event:affectedFIR>
+                            <event:selectionCode>QFALC</event:selectionCode>
+                            <event:traffic>IV</event:traffic>
+                            <event:purpose>NBO</event:purpose>
+                            <event:scope>A</event:scope>
+                            <event:minimumFL>000</event:minimumFL>
+                            <event:maximumFL>999</event:maximumFL>
+                            <event:coordinates>5222N03157W</event:coordinates>
+                            <event:radius>005</event:radius>
+                            <event:location>EADD</event:location>
+                            <event:effectiveStart>2202011100</event:effectiveStart>
+                            <event:effectiveEnd>2202101300</event:effectiveEnd>
+                            <event:schedule>Daily 1100-1300</event:schedule>
+                            <event:text>AD closed.</event:text>
+                        </event:NOTAM>
+                    </event:notification>
+                </event:EventTimeSlice>
+            </event:timeSlice>
+            <!-- second, the new TimeSlice for the Event BASELINE, ending at the time of the new termination date/time-->
+            <event:timeSlice>
+                <event:EventTimeSlice gml:id="IDE_ACT_181">
+                    <gml:validTime>
+                        <gml:TimePeriod gml:id="IDE_ACT_182">
+                            <!-- starts at the end of validity of TimeSlice 1.1 -->
+                            <gml:beginPosition>2022-02-08T08:35:00Z</gml:beginPosition>
+                            <!-- modified end of validity -->
+                            <gml:endPosition>2022-02-09T12:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </gml:validTime>
+                    <aixm:interpretation>BASELINE</aixm:interpretation>
+                    <!-- new sequence number -->
+                    <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime>
+                        <gml:TimePeriod gml:id="IDE_ACT_183">
+                            <gml:beginPosition>2022-02-01T11:00:00Z</gml:beginPosition>
+                            <!-- modified end of lifetime -->
+                            <gml:endPosition>2022-02-09T12:00:00Z</gml:endPosition>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <event:scenario>AD.CLS</event:scenario>
+                    <event:version>2.0</event:version>
+                    <event:concernedAirspace xlink:href="urn:uuid:f4d5e4d4-d84a-481f-b9e3-b359e42c0dff"/>
+                    <event:concernedAirportHeliport xlink:href="urn:uuid:1b54b2d6-a5ff-4e57-94c2-f4047a381c64"/>
+                    <event:notification>
+                        <event:NOTAM gml:id="IDE_ACT_184">
+                            <event:series>B</event:series>
+                            <event:number>0289</event:number>
+                            <event:year>2022</event:year>
+                            <event:type>R</event:type>
+                            <event:affectedFIR>EAAD</event:affectedFIR>
+                            <event:selectionCode>QFALC</event:selectionCode>
+                            <event:traffic>IV</event:traffic>
+                            <event:purpose>NBO</event:purpose>
+                            <event:scope>A</event:scope>
+                            <event:minimumFL>000</event:minimumFL>
+                            <event:maximumFL>999</event:maximumFL>
+                            <event:coordinates>5222N03157W</event:coordinates>
+                            <event:radius>005</event:radius>
+                            <event:location>EADD</event:location>
+                            <event:effectiveStart>2202080835</event:effectiveStart>
+                            <event:effectiveEnd>2202091200</event:effectiveEnd>
+                            <event:schedule>Daily 1100-1300</event:schedule>
+                            <event:text>AD closed.</event:text>
+                        </event:NOTAM>
+                    </event:notification>
+                </event:EventTimeSlice>
+            </event:timeSlice>
+        </event:Event>
+    </message:hasMember>
+</message:AIXMBasicMessage>
