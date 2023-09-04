@@ -193,6 +193,9 @@ Editorial note: this license is an instance of the BSD license template as provi
                             <event:number>0288</event:number>
                             <event:year>2022</event:year>
                             <event:type>C</event:type>
+                            <event:referredSeries>B</event:referredSeries>
+                            <event:referredNumber>0214</event:referredNumber>
+                            <event:referredYear>2022</event:referredYear>
                             <event:affectedFIR>EAAD</event:affectedFIR>
                             <event:selectionCode>QFAAK</event:selectionCode>
                             <event:traffic>IV</event:traffic>
