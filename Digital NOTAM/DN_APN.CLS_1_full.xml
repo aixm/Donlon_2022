@@ -108,33 +108,4 @@ Editorial note: this license is an instance of the BSD license template as provi
             </aixm:timeSlice>
         </aixm:Apron>
     </message:hasMember>
-    <message:hasMember>
-        <aixm:ApronElement gml:id="uuid.285fd2af-599a-4f9b-b812-fd24a68416c">
-            <gml:identifier codeSpace="urn:uuid:">285fd2af-599a-4f9b-b812-fd24a68416c</gml:identifier>
-            <aixm:timeSlice>
-                <aixm:ApronElementTimeSlice gml:id="ID-fd24a68416c-01">
-                    <gml:validTime>
-                        <gml:TimePeriod gml:id="ID-fd24a68416c-02">
-                            <gml:beginPosition>2022-11-03T08:30:00Z</gml:beginPosition>
-                            <gml:endPosition>2022-11-17T14:30:00Z</gml:endPosition>
-                        </gml:TimePeriod>
-                    </gml:validTime>
-                    <aixm:interpretation>TEMPDELTA</aixm:interpretation>
-                    <aixm:sequenceNumber>1</aixm:sequenceNumber>
-                    <aixm:correctionNumber>0</aixm:correctionNumber>
-                    <aixm:availability>
-                        <aixm:ApronAreaAvailability gml:id="ID-fd24a68416c-03">
-                            <aixm:operationalStatus>CLOSED</aixm:operationalStatus>
-                        </aixm:ApronAreaAvailability>
-                    </aixm:availability>
-                    <aixm:extension>
-                        <event:ApronElementExtension gml:id="ID-fd24a68416c-04">
-                            <event:theEvent
-                                xlink:href="urn:uuid:5869a138-2d7d-4754-8584-ab0befbc9834" />
-                        </event:ApronElementExtension>
-                    </aixm:extension>
-                </aixm:ApronElementTimeSlice>
-            </aixm:timeSlice>
-        </aixm:ApronElement>
-    </message:hasMember>
 </message:AIXMBasicMessage>
