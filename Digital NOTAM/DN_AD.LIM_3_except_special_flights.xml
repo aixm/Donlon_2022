@@ -125,39 +125,47 @@ Editorial note: this license is an instance of the BSD license template as provi
                                     <aixm:type>RESERV</aixm:type>
                                     <aixm:selection>
                                         <aixm:ConditionCombination gml:id="ID_ACT_15">
-                                            <aixm:logicalOperator>OR</aixm:logicalOperator>
-                                            <aixm:subCondition>
-                                                <aixm:ConditionCombination gml:id="ID_ACT_16">
-                                                    <aixm:logicalOperator>NONE</aixm:logicalOperator>
-                                                    <aixm:flight>
-                                                        <aixm:FlightCharacteristic gml:id="ID_ACT_17">
-                                                            <aixm:origin>HOME_BASED</aixm:origin>
-                                                        </aixm:FlightCharacteristic>
-                                                    </aixm:flight>
-                                                </aixm:ConditionCombination>
-                                            </aixm:subCondition>
-                                            <aixm:subCondition>
-                                                <aixm:ConditionCombination gml:id="ID_ACT_18">
-                                                    <aixm:logicalOperator>NONE</aixm:logicalOperator>
-                                                    <aixm:flight>
-                                                        <aixm:FlightCharacteristic gml:id="ID_ACT_19">
-                                                            <aixm:status>SAR</aixm:status>
-                                                        </aixm:FlightCharacteristic>
-                                                    </aixm:flight>
-                                                </aixm:ConditionCombination>
-                                            </aixm:subCondition>
-                                            <aixm:subCondition>
-                                                <aixm:ConditionCombination gml:id="ID_ACT_20">
-                                                    <aixm:logicalOperator>NONE</aixm:logicalOperator>
-                                                    <aixm:flight>
-                                                        <aixm:FlightCharacteristic gml:id="ID_ACT_21">
-                                                            <aixm:status>OTHER:MEDEVAC</aixm:status>
-                                                        </aixm:FlightCharacteristic>
-                                                    </aixm:flight>
-                                                </aixm:ConditionCombination>
-                                            </aixm:subCondition>
+                                            <aixm:logicalOperator>NONE</aixm:logicalOperator>
+                                            <aixm:flight>
+                                                <aixm:FlightCharacteristic gml:id="ID_ACT_16">
+                                                    <aixm:origin>HOME_BASED</aixm:origin>
+                                                </aixm:FlightCharacteristic>
+                                            </aixm:flight>
                                         </aixm:ConditionCombination>
                                     </aixm:selection>
+                                    <aixm:operation>LANDING</aixm:operation>
+                                </aixm:AirportHeliportUsage>
+                            </aixm:usage>
+                            <aixm:usage>
+                                <aixm:AirportHeliportUsage gml:id="ID_ACT_17">
+                                    <aixm:type>RESERV</aixm:type>
+                                    <aixm:selection>
+                                        <aixm:ConditionCombination gml:id="ID_ACT_18">
+                                            <aixm:logicalOperator>NONE</aixm:logicalOperator>
+                                            <aixm:flight>
+                                                <aixm:FlightCharacteristic gml:id="ID_ACT_19">
+                                                    <aixm:status>SAR</aixm:status>
+                                                </aixm:FlightCharacteristic>
+                                            </aixm:flight>
+                                        </aixm:ConditionCombination>
+                                    </aixm:selection>
+                                    <aixm:operation>ALL</aixm:operation>
+                                </aixm:AirportHeliportUsage>
+                            </aixm:usage>
+                            <aixm:usage>
+                                <aixm:AirportHeliportUsage gml:id="ID_ACT_20">
+                                    <aixm:type>RESERV</aixm:type>
+                                    <aixm:selection>
+                                        <aixm:ConditionCombination gml:id="ID_ACT_21">
+                                            <aixm:logicalOperator>NONE</aixm:logicalOperator>
+                                            <aixm:flight>
+                                                <aixm:FlightCharacteristic gml:id="ID_ACT_22">
+                                                    <aixm:status>OTHER:MEDEVAC</aixm:status>
+                                                </aixm:FlightCharacteristic>
+                                            </aixm:flight>
+                                        </aixm:ConditionCombination>
+                                    </aixm:selection>
+                                    <aixm:operation>ALL</aixm:operation>
                                 </aixm:AirportHeliportUsage>
                             </aixm:usage>
                         </aixm:AirportHeliportAvailability>
