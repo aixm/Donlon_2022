@@ -93,7 +93,7 @@ Editorial note: this license is an instance of the BSD license template as provi
                     </aixm:associatedDeclaredDistance>
                     <aixm:annotation>
                         <aixm:Note gml:id="DN_TC_003">
-                            <aixm:propertyName>distance</aixm:propertyName>
+                            <aixm:propertyName>location</aixm:propertyName>
                             <aixm:purpose>DESCRIPTION</aixm:purpose>
                             <aixm:translatedNote>
                                 <aixm:LinguisticNote gml:id="DN_TC_004">
